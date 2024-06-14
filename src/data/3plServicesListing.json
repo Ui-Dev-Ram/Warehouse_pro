@@ -1,0 +1,23 @@
+
+{
+    "serviceServicesListing" : [
+      {
+        "key":"01",
+        "title": "Third Party Logistics",
+        "img": "/assets/3pl/one1.jpg",
+        "description": "Warehouzez The Digital Supply Chain is indeed the best third party logistics firm in the industry. We offer multiple logistics services for a wide range of businesses."
+      },
+      {
+        "key":"02",
+        "title": "On-Demand Warehousing",
+        "img": "/assets/3pl/one2.jpg",
+        "description": "We are an accredited On-Demand Warehouse Services Provider. We provide storage services for any period of time and for any size as per the requirements of the firm."
+      },
+      {
+        "key":"03",
+        "title": "Contract Logistics",
+        "img": "/assets/3pl/one3.jpg",
+        "description": "Warehouzez the Digital Supply Chain comprehends and concentrates on all the elements of a particular project. We strive to provide unique solutions in order to fill the gap."
+      }   
+    ]
+  }

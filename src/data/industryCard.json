@@ -1,0 +1,48 @@
+
+{
+    "industrycard" : [
+      {
+        "key":"01",
+        "img": "/public/Our-Industry-img/port1.jpg",
+        "title": "Automotive and Spare Parts",
+        "description": "An efficient warehouse layout is utmost important for aviation and automotive giants."
+      },
+      {
+        "key":"02",
+        "img": "/public/Our-Industry-img/port2.jpg",
+        "title": "Fashion and Lifestyle",
+        "description": "There is no denying the fact that a well- established warehouse storage."
+      },
+      {
+        "img": "/public/Our-Industry-img/port3.jpg",
+        "key":"03",
+        "title": "On-Demand Warehousing",
+        "description": "We are an accredited On-Demand Warehouse Services Provider. We provide storage services for any period of time and for any size as per the requirements of the firm."
+      },
+      {
+        "img": "/public/Our-Industry-img/port4.jpg",
+        "key":"04",
+        "title": "On-Demand Warehousing",
+        "description": "We are an accredited On-Demand Warehouse Services Provider. We provide storage services for any period of time and for any size as per the requirements of the firm."
+      },
+      {
+        "img": "/public/Our-Industry-img/port5.jpg",
+        "key":"05",
+        "title": "On-Demand Warehousing",
+        "description": "We are an accredited On-Demand Warehouse Services Provider. We provide storage services for any period of time and for any size as per the requirements of the firm."
+      },
+      {
+        "img": "/public/Our-Industry-img/port6.jpg",
+        "key":"06",
+        "title": "On-Demand Warehousing",
+        "description": "We are an accredited On-Demand Warehouse Services Provider. We provide storage services for any period of time and for any size as per the requirements of the firm."
+      },
+      {
+        "img": "/public/Our-Industry-img/port7.jpg",
+        "key":"07",
+        "title": "On-Demand Warehousing",
+        "description": "We are an accredited On-Demand Warehouse Services Provider. We provide storage services for any period of time and for any size as per the requirements of the firm."
+      }
+      
+    ]
+  }

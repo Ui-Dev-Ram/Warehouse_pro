@@ -1,0 +1,54 @@
+
+{
+    "warehouseListed" : [
+      {
+        "key":"01",
+        "img": "/OurIndustryImg/port1.jpg",
+        "title": "Automotive and Spare Parts",
+        "descrip": "An efficient warehouse layout is utmost important for aviation and automotive giants.",
+        "link": "#"
+      },
+      {
+        "key":"02",
+        "img": "/OurIndustryImg/port2.jpg",
+        "title": "Fashion and Lifestyle",
+        "descrip": "There is no denying the fact that a well- established warehouse storage.",
+        "link": "#"
+      },
+      {
+        "key":"03",
+        "img": "/OurIndustryImg/port3.jpg",
+        "title": "Perfumes and Cosmetics",
+        "descrip": "It is clearly true that effective warehousing is absolutely.",
+        "link": "#"
+      },
+      {
+        "key":"04",
+        "img": "/OurIndustryImg/port4.jpg",
+        "title": "Packed Food Products",
+        "descrip": "There is no denying the fact that the supply chain. ",
+        "link": "#"
+      },
+      {
+        "key":"05",
+        "img": "/OurIndustryImg/port5.jpg",
+        "title": "Pharmaceuticals and Medical",
+        "descrip": "It is true that a well- maintained warehouse storage is absolutely essential. ",
+        "link": "#"
+      },
+      {
+        "key":"06",
+        "img": "/OurIndustryImg/port6.jpg",
+        "title": "Wind, Solar and Telecom",
+        "descrip": "For telecom and solar infrastructure firms, we provide consolidated.",
+        "link": "#"
+      },
+      {
+        "key":"07",
+        "img": "/OurIndustryImg/port7.jpg",
+        "title": "Exhibition and Entertainment",
+        "descrip": "The gaming and other entertainment industries are witnessing. ",
+        "link": "#"
+      }     
+    ]
+  } 

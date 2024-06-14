@@ -1,0 +1,53 @@
+
+{
+    "warehouseListed" : [
+      {
+        "key":"01",
+        "img": "/assets/warehouse-1.jpg",
+        "location": "Bangalore",
+        "sqfttotal": "63000 Sq.ft.Total",
+        "sqftavail": "13000 Available",
+        "time": "09:00:00 to 18:00:00"
+      },
+      {
+        "key":"02",
+        "img": "/assets/warehouse-2.jpg",
+        "location": "Bhiwandi",
+        "sqfttotal": "80000 Sq.ft.Total",
+        "sqftavail": "15000 Available",
+        "time": "09:00:00 to 18:00:00"
+      },
+      {
+        "key":"03",
+        "img": "/assets/warehouse-3.jpg",
+        "location": "Gurgaon",
+        "sqfttotal": "95000 Sq.ft.Total",
+        "sqftavail": "25000 Available",
+        "time": "09:00:00 to 18:00:00"
+      },
+      {
+        "key":"04",
+        "img": "/assets/warehouse-4.jpg",
+        "location": "Hyderabad",
+        "sqfttotal": "28000 Sq.ft.Total",
+        "sqftavail": "13000 Available",
+        "time": "09:00:00 To 18:00:00"
+      },
+      {
+        "key":"05",
+        "img": "/assets/warehouse-5.jpg",
+        "location": "Noida",
+        "sqfttotal": "50000 Sq.ft.Total",
+        "sqftavail": "10000 Available",
+        "time": "09:00:00 To 18:00:00"
+      },
+      {
+        "key":"06",
+        "img": "/assets/warehouse-6.jpg",
+        "location": "Pune",
+        "sqfttotal": "25000 Sq.ft.Total",
+        "sqftavail": "11000 Available",
+        "time": "09:00:00 To 18:00:00"
+      }    
+    ]
+  } 

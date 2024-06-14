@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.no-visible-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
+  }
+   
+  .no-visible-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+
+@layer components {
+    .headerTop{ 
+        @apply bg-headGray text-white
+    }
+
+    .headerTop_icons_wrap {
+        @apply bg-darkGray rounded-md p-[6px] text-[14px] cursor-pointer hover:bg-red hover:text-white;
+    }
+
+    .header_wrap{
+        @apply bg-darkGray
+    }
+
+    .headerLogo_section{
+        @apply bg-red p-5 relative w-[240px]
+    }
+
+}
+
+.ft-header-cta-icons{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 100%;
+    background-color: #fff;
+}
+
+.ft-header-cta-icons svg{
+    font-size: 20px;
+    line-height: 0.75;
+    color: #ea1e00;
+}
+
+.ft-header-cta-icon p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.headerTop-getintouchh{
+    padding: 5px 15px;
+    position: relative;
+}
+
+.headerTop .headerTop-getintouchh:before {
+    top: 0;
+    width: 0;
+    height: 0;
+    content: "";
+    left: -45px;
+    position: absolute;
+    border-top: 58px solid #ea1e00;
+    border-left: 45px solid transparent;
+}
+
+.headerTop .headerTop-getintouchh:after {
+    top: -10px;
+    left: -36px;
+    width: 7px;
+    content: "";
+    height: 80px;
+    position: absolute;
+    background-color: #192c48;
+    -webkit-transform: rotate(-40deg);
+    transform: rotate(-38deg);
+}
+
+.headerLogo_section:before {
+    top: 0;
+    width: 0;
+    height: 0;
+    content: "";
+    right: -65px;
+    position: absolute;
+    border-bottom: 92px solid #ea1e00;
+    border-right: 65px solid transparent;
+}
+
+.headerLogo_section:after{
+    top: -16px;
+    right: -47px;
+    width: 7px;
+    content: "";
+    height: 120px;
+    position: absolute;
+    background-color: #ea1e00;
+    -webkit-transform: rotate(-39deg);
+    transform: rotate(-36deg);
+}
+
+.logohead_wrap{
+    width: 322px;
+    overflow: hidden;
+}
+
+.react-multiple-carousel__arrow--left {
+    left: calc(0% + 1px);
+}

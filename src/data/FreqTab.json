@@ -1,0 +1,30 @@
+
+{
+    "FreqTabs" : [
+      {
+        "key":"01",
+        "title": "What are the six basic principles of warehouse management?",
+        "description": "Controlling and managing the warehouse system properly allows businesses to focus on providing the best possible services to their clients. Fundamentally, the six main pillars of warehouse management include-Accuracy, Cost minimization, Efficiency and Reliability, Cleanliness and Hygiene practices, Safety and Security. "
+      },
+      {
+        "key":"02",
+        "title": "How do logistics and supply chain solutions work?",
+        "description": "The movement and storage of commodities in the supply chain are the key aspects of logistics. Supply chain management (SCM) is a broader term that encompasses all aspects of network synchronization, including sourcing, processing, transportation, storage, and distribution. The ultimate goal of logistics and supply chain solutions is to find systems that assure a seamless, efficient flow of goods that provides an outstanding customer experience. "
+      },
+      {
+        "key":"03",
+        "title": "What are the core processes of production in warehouse services?",
+        "description": "Based on the product's requirements, each warehouse has its own processes or procedures. There are, nevertheless, some common Warehouse Management Processes that are followed. Receiving, Putaway, Storage, Picking, Packing, and Shipping are the six basic warehouse procedures. You can streamline your warehouse operation, minimise and errors, and improve your flawless order rate by streamlining these six procedures."
+      },
+      {
+        "key":"04",
+        "title": "What is a Warehouse Management System? ",
+        "description": "A warehouse management system is a software program that helps to support and improve warehouse and distribution center operations. To put it differently, it is a software solution that provides complete visibility into a company's inventory and organizes supply chain fulfillment activities from the warehouse to the store shelves. "
+      },
+      {
+        "key":"05",
+        "title": "What is on-demand warehousing? How does it work?",
+        "description": "On-demand warehousing provides a scalable, robust and flexible warehousing option for retailers and brands. It works on the basis of a marketplace model and transactional pricing, allowing merchants and brands to scale up and down their networks as and when needed. "
+      }    
+    ]
+  }
