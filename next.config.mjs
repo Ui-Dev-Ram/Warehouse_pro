@@ -4,9 +4,10 @@
 // export default nextConfig;
 
 const config = {
-    output: "export",
+    // output: "export",
     images: {
-      domains: ['www.denofgeek.com', 'images.unsplash.com' /* Add other domains here if needed */],
+      unoptimized: true,
+      domains: ['www.denofgeek.com', 'images.unsplash.com', "api.microlink.io" /* Add other domains here if needed */],
     },
   };
   

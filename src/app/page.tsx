@@ -8,6 +8,7 @@ import Testimonial from "@/components/home/testimonial/Testimonial";
 import FrequentlyAskedQuestion from "@/components/home/frequentlyAskedQuestion/FrequentlyAskedQuestion";
 import Blog from "@/components/home/blog/Blog";
 import Head from 'next/head'
+import NetworkofWarehouzez from "@/components/home/networkofWarehouzez/NetworkofWarehouzez";
 
 
 
@@ -26,6 +27,7 @@ export default function Home() {
       <Testimonial />
       <FrequentlyAskedQuestion />
       <Blog />
+      <NetworkofWarehouzez />
 
     </div>
     

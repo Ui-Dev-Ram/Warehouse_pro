@@ -3,6 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { useMotionValueEvent, useScroll } from "framer-motion";
 import { motion } from "framer-motion";
 import { cn } from "@/utils/cn";
+import Link from "next/link";
 
 export const StickyScroll = ({
   content,
@@ -89,9 +90,17 @@ export const StickyScroll = ({
                 animate={{
                   opacity: activeCard === index ? 1 : 0.3,
                 }}
-                className="text-kg text-slate-300 max-w-sm mt-10"
+                className="text-kg text-slate-300 max-w-sm mt-2"
               >
-                {item.description}
+                <div className="flex flex-col items-baseline justify-start">
+                  {item.description}
+                  <button className="text-xs mt-3 bg-red hover:bg-red text-white p-2 rounded-full border-2 border-red group-hover:text-white group-hover:bg-darkGray group-hover:border-white group-hover:border-2 hover:delay-300">
+                    <Link href="#">
+                        Read More
+                    </Link> 
+                  </button>
+                </div>
+                
               </motion.p>
             </div>
           ))}
@@ -99,9 +108,9 @@ export const StickyScroll = ({
         </div>
       </div>
       <div
-        style={{ background: backgroundGradient }}
+        // style={{ background: backgroundGradient }}
         className={cn(
-          "hidden lg:block h-60 w-80 rounded-md bg-white sticky top-10 overflow-hidden",
+          "hidden lg:block h-64 w-80 rounded-md bg-red sticky top-10 overflow-hidden",
           contentClassName
         )}
       >
