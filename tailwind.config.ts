@@ -47,7 +47,7 @@ const config: Config = {
       }
     },
   },
-  plugins: [require("tailwindcss-debug-screens"), addVariablesForColors],
+  plugins: [require("tailwindcss-debug-screens"), addVariablesForColors, require('daisyui')],
 };
 
 // This plugin adds each Tailwind color as a global CSS variable, e.g. var(--gray-200).

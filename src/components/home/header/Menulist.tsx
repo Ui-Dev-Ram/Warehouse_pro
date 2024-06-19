@@ -13,7 +13,7 @@ type NavItem = {
 }
 
 
-const navlinks :NavItem[] = [
+export const navlinks :NavItem[] = [
     {
         title : "About",
         path : "#about",

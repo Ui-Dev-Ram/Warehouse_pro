@@ -14,7 +14,7 @@ import { cn } from "@/utils/cn";
 
 type LinkPreviewProps = {
   children: React.ReactNode;
-  url: string;
+  url: any;
   className?: string;
   width?: number;
   height?: number;

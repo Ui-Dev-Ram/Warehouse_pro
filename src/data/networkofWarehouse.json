@@ -1,0 +1,280 @@
+
+{
+    "networkofwarehouzez" : [
+      {
+        "key":"01",
+        "title": "Ghaziabad",
+        "link": "https://www.warehouzez.com/warehouse-in-ghaziabad"
+      },
+      {
+        "key":"02",
+        "title": "Hoskote",
+        "description": "/"
+      },
+      {
+        "key":"03",
+        "title": "Whitefield",
+        "description": "/"
+      },
+      {
+        "key":"04",
+        "title": "Panvel",
+        "description": "/"
+      },
+      {
+        "key":"05",
+        "title": "Nashik",
+        "description": "/"
+      },
+      {
+        "key":"06",
+        "title": "Nagpur",
+        "description": "/"
+      },
+      {
+        "key":"07",
+        "title": "Madhavaram",
+        "description": "/"
+      },
+      {
+        "key":"08",
+        "title": "Goa",
+        "description": "/"
+      },
+      {
+        "key":"09",
+        "title": "Okhla",
+        "description": "/"
+      },
+      {
+        "key":"10",
+        "title": "Kundli",
+        "description": "/"
+      },
+      {
+        "key":"11",
+        "title": "Sonipat",
+        "description": "/"
+      },
+      {
+        "key":"12",
+        "title": "Karnal",
+        "description": "/"
+      },
+      {
+        "key":"13",
+        "title": "Rohtak",
+        "description": "/"
+      },
+      {
+        "key":"14",
+        "title": "Ambala",
+        "description": "/"
+      },
+      {
+        "key":"15",
+        "title": "Jhansi",
+        "description": "/"
+      },
+      {
+        "key":"16",
+        "title": "Dehradun",
+        "description": "/"
+      },
+      {
+        "key":"17",
+        "title": "Kanpur",
+        "description": "/"
+      },
+      {
+        "key":"18",
+        "title": "Gorakhpur",
+        "description": "/"
+      },
+      {
+        "key":"19",
+        "title": "Varanasi",
+        "description": "/"
+      },
+      {
+        "key":"20",
+        "title": "Ludhiana",
+        "description": "/"
+      },
+      {
+        "key":"21",
+        "title": "Amritsar",
+        "description": "/"
+      },
+      {
+        "key":"22",
+        "title": "Baddi",
+        "description": "/"
+      },
+      {
+        "key":"23",
+        "title": "Jalandhar",
+        "description": "/"
+      },
+      {
+        "key":"24",
+        "title": "Patna",
+        "description": "/"
+      },
+      {
+        "key":"25",
+        "title": "Ranchi",
+        "description": "/"
+      },
+      {
+        "key":"26",
+        "title": "Jamshedpur",
+        "description": "/"
+      },
+      {
+        "key":"27",
+        "title": "Guwahati",
+        "description": "/"
+      },
+      {
+        "key":"28",
+        "title": "Bhubaneswar",
+        "description": "/"
+      },
+      {
+        "key":"29",
+        "title": "Siliguri",
+        "description": "/"
+      },
+      {
+        "key":"30",
+        "title": "Dibrugarh",
+        "description": "/"
+      },
+      {
+        "key":"31",
+        "title": "Indore",
+        "description": "/"
+      },
+      {
+        "key":"32",
+        "title": "Bhopal",
+        "description": "/"
+      },
+      {
+        "key":"33",
+        "title": "Gwalior",
+        "description": "/"
+      },
+      {
+        "key":"34",
+        "title": "Jodhpur",
+        "description": "/"
+      },
+      {
+        "key":"35",
+        "title": "Udaipur",
+        "description": "/"
+      },
+      {
+        "key":"36",
+        "title": "Neemrana",
+        "description": "/"
+      },
+      {
+        "key":"37",
+        "title": "Bhiwandi",
+        "description": "/"
+      },
+      {
+        "key":"38",
+        "title": "Kochi",
+        "description": "/"
+      },
+      {
+        "key":"39",
+        "title": "Raipur",
+        "description": "/"
+      },
+      {
+        "key":"40",
+        "title": "Coimbatore",
+        "description": "/"
+      },
+      {
+        "key":"41",
+        "title": "Mangaluru",
+        "description": "/"
+      },
+      {
+        "key":"42",
+        "title": "Mysore",
+        "description": "/"
+      },
+      {
+        "key":"43",
+        "title": "Amravati",
+        "description": "/"
+      },
+      {
+        "key":"44",
+        "title": "Vijayawada",
+        "description": "/"
+      },
+      {
+        "key":"45",
+        "title": "Surat",
+        "description": "/"
+      },
+      {
+        "key":"46",
+        "title": "Rajkot",
+        "description": "/"
+      },
+      {
+        "key":"47",
+        "title": "Mundra",
+        "description": "/"
+      },
+      {
+        "key":"48",
+        "title": "Vadodara",
+        "description": "/"
+      },
+      {
+        "key":"49",
+        "title": "Zirakpur",
+        "description": "/"
+      },
+      {
+        "key":"50",
+        "title": "Ganganagar",
+        "description": "/"
+      },
+      {
+        "key":"51",
+        "title": "Hisar",
+        "description": "/"
+      },
+      {
+        "key":"52",
+        "title": "Bathinda",
+        "description": "/"
+      },
+      {
+        "key":"53",
+        "title": "Jammu",
+        "description": "/"
+      },
+      {
+        "key":"54",
+        "title": "Haridwar",
+        "description": "/"
+      },
+      {
+        "key":"55",
+        "title": "Haldwani",
+        "description": "/"
+      }     
+    ]
+  }
