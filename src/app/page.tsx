@@ -10,7 +10,7 @@ import Blog from "@/components/home/blog/Blog";
 import Head from 'next/head'
 import NetworkofWarehouzez from "@/components/home/networkofWarehouzez/NetworkofWarehouzez";
 import LookingForBest from "@/components/home/lookingForBest/LookingForBest";
-import Footer from "@/components/home/footer/Footer";
+
 
 
 
@@ -31,7 +31,7 @@ export default function Home() {
       <Blog />
       <NetworkofWarehouzez />
       <LookingForBest />
-      <Footer />
+    
     </div>
     
   );

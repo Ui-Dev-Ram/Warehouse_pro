@@ -1,5 +1,6 @@
 import HeaderTop from "@/components/home/header/HeaderTop";
 import Header from "@/components/home/header/Header";
+import Footer from "@/components/home/footer/Footer";
 
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
@@ -24,10 +25,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={` ${inter.className}  ${process.env.NODE_ENV == "development" ? "debug-screens" : "" }`}>
+      <body className="">
         <HeaderTop />
         <Header />
-        {children}
+         {children}
+        <Footer />
       </body>
     </html>
   );
