@@ -36,7 +36,7 @@ const WarehouseListed = () => {
         {
            listing.map((i, index) => {
             return(
-              <div key={index} className='group bg-white hover:bg-darkGray hover:text-white w-11/12 h-full flex flex-col items-center justify-center shadow-2xl transition duration-200 delay-80 rounded-lg'>
+              <div key={index} className='group bg-white hover:bg-darkGray hover:text-white w-11/12 m-auto h-full flex flex-col items-center justify-center shadow-2xl transition duration-200 delay-80 rounded-lg'>
                 <div className="g-white w-full relative h-64">
                   <Image src={i.img} className="bg-cover bg-center bg-no-repeat w-80 h-56 rounded-t-md" fill={true} alt="" />
                 </div>

@@ -27,7 +27,7 @@
     }
 
     .headerLogo_section{
-        @apply bg-red p-5 relative w-[240px]
+        @apply bg-red relative
     }
 
 }

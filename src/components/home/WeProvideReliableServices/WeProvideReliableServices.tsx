@@ -5,13 +5,13 @@ import { Meteors } from "@/components/ui/meteors";
 const WeProvideReliableServices = () => {
 
   return (
-    <div className='flex flex-col justify-center items-center text-center mt-40 mb-14'>
+    <div className='flex flex-col justify-center items-center text-center mb-14'>
         <div className="w-full">
           <div className=" w-full relative">
             <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 blur-3xl" />
             <div className="relative shadow-xl bg-gray-900 border border-gray-800  px-4 py-14 h-full overflow-hidden flex flex-col justify-end items-start">
             
-            <h2 className='text-white text-base sm:text-3xl font-bold m-auto'>Our Listed Warehouses</h2>
+            <h2 className='text-white text-base sm:text-3xl font-bold m-auto'>We Provide a Reliable Services</h2>
             <p className='w-3/4 m-auto mt-5 mb-14 text-white'>With 15 years of logistical experience and the sole aim of providing quality service to each one of our clients, we at Warehouzez - Supply chain are unparalleled in the most seamless movement of your cargo worldwide.</p>  
             
             <div className="mt-2 m-auto flex flex-wrap justify-center items-center gap-4">

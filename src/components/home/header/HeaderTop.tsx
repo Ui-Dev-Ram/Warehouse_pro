@@ -13,21 +13,29 @@ const HeaderTop = () => {
     <div className="headerTop">
         <div className="lg:container md:w-full md:px-4 flex items-center">
             <div className="flex items-center gap-x-5 md:gap-x-2 lg:gap-8">
-              <div className="mailBox flex items-center gap-x-2 py-4">
+              <div className="mailBox flex items-center gap-x-2 py-4 pl-5 lg:pl-0">
                 <FaRegEnvelopeOpen /> 
-                <Link className="font-display text-sm tracking-tight text-slate-100 sm:text-4xs" href="https://mail.google.com/" target="_blank">info@warehouzez.com</Link>
+                <Link className="font-display text-sm tracking-tight text-slate-100 sm:text-4xs" href="https://mail.google.com/" target="_blank">
+                  info@warehouzez.com
+                </Link>
+              </div>
+              <div className="flex mailBox items-center gap-x-2">
+                <HiOutlineDocumentText />
+                <Link className="font-display text-sm tracking-tight text-slate-100 sm:text-4xs" href="https://mail.google.com/" target="_blank">
+                 Company Profile
+                </Link>
               </div>
               <div className="hidden md:flex mailBox items-center gap-x-2">
                 <HiOutlineDocumentText />
-                <Link className="font-display text-sm tracking-tight text-slate-100 sm:text-4xs" href="https://mail.google.com/" target="_blank">Company Profile</Link>
+                <Link className="font-display text-sm tracking-tight text-slate-100 sm:text-4xs" href="https://mail.google.com/" target="_blank">
+                  Partners Profile
+                </Link>
               </div>
               <div className="hidden md:flex mailBox items-center gap-x-2">
                 <HiOutlineDocumentText />
-                <Link className="font-display text-sm tracking-tight text-slate-100 sm:text-4xs" href="https://mail.google.com/" target="_blank">Partners Profile</Link>
-              </div>
-              <div className="hidden md:flex mailBox items-center gap-x-2">
-                <HiOutlineDocumentText />
-                <Link className="font-display text-sm tracking-tight text-slate-100 sm:text-4xs" href="https://mail.google.com/" target="_blank">Brochure</Link>
+                <Link className="font-display text-sm tracking-tight text-slate-100 sm:text-4xs" href="https://mail.google.com/" target="_blank">
+                 Brochure
+                </Link>
               </div>
               <div className="hidden md:flex mailBox items-center gap-x-2">
                 <div className="headerTop_icons_wrap">

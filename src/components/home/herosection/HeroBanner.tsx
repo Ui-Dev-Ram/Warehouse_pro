@@ -28,12 +28,12 @@ export default function HeroBanner() {
            </div>
          </div>
          
-         <div className="flex flex-col mb-8 relative">
+         <div className="flex flex-col mb-2 lg:mb-8 relative">
            <Image src={HeroBannerImg} alt="" className="bg-cover bg-center bg-no-repeat" />
            <div className="absolute top-0 right-0 left-0 bottom-0 bg-neutral-900 bg-opacity-30"></div>
          </div>
          
-         <div className="relative sm:absolute left-0 right-0 -bottom-20 search-main">
+         <div className="relative sm:absolute left-0 right-0 bottom-0 lg:-bottom-20 search-main">
           <SearchBar />
          </div>
          

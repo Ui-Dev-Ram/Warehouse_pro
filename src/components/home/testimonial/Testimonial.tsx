@@ -42,7 +42,7 @@ const Testimonial = () => {
 
             <div className="-mx-6 mt-8 lg:col-span-2 lg:mx-0">
                 <div id="keen-slider" className="keen-slider">
-                    <Carousel className='w-full h-full pb-16' autoPlay={true} responsive={responsive}  infinite={true}  removeArrowOnDeviceType={["desktop", "mobile"]} swipeable={true} draggable={true} showDots={true}>
+                    <Carousel className='w-10/12 m-auto lg:w-full h-full pb-16' autoPlay={true} responsive={responsive}  infinite={true}  removeArrowOnDeviceType={["desktop", "mobile"]} swipeable={true} draggable={true} showDots={true}>
                         {
                             testiDatas.map((testiData, index) => {
                                 return(

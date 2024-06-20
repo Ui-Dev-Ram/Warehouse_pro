@@ -7,7 +7,7 @@ const LookingForBest = () => {
         <div className="hero-overlay bg-opacity-80"></div>
             <div className="hero-content text-center text-neutral-content py-10">
                 <div className="w-full">
-                <h1 className="mb-5 text-5xl font-bold text-white">Looking for the Best Warehouse Services?</h1>
+                <h1 className="mb-5 text-3xl lg:text-5xl font-bold text-white">Looking for the Best Warehouse Services?</h1>
                 <p className="mb-5">
                 We offer the best and most authentic warehouse services. Warehouzez The Digital Supply Chain is one of the greatest and most well-known logistics and warehousing service providers in the country.</p>
                 <button className="text-sm bg-red text-white px-6 font-bold py-3 hover:bg-white hover:text-red rounded-full border-2 border-red">

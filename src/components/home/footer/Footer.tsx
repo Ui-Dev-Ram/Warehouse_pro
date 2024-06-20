@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <div className="flex flex-col">
         <footer className="footer p-10 bg-neutral text-neutral-content">
-            <aside>
+            <aside className='m-auto lg:m-[0]'>
                 <Image src={WarehouzezLogo} alt="Warehouzez Logo" />
                 <p>One stop destination for all your <br /> warehousing and logistics solutions. <br />Revolutionize your business with us!</p>
             </aside> 
@@ -49,7 +49,11 @@ const Footer = () => {
                 <h6 className="footer-title">Official info</h6> 
                 <div className="flex items-start link link-hover">
                     <FaMapMarkerAlt className="m-1" />
-                    <span>Address: Survey No- 92/7 Koralur, <br /> Hoskote TQ, Kasaba - Hobli , <br />Koralur Village, Bangalore-560067</span>
+                    <span>
+                        Survey No- 92/7 Koralur,
+                        <br />Hoskote TQ, Kasaba - Hobli ,
+                        <br />Koralur Village, Bangalore-560067
+                    </span>
                 </div>
                 <div className="flex items-start link link-hover">
                     <IoMdMail className="m-1" />

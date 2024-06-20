@@ -11,12 +11,12 @@ const OurBouquetListing = () => {
  
   return (
      <div className="p-5">
-        <div className="flex flex-row gap-x-10">
+        <div className="flex flex-col lg:flex-row gap-x-2 lg:gap-x-10">
                     {
                     services.map((i, index) => {
                         return(
                             <CardContainer key={index} className="inter-var">
-                                <CardBody className="bg-gray-50 relative group/card  shadow-2xl dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[20rem] h-auto rounded-xl p-6 border  ">
+                                <CardBody className="bg-gray-50 relative group/card shadow-2xl dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[20rem] h-auto rounded-xl p-6 border">
                                     <CardItem
                                     translateZ="50"
                                     className="text-xl font-bold text-neutral-600 dark:text-white"
@@ -56,7 +56,7 @@ const OurBouquetListing = () => {
                     }
         </div>
  
-        <div className="flex items-center justify-center gap-x-12">
+        <div className="flex items-center flex-col gap-y-5 lg:flex-row justify-center gap-x-12">
             <p>Our list of services does not end here. Find out how we can help you and your business</p>
             <button className="text-sm bg-red text-white px-6 font-bold py-3 hover:bg-white hover:text-red rounded-full border-2 border-red">
                 More Services

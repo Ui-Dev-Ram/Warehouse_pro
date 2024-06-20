@@ -3,7 +3,7 @@ import WarehouseListed from './WarehouseListed'
 
 const OurListedWarehouses = () => {
   return (
-    <div className='flex flex-col justify-center items-center text-center mt-40 mb-14'>
+    <div className='flex flex-col justify-center items-center text-center mt-10 lg:mt-40 mb-5 lg:mb-14'>
         <h2 className='text-black text-base sm:text-3xl font-bold'>Our Listed Warehouses</h2>
         <span className='text-black text-base sm:text-1xl mt-2'>Check the <span className='text-red'>Live</span> Space Availability</span>
 
