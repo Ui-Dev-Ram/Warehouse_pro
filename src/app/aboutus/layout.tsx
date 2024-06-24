@@ -1,3 +1,7 @@
+import HeaderTop from "@/components/home/header/HeaderTop";
+import Header from "@/components/home/header/Header";
+import Footer from "@/components/home/footer/Footer";
+
 export default function Layout({
     children,
   }: Readonly<{
@@ -5,7 +9,7 @@ export default function Layout({
   }>) {
     return (
       <html lang="en">
-        <body>
+        <body className="">
           {children}
         </body>
       </html>

@@ -16,7 +16,7 @@ type NavItem = {
 export const navlinks :NavItem[] = [
     {
         title : "About",
-        path : "#about",
+        path : "/aboutus",
         childrens: [
             {
                 title: "Business Strategy",
