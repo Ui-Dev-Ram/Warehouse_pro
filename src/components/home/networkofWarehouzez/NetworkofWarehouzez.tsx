@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import { motion } from "framer-motion";
 import { LinkPreview } from "@/components/ui/link-preview";
 import networkofWarehouse from "@/data/networkofWarehouse.json" 
 

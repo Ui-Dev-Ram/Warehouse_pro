@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import warehouseLists from "@/data/warehouseListed.json" 
+import { FaRegEye } from "react-icons/fa";
 
 const WarehouseListed = () => {
 
@@ -39,6 +40,7 @@ const WarehouseListed = () => {
               <div key={index} className='group bg-white hover:bg-darkGray hover:text-white w-11/12 m-auto h-full flex flex-col items-center justify-center shadow-2xl transition duration-200 delay-80 rounded-lg'>
                 <div className="g-white w-full relative h-64">
                   <Image src={i.img} className="bg-cover bg-center bg-no-repeat w-80 h-56 rounded-t-md" fill={true} alt="" />
+                  <p className='relative flex items-center justify-end text-sm m-2 mr-3 font-bold group-hover:text-orange-900'><FaRegEye className='mr-1 text-red' /> {i.view}</p>
                 </div>
                 <div className="flex flex-col justify-start items-start gap-y-2 w-full p-3">
                   <h5 className='text-slate-900 font-bold tracking-wide mt-2 group-hover:text-white'>

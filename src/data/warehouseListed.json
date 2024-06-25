@@ -7,7 +7,8 @@
         "location": "Bangalore",
         "sqfttotal": "63000 Sq.ft.Total",
         "sqftavail": "13000 Available",
-        "time": "09:00:00 to 18:00:00"
+        "time": "09:00:00 to 18:00:00",
+        "view": "35.55K"
       },
       {
         "key":"02",
@@ -15,7 +16,8 @@
         "location": "Bhiwandi",
         "sqfttotal": "80000 Sq.ft.Total",
         "sqftavail": "15000 Available",
-        "time": "09:00:00 to 18:00:00"
+        "time": "09:00:00 to 18:00:00",
+        "view": "55.35K"
       },
       {
         "key":"03",
@@ -23,7 +25,8 @@
         "location": "Gurgaon",
         "sqfttotal": "95000 Sq.ft.Total",
         "sqftavail": "25000 Available",
-        "time": "09:00:00 to 18:00:00"
+        "time": "09:00:00 to 18:00:00",
+        "view": "95.15K"
       },
       {
         "key":"04",
@@ -31,7 +34,8 @@
         "location": "Hyderabad",
         "sqfttotal": "28000 Sq.ft.Total",
         "sqftavail": "13000 Available",
-        "time": "09:00:00 To 18:00:00"
+        "time": "09:00:00 To 18:00:00",
+        "view": "25.35"
       },
       {
         "key":"05",
@@ -39,7 +43,8 @@
         "location": "Noida",
         "sqfttotal": "50000 Sq.ft.Total",
         "sqftavail": "10000 Available",
-        "time": "09:00:00 To 18:00:00"
+        "time": "09:00:00 To 18:00:00",
+        "view": "35.22K"
       },
       {
         "key":"06",
@@ -47,7 +52,26 @@
         "location": "Pune",
         "sqfttotal": "25000 Sq.ft.Total",
         "sqftavail": "11000 Available",
-        "time": "09:00:00 To 18:00:00"
-      }    
+        "time": "09:00:00 To 18:00:00",
+        "view": "20.85K"
+      },
+      {
+        "key":"07",
+        "img": "/assets/warehouse-7.jpg",
+        "location": "chennai",
+        "sqfttotal": "25000 Sq.ft.Total",
+        "sqftavail": "11000 Available",
+        "time": "09:00:00 To 18:00:00",
+        "view": "38.15K"
+      },
+      {
+        "key":"08",
+        "img": "/assets/warehouse-8.jpg",
+        "location": "Delhi",
+        "sqfttotal": "25000 Sq.ft.Total",
+        "sqftavail": "11000 Available",
+        "time": "09:00:00 To 18:00:00",
+        "view": "20.25K"
+      }
     ]
   } 

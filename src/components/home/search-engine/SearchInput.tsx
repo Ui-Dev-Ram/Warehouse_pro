@@ -1,17 +1,32 @@
 "use client";
- 
+
+import { useState } from "react";
 import PlaceholdersAndVanishInput  from "@/components/ui/placeholders-and-vanish-input";
 import { TbBuildingWarehouse } from "react-icons/tb";
+import networkofWarehouse from "@/data/networkofWarehouse.json" 
 
 
 export default function PlaceholdersAndVanishInputDemo() {
-  const placeholders = [
-    "What's the first rule of Fight Club?",
-    "Who is Tyler Durden?",
-    "Where is Andrew Laeddis Hiding?",
-    "Write a Javascript method to reverse a string",
-    "How to assemble your own PC?",
-  ];
+
+  const [network, setNetwork] = useState(networkofWarehouse.networkofwarehouzez)
+
+  const placeholders = [''];
+
+  {
+    network.map((network, index) => {
+      console.log({network})
+      return(
+        <>
+        {
+          placeholders.push(`Search "Warehouse in ${network.title}"`)
+        }
+          
+         
+        </>
+        
+     )
+    }) 
+}
  
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     console.log(e.target.value);

@@ -26,7 +26,7 @@ const OurBouquetListing = () => {
                                     <CardItem
                                     as="p"
                                     translateZ="60"
-                                    className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300 text-left"
+                                    className="text-neutral-500 lg:h-24 text-sm max-w-sm mt-2 dark:text-neutral-300 text-left"
                                     >
                                     {i.description}
                                     </CardItem>
@@ -56,8 +56,8 @@ const OurBouquetListing = () => {
                     }
         </div>
  
-        <div className="flex items-center flex-col gap-y-5 lg:flex-row justify-center gap-x-12">
-            <p>Our list of services does not end here. Find out how we can help you and your business</p>
+        <div className="flex items-center flex-col gap-y-5 lg:flex-row justify-center gap-x-12 my-7">
+            <p className="font-medium">Our list of services does not end here. Find out how we can help you and your business</p>
             <button className="text-sm bg-red text-white px-6 font-bold py-3 hover:bg-white hover:text-red rounded-full border-2 border-red">
                 More Services
             </button>
