@@ -11,7 +11,7 @@ import { BsFacebook, BsTwitterX, BsLinkedin, BsYoutube, BsInstagram, BsPinterest
 const HeaderTop = () => {
   return (
     <div className="headerTop">
-        <div className="lg:container md:w-full md:px-4 flex items-center">
+        <div className="lg:container md:w-full md:px-7 flex items-center">
             <div className="flex items-center gap-x-5 md:gap-x-2 lg:gap-8">
               <div className="mailBox flex items-center gap-x-2 py-4 pl-5 lg:pl-0">
                 <FaRegEnvelopeOpen /> 

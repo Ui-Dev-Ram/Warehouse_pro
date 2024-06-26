@@ -8,7 +8,7 @@ import ImageMap from '/public/our-presence-india.png'
 const OurValueOurPresence = () => {
   return (
 
-    <div className='flex flex-col justify-center items-center text-center mb-20 py-8 lg:py-2'>
+    <div className='flex flex-col justify-center items-center text-center mb-20 py-8 px-2 lg:py-2'>
         <h2 className='text-black text-base sm:text-2xl font-bold lg:mb-10'>Our Value & Presence</h2>   
             <div className="grid grid-row-12 lg:grid-cols-12 items-center justify-center gap-8 lg:gap-16 xl:gap-24">
                 <div className='col-span-11 lg:col-span-4 pl-6'>

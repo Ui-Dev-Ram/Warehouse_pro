@@ -110,7 +110,7 @@ export const StickyScroll = ({
       <div
         // style={{ background: backgroundGradient }}
         className={cn(
-          "hidden lg:block h-64 w-80 rounded-md bg-red sticky top-10 overflow-hidden",
+          "hidden lg:block h-64 w-80 rounded-md bg-slate-900 sticky top-10 overflow-hidden p-2",
           contentClassName
         )}
       >
