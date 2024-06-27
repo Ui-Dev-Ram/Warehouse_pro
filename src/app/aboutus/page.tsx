@@ -15,7 +15,7 @@ const page = () => {
   return (
     <div>
        <InnerHeroBanner />
-       <div className="m-7">
+       <div className="m-5">
           <div className="flex">
               <div className="flex flex-col flex-1">
                 <h2 className='block antialiased tracking-normal font-sans text-4xl font-semibold leading-[1.3] text-blue-gray-900 mb-4'>About Company</h2>

@@ -2,6 +2,12 @@ import React from 'react'
 import Image from 'next/image';
 import { Button } from "@/components/ui/moving-border";
 import { SparklesCore } from "@/components/ui/sparkles";
+import { Gochi_Hand } from "@next/font/google"
+
+const gochiHand = Gochi_Hand({
+  subsets:['latin'],
+  weight: ['400']
+})
 
 const InnerHeroBanner = () => {
   return (
@@ -46,13 +52,21 @@ const InnerHeroBanner = () => {
         </div>
         
       </div>
-      <div className="w-1/4 bg-[#314e56] text-white h-100 p-5">
+      <div className="w-1/4 bg-[#314e56] text-white h-100 p-5 relative">
             <div className="flex flex-col justify-start">
-              <h1 className='text-3xl'>Get Quote</h1>
+              <div className="absolute -left-16">
+                <h1 className={`text-xl rotate-6 relative -left-14 text-[#fff] ${gochiHand.className}`}>Enquire Now</h1>
+                <Image 
+                src='/aboutus/Curly-Arrow-PNG.png' 
+                alt=''
+                className='relative brightness-0 invert -rotate-[20px] -left-2'
+                width={80}
+                height={80} />
+              </div>
               <input 
               type="text" 
               placeholder="Enter Your Name*" 
-              className="input h-8 bg-[#314e56] text-white border-b-[1px] border-white mt-4 input-bordered w-full rounded-none max-w-xs border-t-0 border-l-0 border-r-0 text-sm" />
+              className="input h-8 bg-[#314e56] text-white border-b-[1px] border-white input-bordered w-full rounded-none max-w-xs border-t-0 border-l-0 border-r-0 text-sm" />
 
               <input 
               type="text" 
