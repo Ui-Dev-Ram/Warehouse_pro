@@ -37,7 +37,7 @@ export default function PlaceholdersAndVanishInputDemo() {
   };
   return (
     <div className="relative flex flex-col justify-center items-center">
-      <TbBuildingWarehouse className="absolute size-6 z-10 left-6 text-slate-700 hidden sm:block" />
+      <TbBuildingWarehouse className="absolute size-6 z-10 left-4 text-slate-700 hidden sm:block" />
       <PlaceholdersAndVanishInput
         placeholders={placeholders}
         onChange={handleChange}

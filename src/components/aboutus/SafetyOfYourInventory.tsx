@@ -10,7 +10,7 @@ const SafetyOfYourInventory = () => {
             Safety Of Your Inventory Is Utmost Necessary To Us!
         </h3>
 
-        <div className="flex gap-x-5 mt-12">
+        <div className="flex flex-col lg:flex-row gap-y-5 lg:gap-x-5 mt-12 justify-center items-center">
             <div className="card bg-base-100 w-96 shadow-xl">
                 <div className="card-body text-center">
                     <BiHappyAlt className='m-auto rounded-full w-12 h-12 text-center bg-gray-600 p-2 text-white' />

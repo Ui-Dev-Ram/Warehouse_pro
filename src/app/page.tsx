@@ -27,10 +27,10 @@ export default function Home() {
       <LetCheckoutOurIndustry />
       <OurValueOurPresence />
       <Testimonial />
+      <LookingForBest />
       <FrequentlyAskedQuestion />
       <Blog />
       <NetworkofWarehouzez />
-      <LookingForBest />
     
     </div>
     

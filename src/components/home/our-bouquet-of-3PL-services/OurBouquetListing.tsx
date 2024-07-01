@@ -44,7 +44,7 @@ const OurBouquetListing = () => {
                                     <CardItem
                                         translateZ={20}
                                         as="button"
-                                        className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                                        className="text-xs mt-3 bg-red hover:bg-red text-white p-2 rounded-full border-2 border-red group-hover:text-white group-hover:bg-darkGray group-hover:border-white group-hover:border-2 hover:delay-300"
                                     >
                                         Read More
                                     </CardItem>

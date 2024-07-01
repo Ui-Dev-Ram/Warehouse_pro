@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image';
 import { Button } from "@/components/ui/moving-border";
 import { SparklesCore } from "@/components/ui/sparkles";
-import { Gochi_Hand } from "@next/font/google"
+import { Gochi_Hand } from "next/font/google"
 
 const gochiHand = Gochi_Hand({
   subsets:['latin'],
@@ -13,12 +13,12 @@ const InnerHeroBanner = () => {
   return (
     <div>
 
-    <div className="flex mb-4 relative">
+    <div className="flex mb-4 relative h-52 lg:h-auto">
       <div className="w-full bg-white h-100 relative">
         <Image src="/aboutus/herobanner.jpg" alt='Hero banner' fill={true} 
         className='w-full bg-no-repeat bg-center'/>
         <div className="absolute left-0 right-0 top-0 bottom-0 z-8 bg-black opacity-60 text-center m-auto">
-          <div className="w-[40rem] h-40 relative m-auto">
+          <div className="w-full lg:w-[40rem] h-40 relative m-auto">
            
             {/* Gradients */}
             {/* <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
@@ -42,17 +42,20 @@ const InnerHeroBanner = () => {
           </div>
         </div>
         <div className="w-full absolute z-9 top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 text-center">
-          <h2 className='text-white font-medium text-3xl'>
-            "Reliability in motion, trust in every mile."
-          </h2>
-          <p className='text-white text-lg w-3/4 m-auto mt-5 leading-8'>
+          <h3 className='text-center m-auto'>
+            <span className="text-3xl md:text-3xl font-bold bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.green.300),theme(colors.green.100),theme(colors.sky.400),theme(colors.yellow.200),theme(colors.sky.400),theme(colors.green.100),theme(colors.green.300))] bg-[length:200%_auto] animate-gradient">
+             "Reliability in motion, trust in every mile."
+            </span>
+          </h3>
+
+          <p className='text-white w-3/4 m-auto mt-2 lg:mt-5 text-xs lg:text-lg leading-5 lg:leading-8'>
             We offer the best and most authentic warehouse services. Warehouzez The Digital Supply Chain is one of the greatest and most well-known logistics and warehousing service providers in the country.
           </p>
 
         </div>
         
       </div>
-      <div className="w-1/4 bg-[#314e56] text-white h-100 p-5 relative">
+      <div className="w-1/4 bg-[#314e56] text-white h-100 p-5 relative hidden lg:block">
             <div className="flex flex-col justify-start">
               <div className="absolute -left-16">
                 <h1 className={`text-xl rotate-6 relative -left-14 text-[#fff] ${gochiHand.className}`}>Enquire Now</h1>

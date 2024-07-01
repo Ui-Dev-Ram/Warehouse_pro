@@ -88,15 +88,18 @@ const content = [
 const Blog = () => {
   return (  
     <section className="bg-gray-50">
-        <div className="mx-auto max-w-[1340px] py-5 sm:px-6 lg:me-0 lg:py-16 lg:pe-0 lg:ps-8 xl:py-14">
-            <div className="max-w-7xl items-center justify-center sm:flex sm:pe-6 lg:pe-8">
-              <h2 className="max-w-xl text-4xl font-bold tracking-tight text-gray-900  sm:text-5xl text-center">
+        <div className="mx-auto py-5 sm:px-6 lg:py-16 xl:py-14">
+            <div className="items-center justify-center sm:flex">
+              <h2 className="text-2xl font-bold tracking-tight text-gray-900 lg:text-3xl text-center">
                 Blog
                   <span className="block text-xl font-normal mt-2">Let's Checkout our All Latest Blogs</span>
               </h2>
-            </div>
+            </div> 
         </div>
-        <StickyScroll content={content} /> 
+        <div>
+          <StickyScroll content={content} /> 
+        </div>
+        
     </section>
   )
 }

@@ -42,7 +42,9 @@ const IndustryCard = () => {
               <div className="mb-10  w-3/4 text-left">
                 <p className="font-bold text-xl mb-2">{i.title}</p>
                 <p className="font-normal text-sm mb-6">{i.descrip}</p>
-                <Link href={i.link} className='bg-red hover:bg-red text-white font-bold py-4 px-8 rounded-full'>Read More</Link>   
+                <Link href={i.link} className='text-xs mt-3 bg-red hover:bg-red text-white p-2 rounded-full border-2 border-red group-hover:text-white group-hover:bg-darkGray group-hover:border-white group-hover:border-2 hover:delay-300'>
+                  Read More
+                </Link>   
               </div>
             </DirectionAwareHover>
           </div>

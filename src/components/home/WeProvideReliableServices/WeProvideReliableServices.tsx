@@ -8,7 +8,7 @@ const WeProvideReliableServices = () => {
         <div className="w-full">
           <div className="w-full relative">
           <div className='absolute bg-slate-900 opacity-60 left-0 right-0 bottom-0 top-0 z-10'></div>
-            <div className="absolute h-full w-full bg-[url('/bg-service.jpg')] bg-cover bg-no-repeat bg-center" />
+            <div className="absolute h-full w-full bg-[url('/bg-service.jpg')] bg-left-top bg-no-repeat bg-cover" />
                 <div className="relative shadow-xl border border-gray-800 px-4 py-14 h-full overflow-hidden flex flex-col justify-end items-start z-20">
                     <h2 className='text-white text-base sm:text-3xl font-bold m-auto'>We Provide a Reliable Services</h2>
                     <p className='w-3/4 m-auto mt-5 mb-14 text-white'>With 15 years of logistical experience and the sole aim of providing quality service to each one of our clients, we at Warehouzez - Supply chain are unparalleled in the most seamless movement of your cargo worldwide.</p>  

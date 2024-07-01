@@ -42,9 +42,10 @@ export const StickyScroll = ({
   });
 
   const backgroundColors = [
-    "var(--slate-900)",
+    "var(--zinc-800)",
     "var(--black)",
-    "var(--neutral-900)",
+    "var(--zinc-800)",
+    "var(--black)",
   ];
   const linearGradients = [
     "linear-gradient(to bottom right, var(--cyan-500), var(--emerald-500))",
@@ -62,13 +63,13 @@ export const StickyScroll = ({
 
   return (
     <motion.div
-      animate={{
-        backgroundColor: backgroundColors[activeCard % backgroundColors.length],
-      }}
-      className="h-[30rem] overflow-y-auto flex justify-center relative space-x-10 rounded-md p-10"
-      ref={ref}
-    >
-      <div className="div relative flex items-start px-4">
+    animate={{
+      backgroundColor: backgroundColors[activeCard % backgroundColors.length],
+    }}
+    className="h-[30rem] w-full overflow-y-auto flex justify-center relative p-10"
+    ref={ref}
+  >
+    <div className="div relative flex items-start px-4">
         <div className="max-w-2xl">
           {content.map((item, index) => (
             <div key={item.title + index} className="my-20">
@@ -94,10 +95,8 @@ export const StickyScroll = ({
               >
                 <div className="flex flex-col items-baseline justify-start">
                   {item.description}
-                  <button className="text-xs mt-3 bg-red hover:bg-red text-white p-2 rounded-full border-2 border-red group-hover:text-white group-hover:bg-darkGray group-hover:border-white group-hover:border-2 hover:delay-300">
-                    <Link href="#">
+                  <button className="w-fit transition duration-200 ease-linear text-xs mt-3 bg-red hover:bg-red text-white px-3 py-2 rounded-full border-2 border-red group-hover:text-white group-hover:bg-darkGray group-hover:border-white group-hover:border-2 hover:delay-300">
                         Read More
-                    </Link> 
                   </button>
                 </div>
                 
@@ -106,17 +105,18 @@ export const StickyScroll = ({
           ))}
           <div className="h-40" />
         </div>
-      </div>
-      <div
-        // style={{ background: backgroundGradient }}
-        className={cn(
-          "hidden lg:block h-64 w-80 rounded-md bg-slate-900 sticky top-10 overflow-hidden p-2",
-          contentClassName
-        )}
-      >
-        {content[activeCard].content ?? null}
-      </div>
-    </motion.div>
+    </div>
+    <div
+      // style={{ background: backgroundGradient }}
+      className={cn(
+        "hidden lg:block h-64 w-80 rounded-md bg-slate-900 sticky top-10 overflow-hidden p-2",
+        contentClassName
+      )}
+    >
+      {content[activeCard].content ?? null}
+    </div>      
+</motion.div>
+    
   );
 };
 
