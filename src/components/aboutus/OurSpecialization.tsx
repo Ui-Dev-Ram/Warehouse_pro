@@ -85,7 +85,7 @@ const OurSpecialization = () => {
                
             </div>
         </div>
-        <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3'>
+        <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
              We assist our customers with their urgent shipping needs (as and when required). We are a dedicated group of professionals with a high level of motivation and coherence. Our 'Customer Driven Approach' makes Warehouzez the Digital Supply Chain the most widely chosen logistics and warehousing company in the industry. Our objective is to build the trust of our clients and take care of their inventory in the best possible manner. Our experts are well- qualified and capable of handling all requirements and issues pertaining to your business. We deploy the latest technology like WMS and LMS in order to increase the operational control.
         </p>
         <div className='flex flex-col text-center mt-20'>

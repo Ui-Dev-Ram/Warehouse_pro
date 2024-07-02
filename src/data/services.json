@@ -1,0 +1,101 @@
+
+{
+    "service" : [
+      {
+        "key":"01",
+        "number":"1",
+        "img":"/services/service/img1.jpg",
+        "title": "Third Party Logistics",
+        "description": "Warehouzez The Digital Supply Chain is indeed the best third party logistics firm in the industry.",
+        "path": "#"
+      },
+      {
+        "key":"02",
+        "number":"2",
+        "img":"/services/service/img2.jpg",
+        "title": "On-demand Warehousing",
+        "description": "We are an accredited On-Demand Warehouse Services Provider. We provide storage services for any..",
+        "path": "#"
+      },
+      {
+        "key":"03",
+        "number":"3",
+        "img":"/services/service/img3.jpg",
+        "title": "Contract Logistics",
+        "description": "Warehouzez the Digital Supply Chain comprehends and concentrates on all the elements of a..",
+        "path": "#"
+      },
+      {
+        "key":"04",
+        "number":"4",
+        "img":"/services/service/img4.jpg",
+        "title": "Warehousing & Distribution",
+        "description": "Warehouzez: Unparalleled Distribution & Warehouse Services Warehouzez is undoubtedly..",
+        "path": "#"
+      },
+      {
+        "key":"05",
+        "number":"5",
+        "img":"/services/service/img5.jpg",
+        "title": "Ecommerce Fulfillment",
+        "description": "Warehouzez: Trusted Partner for All Your Fulfillment-Related Needs—Let Your Online Business..",
+        "path": "#"
+      },
+      {
+        "key":"06",
+        "number":"6",
+        "img":"/services/service/img6.jpg",
+        "title": "Reverse Logistics Service",
+        "description": "Warehouzez is one of the best Logistics Service Providers in the industry. We understand that indeed..",
+        "path": "#"
+      },
+      {
+        "key":"07",
+        "number":"7",
+        "img":"/services/service/img7.jpg",
+        "title": "Int. Freight Forwarding",
+        "description": "At Warehouzez, the essence of our business is to ensure the fulfillment of your business logistics requirements..",
+        "path": "#"
+      },
+      {
+        "key":"08",
+        "number":"8",
+        "img":"/services/service/img8.jpg",
+        "title": "Global SCM Technology",
+        "description": "The Indian supply chain has undergone major changes in the recent decade as a result of shifting..",
+        "path": "#"
+      },
+      {
+        "key":"09",
+        "number":"9",
+        "img":"/services/service/img9.jpg",
+        "title": "Carrying & Forwarding Agency",
+        "description": "Warehouzez is indeed a top- grade Carrying and Forwarding Solutions firm in the country. We provide..",
+        "path": "#"
+      },
+      {
+        "key":"10",
+        "number":"10",
+        "img":"/services/service/img10.jpg",
+        "title": "Digital Supply Chain Consultancy",
+        "description": "Many organizations are working in conjunction to source, transform, and distribute items to clients..",
+        "path": "#"
+      },
+      {
+        "key":"11",
+        "number":"11",
+        "img":"/services/service/img11.jpg",
+        "title": "Outsourcing Warehousing Operations",
+        "description": "Outsourcing your warehouse and fulfilment needs can save you money on storage and distribution.",
+        "path": "#"
+      },
+      {
+        "key":"12",
+        "number":"12",
+        "img":"/services/service/img12.jpg",
+        "title": "Agriculture Commodities Warehousing",
+        "description": "Warehouzez specializes in the division of commodities. We provide a agricultural commodity value..",
+        "path": "#"
+      }    
+    ]
+  }

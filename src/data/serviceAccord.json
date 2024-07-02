@@ -1,0 +1,25 @@
+
+{
+    "serviceAccord" : [
+      {
+        "key":"01",
+        "title": "What are the four key activities in warehouse operations? ",
+        "description": "The four fundamental activities in warehouse operations include- Receiving, Put away, Storage, Packing and Shipping. You can streamline your warehouse operations, cut costs, and eliminate errors by optimizing these aforementioned procedures."
+      },
+      {
+        "key":"02",
+        "title": "What are the four functions of warehousing? ",
+        "description": "Stocking, managing, and regulating your work-in-progress inventory are all warehousing functions. It's critically important for your company's growth to develop a dependable warehouse method for your products. "
+      },
+      {
+        "key":"03",
+        "title": "What are warehouse needs? ",
+        "description": "The requirements of warehouses vary greatly, but if there is one fundamental element, it is that all warehouse operations must ensure that materials flow efficiently in, around, and out of the warehouse. To make the flow of goods easier, you'll need to invest in the right warehouse equipment and tools. These equipment include- Pallet racks, shelving, and specialty racks and many more. "
+      },
+      {
+        "key":"04",
+        "title": "What are the facilities in the warehouse?",
+        "description": "The major characteristics and facilities in the warehouses include- Access doors, an open area for mobility and verification, a storage area where the goods are stored, a management officer for supervising operations, and restrooms and changing facilities for workers. Nowadays, warehouses offer great facilities for storing, processing and distributing the goods."
+      }    
+    ]
+  }
