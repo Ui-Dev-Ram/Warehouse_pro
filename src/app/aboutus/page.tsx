@@ -19,7 +19,7 @@ const page = () => {
           <div className="m-5">
               <div className="flex">
                   <div className="flex flex-col lg:flex-1">
-                    <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-4xl font-semibold leading-[1.3] text-blue-gray-900 mb-4'>
+                      <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-4xl font-semibold leading-[1.3] text-blue-gray-900 mb-4'>
                         About Company
                       </h2>
                       <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>

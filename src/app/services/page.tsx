@@ -22,9 +22,9 @@ const page = () => {
                 <div className="flex">
                     <div className="flex flex-col lg:flex-1">
                       <div className="text-center">
-                        <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-4xl font-semibold leading-[1.3] text-blue-gray-900 mb-2'>
+                        <h1 className='block antialiased tracking-normal font-sans text-2xl lg:text-4xl font-semibold leading-[1.3] text-blue-gray-900 mb-2'>
                           Our Services
-                        </h2>
+                        </h1>
                         <p className='mt-0'>We Are Optimists Who Love To Work Together</p>  
                       </div>
 
