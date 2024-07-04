@@ -1,70 +1,19 @@
 'use client'
 
-import React, { useState, useEffect } from 'react'
-import Link from 'next/link'
+import React from 'react'
 import Image from 'next/image'
 import InnerHeroBanner from '@/components/innerHeroBanner/InnerHeroBanner'
-import { FaArrowRightLong } from "react-icons/fa6";
-import { navlinks } from '@/components/home/header/Menulist'
-import { IoMdGlobe } from "react-icons/io";
-import { FaShippingFast } from "react-icons/fa";
 import GetEnquiry from '@/components/services/GetEnquiry'
 import ServiceAccord from '@/components/services/ServiceAccord'
 import Blog from '@/components/home/blog/Blog'
 import NetworkofWarehouzez from '@/components/home/networkofWarehouzez/NetworkofWarehouzez'
+import OnlineSupportForm from '@/components/services/OnlineSupportForm'
+import AllService from '@/components/services/AllService';
+import CoverdHandled from '@/components/services/CoveredHandled'
 
-type CountUpAnimationItems = {
-    iconComponent: JSX.Element;
-    initialValue: number;
-    targetValue: number;
-    text: string;
-    subtext: string;
-}
-
-const CountUpAnimation: React.FC<CountUpAnimationItems> = ({
-    iconComponent,
-    initialValue,
-    targetValue,
-    text,
-    subtext,
-}) => {
-    const [count, setCount] = useState(initialValue);
-    const duration = 4000; // 4 seconds
- 
-    useEffect(() => {
-        let startValue = initialValue;
-        const interval = Math.floor(
-            duration / (targetValue - initialValue));
- 
-        const counter = setInterval(() => {
-            startValue += 1;
-            setCount(startValue);
-            if (startValue >= targetValue) {
-                clearInterval(counter);
-            }
-        }, interval);
- 
-        return () => {
-            clearInterval(counter);
-        };
-    }, [targetValue, initialValue]);
- 
-    return (
-        <div className="flex items-center justify-between container text-center">
-            <div className="text-8xl text-center">{iconComponent}</div>
-            <div className="flex flex-col leading-8">
-                <h2 className="text-2xl font-bold">{text}</h2>
-                <p className="text-5xl font-bold text-black">{count}+</p>
-                <p className="subtext">{subtext}</p>
-            </div> 
-        </div>
-    );
-};
- 
 
 const page = () => {
 
-    const [serviceCard, setServiceCard] = useState(navlinks[1].childrens);
   return (
     <div>
         <InnerHeroBanner />
@@ -118,31 +67,10 @@ const page = () => {
                         <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify mt-5'>
                             By providing tech-enabled logistics solutions, we ensure efficient management of the supply chain. We expertise in services like storage, distribution, transportation and order fulfillment. Our tech- leading solutions consolidate traditional logistics with the management of supply chain processes.
                         </p>
-                        <div className="wrapper flex gap-5 my-5">
-                            <div className="card bg-base-100 w-96 shadow-xl">
-                                <div className="card-body text-center">
-                                    <CountUpAnimation
-                                        iconComponent={<IoMdGlobe />}
-                                        initialValue={0}
-                                        targetValue={70}
-                                        text=" We Covered"
-                                        subtext=" Locations all over india"
-                                    />
-                                </div>
-                            </div>
+                        
+                        <CoverdHandled />
 
-                            <div className="card bg-base-100 w-96 shadow-xl">
-                                <div className="card-body">
-                                    <CountUpAnimation
-                                        iconComponent={<FaShippingFast />}
-                                        initialValue={0}
-                                        targetValue={260}
-                                        text=" We Handled"
-                                        subtext=" Customer base"
-                                    />
-                                </div>
-                            </div>
-                        </div>
+
                         
                         <h3 className="block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-10">Key offerings and features</h3>
                         <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
@@ -226,27 +154,8 @@ const page = () => {
                         </p>
                     </div> 
                     <div className='col-span-1'> 
-                        <div className="card bg-base-100 w-96 shadow-xl">
-                            <div className="card-body">
-                                <h2 className="card-title">All Service</h2>
-                                <hr />
-                                <div className="m-0"></div>
-                                {
-                                   serviceCard?.map((d, i)=> {
-                                    return(
-                                            <Link key={i} className='flex items-center justify-between mt-4 mb-1 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:text-red' href="#">
-                                                {d.title}
-                                                <span>
-                                                    <FaArrowRightLong />
-                                                </span>
-                                            </Link>
-                                        )
-                                   })
-                                }
-                               
-                                
-                            </div>
-                        </div>
+                        <AllService />
+                        <OnlineSupportForm />
                     </div>
                 </div>
                 <video className="h-60 w-full rounded-lg mt-8" controls>
@@ -255,7 +164,7 @@ const page = () => {
                 </video>
               
             </div>
-          </div>
+        </div>
 
           <GetEnquiry />
           <ServiceAccord />
@@ -266,4 +175,4 @@ const page = () => {
   )
 }
 
-export default page
+export default page;
