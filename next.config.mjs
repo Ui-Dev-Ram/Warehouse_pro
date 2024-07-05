@@ -1,3 +1,4 @@
+import { withNextVideo } from "next-video/process";
 // /** @type {import('next').NextConfig} */
 // const nextConfig = {};
 
@@ -10,5 +11,5 @@ const config = {
       domains: ['www.denofgeek.com', 'images.unsplash.com', "api.microlink.io" /* Add other domains here if needed */],
     },
   };
-  
-  export default config;
+
+export default withNextVideo(config);

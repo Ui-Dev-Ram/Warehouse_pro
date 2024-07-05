@@ -7,6 +7,7 @@ import GetEnquiry from '@/components/services/GetEnquiry'
 import OnlineSupportForm from '@/components/services/OnlineSupportForm'
 import ServiceAccord from '@/components/services/ServiceAccord'
 import ServiceTab from '@/components/services/ServiceTab'
+import VideoSection from '@/components/services/VideoSection'
 import Image from 'next/image'
 import React from 'react'
 
@@ -61,13 +62,13 @@ const page = () => {
                     <OnlineSupportForm />
                 </div>
             </div>
-            <p className="text-3xl text-center font-bold mt-12 [&::selection]:text-base-content relative col-start-1 row-start-1 bg-[linear-gradient(90deg,theme(colors.error)_0%,theme(colors.secondary)_9%,theme(colors.secondary)_42%,theme(colors.primary)_47%,theme(colors.accent)_100%)] bg-clip-text [-webkit-text-fill-color:transparent] [&::selection]:bg-blue-700/20 [@supports(color:oklch(0%_0_0))]:bg-[linear-gradient(90deg,oklch(var(--s))_4%,color-mix(in_oklch,oklch(var(--s)),oklch(var(--er)))_22%,oklch(var(--p))_45%,color-mix(in_oklch,oklch(var(--p)),oklch(var(--a)))_67%,oklch(var(--a))_100.2%)]">
+            <p className="text-3xl text-center font-bold my-12 [&::selection]:text-base-content relative col-start-1 row-start-1 bg-[linear-gradient(90deg,theme(colors.error)_0%,theme(colors.secondary)_9%,theme(colors.secondary)_42%,theme(colors.primary)_47%,theme(colors.accent)_100%)] bg-clip-text [-webkit-text-fill-color:transparent] [&::selection]:bg-blue-700/20 [@supports(color:oklch(0%_0_0))]:bg-[linear-gradient(90deg,oklch(var(--s))_4%,color-mix(in_oklch,oklch(var(--s)),oklch(var(--er)))_22%,oklch(var(--p))_45%,color-mix(in_oklch,oklch(var(--p)),oklch(var(--a)))_67%,oklch(var(--a))_100.2%)]">
                 Your Business Is Indeed Important To Us!
             </p>
            
         </div>
     </div>
-
+      <VideoSection />
       <GetEnquiry />
       <ServiceAccord />
       <Blog />
