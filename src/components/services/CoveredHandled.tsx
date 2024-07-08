@@ -57,7 +57,7 @@ const CountUpAnimation: React.FC<CountUpAnimationItems> = ({
 const CoverdHandled = () => {
   return (
     <div>
-        <div className="wrapper flex gap-5 my-5">
+        <div className="wrapper flex gap-5 flex-col lg:flex-row my-5">
             <div className="card bg-base-100 w-96 shadow-xl">
                 <div className="card-body text-center">
                     <CountUpAnimation

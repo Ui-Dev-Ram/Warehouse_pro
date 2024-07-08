@@ -42,7 +42,7 @@ const GetEnquiry = () => {
           </svg>
         </div>
         <div className='relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8'>
-          <div className='mx-auto max-w-md sm:text-center'>
+          <div className='mx-auto max-w-md text-center'>
             <h2 className='text-3xl font-medium tracking-tight text-white sm:text-4xl'>
               Want to <span className='text-3xl md:text-3xl font-bold bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.green.300),theme(colors.green.100),theme(colors.sky.400),theme(colors.yellow.200),theme(colors.sky.400),theme(colors.green.100),theme(colors.green.300))] bg-[length:200%_auto] animate-gradient'>know more?</span>
             </h2>

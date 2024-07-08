@@ -18,13 +18,13 @@ const page = () => {
     <div>
         <InnerHeroBanner />
         <div className="container m-auto">
-            <div className="m-5">
+            <div className="lg:m-5">
                 <div className='mb-5'>
                     <h1 className='block antialiased tracking-normal font-sans text-2xl lg:text-4xl font-semibold leading-[1.3] text-blue-gray-900 mb-2'>
                         Third Party Logistics
                     </h1>
                     </div>
-                <div className="grid grid-cols-3 gap-4">
+                <div className="grid grip-rows-3 lg:grid-cols-3 lg:gap-4">
                     <div className="col-span-2">
                         <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify mb-5'>
                             Warehouzez The Digital Supply Chain is indeed the best third party logistics firm in the industry. We offer multiple logistics services for a wide range of businesses. We totally understand that third party logistics play a crucial role in efficient functioning of any business. Our Warehousing and Logistics solutions are indeed the right choice for all the corporations looking out to administer their operations through live data access as per the market needs.
@@ -39,26 +39,26 @@ const page = () => {
                         <ul role="list" className="space-y-5">
                             <li className="flex space-x-3">
                                 <svg className="flex-shrink-0 w-5 h-5 text-rose-900 dark:text-rose-900" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                                <span className="text-md font-medium leading-tight text-gray-900 dark:text-white">
+                                <span className="text-sm lg:text-md font-medium leading-tight text-gray-900 dark:text-white">
                                  Procurement of Goods - <span className='font-normal'>Procurement is the process of ordering and receiving products from other parts of the supply chain.</span>
                                 </span>
                             </li>
                             <li className="flex space-x-3">
                                 <svg className="flex-shrink-0 w-5 h-5 text-rose-900 dark:text-rose-900" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                                <span className="text-md font-medium leading-tight text-gray-900 dark:text-white">
+                                <span className="text-sm lg:text-md font-medium leading-tight text-gray-900 dark:text-white">
                                     Receipt of Goods and Order Fulfillment - <span className='font-normal'>Receiving orders from consumers, picking and packing them, and shipping them are all examples of order fulfillment.</span>
                                 </span>
                                     
                             </li>
                             <li className="flex space-x-3">
                                 <svg className="flex-shrink-0 w-5 h-5 text-rose-900 dark:text-rose-900" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                                <span className="text-md font-medium leading-tight text-gray-900 dark:text-white">
+                                <span className="text-sm lg:text-md font-medium leading-tight text-gray-900 dark:text-white">
                                     Storage of Goods - <span className='font-normal'> Keeping items in warehouses and other comparable sites for a short period of time.</span>
                                 </span>
                             </li>
                             <li className="flex space-x-3">
                                 <svg className="flex-shrink-0 w-5 h-5 text-rose-900 dark:text-rose-900" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                                <span className="text-md font-medium leading-tight text-gray-900 dark:text-white">
+                                <span className="text-sm lg:text-md font-medium leading-tight text-gray-900 dark:text-white">
                                     Transportation -  <span className='font-normal'>Administration, compilation and movement of products are all aspects of transportation.</span>
                                 </span> 
                             </li>
@@ -70,78 +70,76 @@ const page = () => {
                         
                         <CoverdHandled />
 
-
-                        
                         <h3 className="block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-10">Key offerings and features</h3>
                         <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
                             Here's a list of our key features and offerings under third party Logistics Service -
                         </p>
 
-                        <div className="flex mb-5">
-                            <div className="flex-1">
-                            <ul role="list" className="space-y-5">
-                                <li className="flex space-x-3">
-                                    <svg className="flex-shrink-0 w-5 h-5 text-rose-900 dark:text-rose-900" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                                    <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
-                                    Inventory Management
-                                    </span>
-                                </li>
-                                <li className="flex space-x-3">
-                                    <svg className="flex-shrink-0 w-5 h-5 text-rose-900 dark:text-rose-900" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                                    <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
-                                    Planning, arranging and managing the transportation needs.
-
-                                    </span>
-                                </li>
-                                <li className="flex space-x-3">
-                                    <svg className="flex-shrink-0 w-5 h-5 text-rose-900 dark:text-rose-900" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                                    <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
-                                    Ensuring optimized routes.
-                                    </span>
-                                </li>
-                                <li className="flex space-x-3">
-                                    <svg className="flex-shrink-0 w-5 h-5 text-rose-900 dark:text-rose-900" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                                    <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
-                                    Providing ultra-tech solutions.
-                                    </span>
-                                </li>
-                                <li className="flex space-x-3">
-                                    <svg className="flex-shrink-0 w-5 h-5 text-rose-900 dark:text-rose-900" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                                    <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
-                                    Delivery Management and ensuring timely delivery.
-                                    </span>
-                                </li>
-                            </ul>
-                            </div>
+                        <div className="flex flex-col lg:flex-row mb-5">
                             <div className="flex-1">
                                 <ul role="list" className="space-y-5">
                                     <li className="flex space-x-3">
                                         <svg className="flex-shrink-0 w-5 h-5 text-rose-900 dark:text-rose-900" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                                        <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
+                                        <span className="text-sm lg:text-base font-medium leading-tight text-gray-900 dark:text-white">
+                                        Inventory Management
+                                        </span>
+                                    </li>
+                                    <li className="flex space-x-3">
+                                        <svg className="flex-shrink-0 w-5 h-5 text-rose-900 dark:text-rose-900" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                        <span className="text-sm lg:text-base font-medium leading-tight text-gray-900 dark:text-white">
+                                        Planning, arranging and managing the transportation needs.
+
+                                        </span>
+                                    </li>
+                                    <li className="flex space-x-3">
+                                        <svg className="flex-shrink-0 w-5 h-5 text-rose-900 dark:text-rose-900" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                        <span className="text-sm lg:text-base font-medium leading-tight text-gray-900 dark:text-white">
+                                        Ensuring optimized routes.
+                                        </span>
+                                    </li>
+                                    <li className="flex space-x-3">
+                                        <svg className="flex-shrink-0 w-5 h-5 text-rose-900 dark:text-rose-900" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                        <span className="text-sm lg:text-base font-medium leading-tight text-gray-900 dark:text-white">
+                                        Providing ultra-tech solutions.
+                                        </span>
+                                    </li>
+                                    <li className="flex space-x-3">
+                                        <svg className="flex-shrink-0 w-5 h-5 text-rose-900 dark:text-rose-900" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                        <span className="text-sm lg:text-base font-medium leading-tight text-gray-900 dark:text-white">
+                                        Delivery Management and ensuring timely delivery.
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className="flex-1">
+                                <ul role="list" className="space-y-5 mt-6 lg:mt-0">
+                                    <li className="flex space-x-3">
+                                        <svg className="flex-shrink-0 w-5 h-5 text-rose-900 dark:text-rose-900" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                        <span className="text-sm lg:text-base font-medium leading-tight text-gray-900 dark:text-white">
                                          Live updates regarding the shipment.
                                         </span>
                                     </li>
                                     <li className="flex space-x-3">
                                         <svg className="flex-shrink-0 w-5 h-5 text-rose-900 dark:text-rose-900" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                                        <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
+                                        <span className="text-sm lg:text-base font-medium leading-tight text-gray-900 dark:text-white">
                                             Warehousing Services.
                                         </span>
                                     </li>
                                     <li className="flex space-x-3">
                                         <svg className="flex-shrink-0 w-5 h-5 text-rose-900 dark:text-rose-900" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                                        <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
+                                        <span className="text-sm lg:text-base font-medium leading-tight text-gray-900 dark:text-white">
                                         Warehouse Management.
                                         </span>
                                     </li>
                                     <li className="flex space-x-3">
                                         <svg className="flex-shrink-0 w-5 h-5 text-rose-900 dark:text-rose-900" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                                        <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
+                                        <span className="text-sm lg:text-base font-medium leading-tight text-gray-900 dark:text-white">
                                            Order Fulfilment.
                                         </span>
                                     </li>
                                     <li className="flex space-x-3">
                                         <svg className="flex-shrink-0 w-5 h-5 text-rose-900 dark:text-rose-900" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                                        <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
+                                        <span className="text-sm lg:text-base font-medium leading-tight text-gray-900 dark:text-white">
                                             Supply Chain Management.
                                         </span>
                                     </li>

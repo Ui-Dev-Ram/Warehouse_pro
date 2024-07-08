@@ -9,15 +9,15 @@ export default function TabsDemo() {
       title: "Temperature Controlled Warehouses",
       value: "Temperature Controlled Warehouses",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl px-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-gray-700 to-gray-900 flex justify-center items-center">
+        <div className="w-full overflow-hidden relative h-[300px] lg:h-full rounded-2xl px-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-gray-700 to-gray-900 flex justify-center items-center">
           <div className="grid grid-cols-3 gap-4 items-center">
-             <div className="col-span-2">
-                <p className="text-2xl mb-5 font-normal">Temperature Controlled Warehouses</p>
+             <div className="col-span-3 lg:col-span-2">
+                <p className="text-md lg:text-2xl mb-5 font-normal">Temperature Controlled Warehouses</p>
                 <p className="block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-justify">
                     Warehouzez the Digital Supply Chain provide special solutions for freight that require temperature controlled warehousing. Depending upon the business needs and temperature specifications, we provide the right infrastructure to our clients. We ensure to meet all the requirements of inventory management and dispatches.
                 </p>
              </div>
-             <div className="col-span-1">
+             <div className="col-span-1 hidden lg:block">
                 <Temperature />
              </div>
           </div>
@@ -28,15 +28,15 @@ export default function TabsDemo() {
       title: "Shared Warehouse Spaces",
       value: "Shared Warehouse Spaces",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl px-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-gray-700 to-gray-900 flex justify-center items-center">
+        <div className="w-full overflow-hidden relative h-[300px] lg:h-full rounded-2xl px-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-gray-700 to-gray-900 flex justify-center items-center">
           <div className="grid grid-cols-3 gap-4 items-center">
-            <div className="col-span-2">
-                <p className="text-2xl mb-5 font-normal">Shared Warehouse Spaces</p>
+            <div className="col-span-3 lg:col-span-2">
+                <p className="text-md lg:text-2xl mb-5 font-normal">Shared Warehouse Spaces</p>
                 <p className="block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-justify">
                     Warehouzez the Digital Supply Chain offers shared warehouse spaces in a variety of locations across the country. All our services are reliable and cost - effective. We also offer other value- added services like real time inventory visibility and distribution of items.
                 </p>
             </div>
-            <div className="col-span-1">
+            <div className="col-span-1 hidden lg:block">
                 <Shared />
             </div>
           </div>
@@ -47,10 +47,10 @@ export default function TabsDemo() {
       title: "Dedicated Warehouse Spaces",
       value: "Dedicated Warehouse Spaces",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl px-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-gray-700 to-gray-900 flex justify-center items-center">
+        <div className="w-full overflow-hidden relative h-[300px] lg:h-full rounded-2xl px-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-gray-700 to-gray-900 flex justify-center items-center">
           <div className="grid grid-cols-3 gap-4 items-center">
-            <div className="col-span-2">
-            <p className="text-2xl mb-5 font-normal">Dedicated Warehouse Spaces</p>
+            <div className="col-span-3 lg:col-span-2">
+            <p className="text-md lg:text-2xl mb-5 font-normal">Dedicated Warehouse Spaces</p>
             <p className="block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-justify">
                 Warehouzez the Digital Supply Chain provides warehousing solutions that are customized to the needs of each customer. Our team of experts provide digital and simple- to- manage solutions. We strive to expand our technological reach.Our other services include -
             </p>
@@ -60,13 +60,13 @@ export default function TabsDemo() {
                         <ul role="list" className="space-y-2">
                             <li className="flex space-x-3">
                                 <svg className="flex-shrink-0 w-5 h-5 text-rose-400 dark:text-rose-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                                <span className="text-base font-medium leading-tight dark:text-white">
+                                <span className="text-sm lg:text-base font-medium leading-tight dark:text-white">
                                   Inventory Management
                                 </span>
                             </li>
                             <li className="flex space-x-3">
                                 <svg className="flex-shrink-0 w-5 h-5 text-rose-400 dark:text-rose-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                                <span className="text-base font-medium leading-tight dark:text-white">
+                                <span className="text-sm lg:text-base font-medium leading-tight dark:text-white">
                                   Planning, arranging and managing the transportation needs.
                                 </span>
                             </li>
@@ -74,7 +74,7 @@ export default function TabsDemo() {
                     </div>
                 </div>
             </div>
-            <div className="col-span-1">
+            <div className="col-span-1 hidden lg:block">
               <Dedicated />
             </div>
           </div>

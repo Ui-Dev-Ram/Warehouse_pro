@@ -16,13 +16,13 @@ const page = () => {
     <div>
         <InnerHeroBanner />
         <div className="container m-auto">
-            <div className="m-5">
+            <div className="lg:m-5">
                 <div className='mb-5'>
                     <h1 className='block antialiased tracking-normal font-sans text-2xl lg:text-4xl font-semibold leading-[1.3] text-blue-gray-900 mb-2'>
                      Contract Logistics
                     </h1>
                 </div>
-                <div className="grid grip-rows-3 lg:grid-cols-3 gap-4">
+                <div className="grid grip-rows-3 lg:grid-cols-3 lg:gap-4">
                     <div className="col-span-2">
                         <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
                             Warehouzez the Digital Supply Chain comprehends and concentrates on all the elements of a particular project. We strive to provide unique solutions in order to fill the gap between actual requirements and the offered services. Warehouzez offers multiple logistics services for a wide range of businesses. 3PL plays a significant role in functioning of any business.
@@ -31,7 +31,7 @@ const page = () => {
                             Our Contract Logistics is indeed the right choice for all the firms looking out for managing their operations through live data access as per the market needs. We provide Warehousing Solutions for end to end activities involving sorting, tagging, labelling, packing, strapping and other related services.
                         </p>
                         
-                        <Image alt="" src="/services/contractLogistics.jpg" width={750} height={750} />
+                        <Image alt="" src="/services/contractLogistics.jpg" width={750} height={750} className='w-100' />
                         
                         <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify mt-5'>
                             Our high-tech solutions integrate traditional logistics with the management of supply chain processes; it is here where the 4PL (Fourth Party Logistics) comes into the picture. In 4PL, a fourth stakeholder is responsible for creating and managing the value chain. We assist companies in complying with the regulations of legislation. We indeed offer the best storing and shipping services to our customers. In addition to that, we also provide live shipment tracking service.

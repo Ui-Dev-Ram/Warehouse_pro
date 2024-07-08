@@ -23,7 +23,7 @@ const NetworkofWarehouzez = () => {
                 return(
                 <LinkPreview key={index}
                   url= {`${network.link}`}
-                  className="font-normal bg-clip-text mb-4 text-transparent text-black hover:text-red">
+                  className="font-normal lg:border-r-2  w-[90px] lg:w-[120px] text-center pr-3 bg-clip-text mb-4 text-transparent text-black hover:text-red">
                   {network.title}
                 </LinkPreview>
               )

@@ -46,7 +46,7 @@ const AccordTab = (item:Iitem) => {
                         collapsed:{opacity: 0, height: 0}
                     }}
                     transition={{duration: 0.5, ease:[0.04, 0.62, 0.23, 0.98]}}
-                    >
+                   >
                         <div className='mt-0'>
                            <p className='text-base font-light text-left px-4 pb-4'>
                             {item.subtitle}

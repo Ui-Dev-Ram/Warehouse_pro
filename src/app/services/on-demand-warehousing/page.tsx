@@ -16,15 +16,15 @@ const page = () => {
     <div>
     <InnerHeroBanner />
     <div className="container m-auto">
-        <div className="m-5">
+        <div className="lg:m-5">
             <div className='mb-5'>
                 <h1 className='block antialiased tracking-normal font-sans text-2xl lg:text-4xl font-semibold leading-[1.3] text-blue-gray-900 mb-2'>
                     On-Demand Warehousing
                 </h1>
             </div>
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid grip-rows-3 lg:grid-cols-3 lg:gap-4">
                 <div className="col-span-2">
-                    <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify mb-5'>
+                    <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
                         We are an accredited On-Demand Warehouse Services Provider. We provide storage services for any period of time and for any size as per the requirements of the firm. It is the primary duty of our experts to ensure that our customers receive excellent services. Additionally, all our warehouses are technologically advanced. Several consumers look for on demand warehousing companies for rent. However, most of them find Warehouzez the Digital Supply Chain to be the most cost-effective and competent option.
                     </p>
                     
@@ -44,7 +44,7 @@ const page = () => {
                         <ServiceTab />
                     </div>
                    
-                    <div className="relative mt-32">
+                    <div className="relative mt-64 lg:mt-32">
                         <h2 className='block antialiased tracking-normal font-sans text-xl lg:text-2xl font-semibold leading-[1.3] text-blue-gray-900 mt-8 mb-2'>
                             Services For Warehouse Management And Storage
                         </h2> 
