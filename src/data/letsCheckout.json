@@ -3,35 +3,35 @@
     "warehouseListed" : [
       {
         "key":"01",
-        "img": "/OurIndustryImg/port1.jpg",
+        "img": "/OurIndustryImg/port1.png",
         "title": "Automotive and Spare Parts",
         "descrip": "An efficient warehouse layout is utmost important for aviation and automotive giants.",
         "link": "#"
       },
       {
         "key":"02",
-        "img": "/OurIndustryImg/port2.jpg",
+        "img": "/OurIndustryImg/port2.png",
         "title": "Fashion and Lifestyle",
         "descrip": "There is no denying the fact that a well- established warehouse storage.",
         "link": "#"
       },
       {
         "key":"03",
-        "img": "/OurIndustryImg/port3.jpg",
+        "img": "/OurIndustryImg/port3.png",
         "title": "Perfumes and Cosmetics",
         "descrip": "It is clearly true that effective warehousing is absolutely.",
         "link": "#"
       },
       {
         "key":"04",
-        "img": "/OurIndustryImg/port4.jpg",
+        "img": "/OurIndustryImg/port4.png",
         "title": "Packed Food Products",
         "descrip": "There is no denying the fact that the supply chain. ",
         "link": "#"
       },
       {
         "key":"05",
-        "img": "/OurIndustryImg/port5.jpg",
+        "img": "/OurIndustryImg/port5.png",
         "title": "Pharmaceuticals and Medical",
         "descrip": "It is true that a well- maintained warehouse storage is absolutely essential. ",
         "link": "#"

@@ -1,0 +1,102 @@
+
+{
+    "industrycards" : [
+      {
+        "key":"01",
+        "img": "/industries/img1.JPEG",
+        "title": "Automotive and Spare Parts",
+        "description": "An efficient warehouse layout is utmost important for aviation and automotive giants."
+      },
+      {
+        "key":"02",
+        "img": "/industries/img2.JPEG",
+        "title": "Fashion and Lifestyle",
+        "description": "There is no denying the fact that a well- established warehouse storage."
+      },
+      {
+        "key":"03",
+        "img": "/industries/img3.JPEG",
+        "title": "Perfumes and Cosmetics",
+        "description": "It is clearly true that effective warehousing is absolutely necessary for the Cosmetic Industry."
+      },
+      {
+        "key":"04",
+        "img": "/industries/img4.JPEG",
+        "title": "Packed Food Products",
+        "description": "There is no denying the fact that the supply chain of a business can either make it or break it."
+      },
+      {
+        "key":"05",
+        "img": "/industries/img5.JPEG",
+        "title": "Pharmaceuticals and Medical",
+        "description": "It is true that a well- maintained warehouse storage is absolutely essential for pharma."
+      },
+      {
+        "key":"06",
+        "img": "/industries/img6.JPEG",
+        "title": "Wind, Solar and Telecom",
+        "description": "For telecom and solar infrastructure firms, we provide consolidated logistics services."
+      },
+      {
+        "key":"07",
+        "img": "/industries/img7.JPEG",
+        "title": "Exhibition and Entertainment",
+        "description": "The gaming and other entertainment industries are witnessing tremendous growth."
+      },
+      {
+        "key":"08",
+        "img": "/industries/img8.JPEG",
+        "title": "Fitness and Sporting",
+        "description": "Warehouzez provides fantastic logistics and warehousing services along with accurate."
+      },
+      {
+        "key":"09",
+        "img": "/industries/img9.JPEG",
+        "title": "Battery(EV) and PowerGrid",
+        "description": "Proper storage of energy is indeed important for the future of the power grid."
+      },
+      {
+        "key":"10",
+        "img": "/industries/img10.JPEG",
+        "title": "Semiconductors and Inverters",
+        "description": "Even though this industry has been extremely volatile but in the last few years."
+      },
+      {
+        "key":"11",
+        "img": "/industries/img11.JPEG",
+        "title": "Publication and Office Records",
+        "description": "The Records and Publishing industry is one of the most competivte and fastest-growing."
+      },
+      {
+        "key":"12",
+        "img": "/industries/img12.JPEG",
+        "title": "Computer and Electrical",
+        "description": "The Engineering industry is one of the fastest growing industries in the world."
+      },
+      {
+        "key":"13",
+        "img": "/industries/img13.JPEG",
+        "title": "Ecommerce and FMCG",
+        "description": "There is no denying the fact that a well- maintained warehouse storage is absolutely."
+      },
+      {
+        "key":"14",
+        "img": "/industries/img14.JPEG",
+        "title": "Oil and Chemical",
+        "description": "The Chemical Industry is one of the booming industries in the country."
+      },
+      {
+        "key":"15",
+        "img": "/industries/img15.JPEG",
+        "title": "Minerals and Mining",
+        "description": "It is clearly true that the mining and minerals industry is growing at an exponential rate."
+      },
+      {
+        "key":"16",
+        "img": "/industries/img16.JPEG",
+        "title": "Consumer Goods",
+        "description": "Warehouzez has decades of industry wide experience of handling unique."
+      }
+      
+    ]
+  }
