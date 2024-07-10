@@ -26,28 +26,28 @@
         "key":"04",
         "img": "/OurIndustryImg/port4.png",
         "title": "Packed Food Products",
-        "descrip": "There is no denying the fact that the supply chain. ",
+        "descrip": "There is no denying the fact that the supply chain.",
         "link": "#"
       },
       {
         "key":"05",
         "img": "/OurIndustryImg/port5.png",
         "title": "Pharmaceuticals and Medical",
-        "descrip": "It is true that a well- maintained warehouse storage is absolutely essential. ",
+        "descrip": "It is true that a well- maintained warehouse storage is absolutely essential.",
         "link": "#"
       },
       {
         "key":"06",
-        "img": "/OurIndustryImg/port6.jpg",
+        "img": "/OurIndustryImg/port6.png",
         "title": "Wind, Solar and Telecom",
         "descrip": "For telecom and solar infrastructure firms, we provide consolidated.",
         "link": "#"
       },
       {
         "key":"07",
-        "img": "/OurIndustryImg/port7.jpg",
+        "img": "/OurIndustryImg/port7.png",
         "title": "Exhibition and Entertainment",
-        "descrip": "The gaming and other entertainment industries are witnessing. ",
+        "descrip": "The gaming and other entertainment industries are witnessing.",
         "link": "#"
       }     
     ]

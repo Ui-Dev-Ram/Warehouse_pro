@@ -1,0 +1,45 @@
+
+{
+    "industriesAccord" : [
+      {
+        "key":"01",
+        "title": "What are the Factors to Consider When Choosing Warehouse Locations?",
+        "description": "There are several factors one must consider while choosing a warehouse location. Some of these factors include - Choose locations where carrier and transportation services are close by. - Place your warehouses close to your customer base. - Availability of a reliable workforce. - Storage requirements are met for a long time."
+      },
+      {
+        "key":"02",
+        "title": "What are the six basic principles of warehouse management? ",
+        "description": "The six main pillars of warehouse management include- Accuracy, Cost minimization, Efficiency and Reliability, Cleanliness and Hygiene practices, Safety and Security. These six key principles should be considered for effective warehouse management."
+      },
+      {
+        "key":"03",
+        "title": "What are the steps in warehouse management? ",
+        "description": "In order to optimize your supply chain operations, Warehouse Management is indeed important. Enlisted below are some crucial steps involved in Warehouse Management - Inventory Tracking and Inventory Management. - Picking and Packaging are two key processes followed in a warehouse or distribution center. - Receiving and Storing. - Faster delivery and shipping. - Reporting."
+      },
+      {
+        "key":"04",
+        "title": "What is the warehouse receiving process? ",
+        "description": "Warehouse Receiving is one of the first and primary steps of E-Commerce Fulfillment processes. Broadly, it incorporates the process of delivery, unloading and storage of E-Commerce inventory in a distribution center or warehouse. The process of warehouse receiving helps in running other warehouse operations effectively."
+      },
+      {
+        "key":"05",
+        "title": "Why is safety important in a warehouse? ",
+        "description": "It is utterly important to ensure safety in the warehouse. All the necessary precautions should be taken to ensure safety of the workers and stock in the warehouse. Storage units should take an active role in creating a healthy working environment. Employees' health and life can be safeguarded by following all the safety precautions and standards."
+      },
+      {
+        "key":"06",
+        "title": "How do we manage a warehouse? ",
+        "description": "It is not that easy to manage a warehouse effectively and it requires a considerable amount of time, effort and persistence. Nonetheless, by following some tips, one can easily manage a warehouse efficiently. - Make a plan for the warehouse's layout. - Maintain proper order in the warehouse. - Use Bin Labeling and Bin Locations... - Ensure your safety. - Properly train your employees. - Inventory that is not being sold should be reduced. - Make use of a good and ultra-modern warehouse management system."
+      },
+      {
+        "key":"07",
+        "title": "How do you select an efficient warehouse system? ",
+        "description": "A warehouse management system (WMS) aids in more efficient monitoring of a company's daily activities Calculate the ROI (Return on Investment). - Make a decision about the WMS based on its potential benefits. - Request for all the necessary information. - Analyze and comprehend your current systems. - Study about Vendor's In House Capability."
+      },
+      {
+        "key":"08",
+        "title": "Why do we need a WMS? ",
+        "description": "Using a WMS helps to improve Inventory Management to reduce inventory levels, improve order fulfillment, and shorten order cycle times. Inventory management becomes a lot simpler, quicker, and more efficient. WMS also automates the process of organizing and tracking shipments. Time and money can be saved by streamlining corporate operations."
+      }
+    ]
+  }
