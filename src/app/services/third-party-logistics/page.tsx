@@ -23,14 +23,14 @@ const page = () => {
                     <h1 className='block antialiased tracking-normal font-sans text-2xl lg:text-4xl font-semibold leading-[1.3] text-blue-gray-900 mb-2'>
                         Third Party Logistics
                     </h1>
-                    </div>
+                </div>
                 <div className="grid grip-rows-3 lg:grid-cols-3 lg:gap-4">
                     <div className="col-span-2">
                         <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify mb-5'>
                             Warehouzez The Digital Supply Chain is indeed the best third party logistics firm in the industry. We offer multiple logistics services for a wide range of businesses. We totally understand that third party logistics play a crucial role in efficient functioning of any business. Our Warehousing and Logistics solutions are indeed the right choice for all the corporations looking out to administer their operations through live data access as per the market needs.
                         </p>
                         
-                          <Image alt="" src="/third-party-logistics/third-party-logistics.jpg" width={750} height={750} />
+                          <Image alt="" src="/third-party-logistics/third-party-logistics.png" width={750} height={750} />
                         
                         <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify mt-5'>
                             Being one of the top- notch third party logistics service providers, we offer multiple 3PL logistics services like warehouse management, inventory management, shipping and order fulfillment. Additionally, we have our well- established warehouses in over 70 locations across the country. All our experts at Warehouzez specialize in various aspects of the supply chain management and we offer a wide range of logistics services. Most logistics services fit under one of the following categories:
