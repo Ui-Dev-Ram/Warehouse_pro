@@ -1,4 +1,5 @@
 "use client";
+
 import React, { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "@/components/ui/navbar-menu";
 import { IoIosArrowDown } from "react-icons/io";
@@ -20,138 +21,136 @@ export const navlinks :NavItem[] = [
         childrens: [
             {
                 title: "Business Strategy",
-                path: "#business-strategy", 
+                path: "/our-strategy", 
             },
             {
                 title: "Why Warehouzez",
-                path: "#why-warehouzez"
+                path: "/why-warehouzez"
             },
-
-
         ]
     },
     {
         title : "Services",
-        path : "#services",
+        path : "/services",
         childrens: [
             {
                 title: "Third Party Logistics",
-                path: "#third-party-logistics"
+                path: "/third-party-logistics"
             },
             {
                 title: "On-demand Warehousing",
-                path: "#on-demand-warehousing"
+                path: "/on-demand-warehousing"
             },
             {
                 title: "Contract Logistics",
-                path: "#contract-logistics"
+                path: "/contract-logistics"
             },
             {
                 title: "Warehousing & Distribution",
-                path: "#warehousing-distribution"
+                path: "/warehousing-and-distribution"
             },
             {
                 title: "Ecommerce Fulfillment",
-                path: "#ecommerce-fulfillment"
+                path: "/ecommerce-fulfillment"
             },
             {
                 title: "Reverse Logistics",
-                path: "#reverse-logistics"
+                path: "/reverse-logistics"
             },
             {
                 title: "Int. Freight Forwarding",
-                path: "#int-freight-forwarding"
+                path: "/international-freight-forwarding"
             },
             {
                 title: "Global SCM Technology",
-                path: "#global-SCM-technology"
+                path: "/global-scm-technology"
             },
             {
                 title: "Carrying & Forwarding Agency",
-                path: "#carrying-forwarding-agency"
+                path: "/carrying-and-forwarding-agency"
             },
             {
                 title: "Digital Supply Chain Consultancy",
-                path: "#gigital-supply-chain-consultancy"
+                path: "/digital-supply-chain-consultancy"
             },
             {
                 title: "Outsourcing Warehousing Operations",
-                path: "#outsourcing-warehousing-operations"
+                path: "/outsourcing-warehousing-operations"
             },
             {
                 title: "Agri. Commodities Warehousing",
-                path: "#agri-commodities-warehousing"
+                path: "/agri-commodities-warehousing"
             },
             
         ]
     },
     {
         title : "Industries",
-        path : "#industries",
+        path : "/industries",
         childrens: [
             {
                 title: "Automotive and Spare Parts",
-                path: "#automotive-and-spare-parts"
+                path: "/automotive-and-spare-parts"
             },
             {
                 title: "Fashion and Lifestyle",
-                path: "#fashion-and-lifestyle"
+                path: "/fashion-and-lifestyle"
             },
             {
                 title: "Perfumes and Cosmetics",
-                path: "#perfumes-and-cosmetics"
+                path: "/perfumes-and-cosmetics"
             },
             {
                 title: "Packed Food Products",
-                path: "#packed-food-products"
+                path: "/packed-food-products"
             },
             {
                 title: "Pharmaceuticals and Medical",
-                path: "#pharmaceuticals-and-medical"
+                path: "/pharmaceutical-and-medical"
             },
             {
                 title: "Wind, Solar and Telecom",
-                path: "#wind-solar-and-telecom"
+                path: "/wind-solar-and-telecom"
             },
             {
                 title: "Exhibition and Entertainment",
-                path: "#exhibition-and-entertainment"
+                path: "/exhibition-and-entertainment"
             },
             {
                 title: "Fitness and Sporting",
-                path: "#fitness-and-sporting"
+                path: "/fitness-and-sporting"
             },
             {
                 title: "Battery(EV) and PowerGrid",
-                path: "#battery(EV)-and-powerGrid"
+                path: "/battery-and-powergrid"
             },
             {
                 title: "Semiconductors and Inverters",
-                path: "#semiconductors-and-inverters"
+                path: "/semiconductors-and-inverters"
             },
             {
                 title: "Publication and Office Records",
-                path: "#publication-and-office-records"
+                path: "/publication-and-office-records"
             },
             {
                 title: "Computer and Electrical",
-                path: "#computer-and-electrical"
+                path: "/computer-and-electrical"
             },
             {
                 title: "Ecommerce and FMCG",
-                path: "#ecommerce-and-FMCG"
+                path: "/ecommerce-and-fmcg"
             },
             {
                 title: "Oil and Chemical",
-                path: "#oil-and-chemical"
+                path: "/oil-and-chemical"
             },
             {
                 title: "Minerals and Mining",
-                path: "#minerals-and-mining"
+                path: "/minerals-and-mining"
             },
             {
                 title: "Consumer Goods",
-                path: "#consumer-goods"
+                path: "/consumer-goods"
             },
 
 
