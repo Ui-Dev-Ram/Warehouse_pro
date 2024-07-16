@@ -1,6 +1,6 @@
-import React from 'react'
-import Image from 'next/image'
-import WarehouzezLogo from '/public/logo.png';
+import React from 'react';
+import Image from 'next/image';
+import WarehouzezLogo from '/puiblic/logo.png';
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { IoMdMail, IoMdPhonePortrait } from "react-icons/io";
 import Link from 'next/link';
@@ -14,7 +14,9 @@ const Footer = () => {
         <div className="container">
             <footer className="footer p-10 text-neutral-content">
                 <aside className='m-auto lg:m-[0]'>
-                    <Image src={WarehouzezLogo} alt="Warehouzez Logo" />
+                    <Link href={"/"}>
+                        <Image src='/logo.png'  width={177} height={44} alt="Warehouzez Logo" />
+                    </Link>
                     <p>One stop destination for all your <br /> warehousing and logistics solutions. <br />Revolutionize your business with us!</p>
                 </aside> 
                 <nav>
@@ -51,7 +53,7 @@ const Footer = () => {
                     <div className="flex items-start link link-hover">
                         <FaMapMarkerAlt className="m-1" />
                         <span>
-                            Survey No- 92/7 Koralur,
+                            Survey No - 92/7 Koralur,
                             <br />Hoskote TQ, Kasaba - Hobli ,
                             <br />Koralur Village, Bangalore-560067
                         </span>
@@ -62,7 +64,7 @@ const Footer = () => {
                     </div>
                     <div className="flex items-start link link-hover">
                         <IoMdPhonePortrait className="m-1" />
-                        <span>+91 9999615962</span>
+                        <span>+91-9999615962</span>
                     </div> 
                     <p className='flex gap-x-3 my-2'>
                         <Link href="#"><FaFacebookF /></Link>

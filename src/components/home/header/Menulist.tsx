@@ -17,7 +17,6 @@ type NavItem = {
 export const navlinks :NavItem[] = [
     {
         title : "About",
-        path : "/aboutus",
         childrens: [
             {
                 title: "Business Strategy",
@@ -31,7 +30,6 @@ export const navlinks :NavItem[] = [
     },
     {
         title : "Services",
-        path : "/services",
         childrens: [
             {
                 title: "Third Party Logistics",
@@ -86,7 +84,6 @@ export const navlinks :NavItem[] = [
     },
     {
         title : "Industries",
-        path : "/industries",
         childrens: [
             {
                 title: "Automotive and Spare Parts",
@@ -158,67 +155,66 @@ export const navlinks :NavItem[] = [
     },
     {
         title : "Network",
-        path : "#network",
         childrens: [
             {
                 title: "Bangalore",
-                path: "#Bangalore"
+                path: "/warehouse-in-bangalore"
             },
             {
                 title: "Hyderabad",
-                path: "#Hyderabad"
+                path: "/warehouse-in-hyderabad"
             },
             {
                 title: "Chennai",
-                path: "#Chennai"
+                path: "/warehouse-in-chennai"
             },
             {
                 title: "Bhiwandi",
-                path: "#Bhiwandi"
+                path: "/warehouse-in-bhiwandi"
             },
             {
                 title: "Mumbai",
-                path: "#Mumbai"
+                path: "/warehouse-in-mumbai"
             },
             {
                 title: "Pune",
-                path: "#Pune"
+                path: "/warehouse-in-pune"
             },
             {
                 title: "Ahmedabad",
-                path: "#Ahmedabad"
+                path: "/warehouse-in-ahmedabad"
             },
             {
                 title: "Kolkata",
-                path: "#Kolkata"
+                path: "/warehouse-in-kolkata"
             },
             {
                 title: "Jaipur",
-                path: "#Jaipur"
+                path: "/warehouse-in-jaipur"
             },
             {
                 title: "Delhi",
-                path: "#Delhi"
+                path: "/warehouse-in-delhi"
             },
             {
                 title: "Noida",
-                path: "#Noida"
+                path: "/warehouse-in-noida"
             },
             {
                 title: "Lucknow",
-                path: "#Lucknow"
+                path: "/warehouse-in-lucknow"
             },
             {
                 title: "Gurgaon",
-                path: "#Gurgaon"
+                path: "/warehouse-in-gurgaon"
             },
             {
                 title: "Manesar",
-                path: "#Manesar"
+                path: "/warehouse-in-manesar"
             },
             {
                 title: "Faridabad",
-                path: "#Faridabad"
+                path: "/warehouse-in-faridabad"
             },
             
 
@@ -227,24 +223,23 @@ export const navlinks :NavItem[] = [
     },
     {
         title : "Blog",
-        path : "#blog",
+        path : "/blog",
        
     },
     {
         title : "Resources",
-        path : "#resources",
         childrens: [
             {
                 title: "Press Release",
-                path: "#press-release"
+                path: "/press-release"
             },
             {
                 title: "Career",
-                path: "#career"
+                path: "/career"
             },
             {
                 title: "Contact Us",
-                path: "#contact-us"
+                path: "/contactus"
             },
             {
                 title: "Login",
@@ -264,8 +259,6 @@ export const navlinks :NavItem[] = [
     },
 
 ]
-
-
 
 
 export default function MenuList() {

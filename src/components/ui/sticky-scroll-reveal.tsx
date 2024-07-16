@@ -3,7 +3,6 @@ import React, { useEffect, useRef, useState } from "react";
 import { useMotionValueEvent, useScroll } from "framer-motion";
 import { motion } from "framer-motion";
 import { cn } from "@/utils/cn";
-import Link from "next/link";
 
 export const StickyScroll = ({
   content,
@@ -84,7 +83,7 @@ export const StickyScroll = ({
               >
                 {item.title}
               </motion.h2>
-              <motion.p
+              <motion.div
                 initial={{
                   opacity: 0,
                 }}
@@ -100,7 +99,7 @@ export const StickyScroll = ({
                   </button>
                 </div>
                 
-              </motion.p>
+              </motion.div>
             </div>
           ))}
           <div className="h-40" />

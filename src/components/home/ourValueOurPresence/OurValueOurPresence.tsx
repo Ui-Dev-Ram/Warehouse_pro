@@ -49,7 +49,7 @@ const OurValueOurPresence = () => {
                             
                         </div>
                         <div className='col-span-12 lg:col-span-7 m-auto'>
-                            <Image src={ImageMap} width={800} height={837} alt=""></Image>
+                            <Image src='/our-presence-india.png' width={800} height={837} alt=""></Image>
                         </div>
                     </div>
             </div>         

@@ -24,10 +24,12 @@ const Header = () => {
 
   return ( 
     <div className="header_wrap">
-        <div className="container flex items-center justify-around">
+        <div className="container max-w-screen-xl flex items-center justify-around">
             <div className="logohead_wrap">
                 <div className="headerLogo_section p-3 w-[140px] lg:w-[240px] lg:p-5">
-                    <Image src={WarehouzezLogo} alt="Warehouzez Logo" className='w-[115px] lg:w-full' />
+                    <Link href={"/"}>
+                        <Image src='/logo.png'  width={177} height={44} alt="Warehouzez Logo" className='w-[115px] lg:w-full' />
+                    </Link>
                 </div>
             </div>
             <div className="headerMenu_section hidden lg:block">

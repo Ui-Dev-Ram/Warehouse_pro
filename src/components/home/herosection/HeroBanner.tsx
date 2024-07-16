@@ -1,7 +1,7 @@
 'use client'
 
 import Image from "next/image";
-import HeroBannerImg from "/public/slider-bg.jpg"
+// import HeroBannerImg from "/public/slider-bg.jpg"
 import Typewriter from 'typewriter-effect';
 import SearchBar from "../search-engine/SearchBar";
 
@@ -29,7 +29,7 @@ export default function HeroBanner() {
          </div>
          
          <div className="flex flex-col mb-2 lg:mb-8 relative">
-           <Image src={HeroBannerImg} alt="" className="bg-cover bg-center bg-no-repeat" />
+           <Image src='/slider-bg.jpg' width={2300} height={450} alt="" className="bg-cover bg-center bg-no-repeat" />
            <div className="absolute top-0 right-0 left-0 bottom-0 bg-neutral-900 bg-opacity-30"></div>
          </div>
          
