@@ -31,7 +31,7 @@ const WarehouseListed = () => {
   }; 
   
   return (  
-    <div className='w-full h-full mt-10'>
+    <div className='w-full h-full'>
         <Carousel className='w-full h-full pb-16' responsive={responsive}>
         
         {

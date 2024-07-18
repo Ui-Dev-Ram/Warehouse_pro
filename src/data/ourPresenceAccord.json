@@ -1,0 +1,25 @@
+
+{
+    "ourPresenceAccord" : [
+      {
+        "key":"01",
+        "title": "What is logistics in a warehouse?",
+        "description": "Warehouse logistics is referred to as the movement of commodities and information within warehouses and fulfillment centers. It incorporates processes like Receiving, Storage, Order-picking, Collection, Sorting, and Shipment."
+      },
+      {
+        "key":"02",
+        "title": "What are the major 3PL solutions ?",
+        "description": "Warehouzez is the one stop destination for all the 3PL services from supply chain management and inventory management to faster delivery. We deliver it all - 3PL warehouse services - CFA services - Distribution - Transportation - Delivery Management"
+      },
+      {
+        "key":"03",
+        "title": "What is the difference between logistics and transportation?",
+        "description": "Logistics is the science of planning, organizing, and executing procedures for storing and transporting commodities and services. Transportation is an integral part of logistics that deals with transferring products and services from one place to another. "
+      },
+      {
+        "key":"04",
+        "title": "Why is logistics important to companies?",
+        "description": "Logistics is critically important for any organization. Logistics is a key aspect of supply chain management, where supervisors or teams are responsible for planning, implementing, and controlling the efficient and effective flow as well as storage of commodities from their original destination to the end destination."
+      }
+    ]
+  }

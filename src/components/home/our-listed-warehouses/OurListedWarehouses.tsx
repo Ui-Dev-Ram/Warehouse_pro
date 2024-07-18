@@ -7,7 +7,7 @@ const OurListedWarehouses = () => {
         <h2 className='text-black text-base sm:text-3xl font-bold'>Our Listed Warehouses</h2>
         <span className='text-black text-base sm:text-1xl mt-2'>Check the <span className='text-red'>Live</span> Space Availability</span>
         {/*** warehouse listed ***/}
-        <div className="container m-auto">
+        <div className="container m-auto mt-10">
           <WarehouseListed />
         </div>
     </div>

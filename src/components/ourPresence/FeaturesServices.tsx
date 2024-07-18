@@ -1,96 +1,272 @@
-'use client'
-import React, { useState } from 'react';
 
-const FeaturesServices: React.FC = () => {
+import { FaCircleCheck } from "react-icons/fa6";
+import { FaComputer } from "react-icons/fa6";
+import { MdOutlineSecurity } from "react-icons/md";
+import { FaGears } from "react-icons/fa6";
+import { TbTools } from "react-icons/tb";
 
-    const [activeTab, setActiveTab] = useState<string>('app');
+const FeaturesServices = () => {
 
-    const handleTabClick = (tabId: string) => {
-        setActiveTab(tabId);
-      };
   return (
     <div>
-<div className="w-2/3">
-      <div className="relative right-0">
-        <ul
-          className="relative flex flex-wrap p-1 list-none rounded-xl bg-blue-gray-50/60"
-          data-tabs="tabs"
-          role="list"
-        >
-          <li className="z-30 flex-auto text-center">
-            <a
-              className={`z-30 flex items-center justify-center w-full px-0 py-1 mb-0 transition-all ease-in-out border-0 rounded-lg cursor-pointer text-slate-700 bg-inherit ${
-                activeTab === 'app' ? 'text-blue-700' : 'text-slate-700'
-              }`}
-              onClick={() => handleTabClick('app')}
-              role="tab"
-              aria-selected={activeTab === 'app' ? 'true' : 'false'}
-              aria-controls="app"
-            >
-              <span className="ml-1">App</span>
-            </a>
-          </li>
-          <li className="z-30 flex-auto text-center">
-            <a
-              className={`z-30 flex items-center justify-center w-full px-0 py-1 mb-0 transition-all ease-in-out border-0 rounded-lg cursor-pointer text-slate-700 bg-inherit ${
-                activeTab === 'message' ? 'text-blue-700' : 'text-slate-700'
-              }`}
-              onClick={() => handleTabClick('message')}
-              role="tab"
-              aria-selected={activeTab === 'message' ? 'true' : 'false'}
-              aria-controls="message"
-            >
-              <span className="ml-1">Messages</span>
-            </a>
-          </li>
-          <li className="z-30 flex-auto text-center">
-            <a
-              className={`z-30 flex items-center justify-center w-full px-0 py-1 mb-0 transition-all ease-in-out border-0 rounded-lg cursor-pointer text-slate-700 bg-inherit ${
-                activeTab === 'settings' ? 'text-blue-700' : 'text-slate-700'
-              }`}
-              onClick={() => handleTabClick('settings')}
-              role="tab"
-              aria-selected={activeTab === 'settings' ? 'true' : 'false'}
-              aria-controls="settings"
-            >
-              <span className="ml-1">Settings</span>
-            </a>
-          </li>
-        </ul>
-        <div className="p-5">
-          <div
-            className={`block ${activeTab === 'app' ? 'opacity-100' : 'opacity-0'}`}
-            id="app"
-            role="tabpanel"
-          >
-            <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit text-blue-gray-500">
-              Because it's about motivating the doers. Because I'm here to follow
-              my dreams and inspire other people to follow their dreams, too.
-            </p>
-          </div>
-          <div
-            className={`block ${activeTab === 'message' ? 'opacity-100' : 'opacity-0'}`}
-            id="message"
-            role="tabpanel"
-          >
-            <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit text-blue-gray-500">
-              The reading of all good books is like a conversation with the finest
-              minds of past centuries.
-            </p>
-          </div>
-          <div
-            className={`block ${activeTab === 'settings' ? 'opacity-100' : 'opacity-0'}`}
-            id="settings"
-            role="tabpanel"
-          >
-            <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit text-blue-gray-500">
-              Comparing yourself to others is the thief of joy.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>  
+        <h2 className="block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-10 text-center">
+          Features and Services
+        </h2>
 
+        <div className="relative max-w-screen-xl mx-auto grid grid-cols-12 gap-x-6">
+           <div className="col-span-12 lg:col-span-3 space-y-6">
+              <div className="overflow-x-auto shadow-xl rounded-xl p-8">
+                  <h3 className="flex items-center gap-x-2 justify-center antialiased tracking-normal font-sans text-xl font-semibold leading-[1.3] text-blue-gray-900 my-3 text-center">
+                    <FaComputer /> IT Infrastructure
+                  </h3>
+                  <table className="table table-sm">
+                    <tbody>
+                      <tr>
+                      <td>
+                        <span className='material-design-icon check-circle-icon text-red flex justify-end'>
+                          <FaCircleCheck />
+                        </span>
+                        </td>
+                        <td>WMS Software</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <span className='material-design-icon check-circle-icon text-red flex justify-end'>
+                            <FaCircleCheck />
+                          </span>
+                        </td>
+                        <td className="text-left">Telephone/Landline</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <span className='material-design-icon check-circle-icon text-red flex justify-end'>
+                            <FaCircleCheck />
+                          </span>
+                        </td>
+                        <td className="text-left">(Wi-Fi) interface</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <span className='material-design-icon check-circle-icon text-red flex justify-end'>
+                            <FaCircleCheck />
+                          </span>
+                        </td>
+                        <td className="text-left">Computer & Printer</td>
+                      </tr>
+
+                      <tr>
+                        <td>
+                          <span className='material-design-icon check-circle-icon text-red flex justify-end'>
+                            <FaCircleCheck />
+                          </span>
+                        </td>
+                        <td className="text-left">Scanner</td>
+                      </tr>
+
+                      <tr>
+                        <td>
+                          <span className='material-design-icon check-circle-icon text-red flex justify-end'>
+                            <FaCircleCheck />
+                          </span>
+                        </td>
+                        <td className="text-left">Network Security</td>
+                      </tr>
+                    </tbody>
+                  </table>
+              </div>
+           </div>
+
+           <div className="col-span-12 lg:col-span-3 space-y-6">
+              <div className="overflow-x-auto shadow-xl rounded-xl p-8">
+                  <h3 className="flex items-center gap-x-2 justify-center antialiased tracking-normal font-sans text-xl font-semibold leading-[1.3] text-blue-gray-900 my-3 text-center">
+                  <MdOutlineSecurity /> Safety & Security
+                  </h3>
+                  <table className="table table-sm">
+                    <tbody>
+                    <tr>
+                      <td>
+                        <span className='material-design-icon check-circle-icon text-red flex justify-end'>
+                          <FaCircleCheck />
+                        </span>
+                        </td>
+                        <td>CCTV Surveillance</td>
+                      </tr>
+                      <tr>
+                      <td>
+                        <span className='material-design-icon check-circle-icon text-red flex justify-end'>
+                          <FaCircleCheck />
+                        </span>
+                        </td>
+                        <td>24X7 Security</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <span className='material-design-icon check-circle-icon text-red flex justify-end'>
+                            <FaCircleCheck />
+                          </span>
+                        </td>
+                        <td className="text-left">24X7 Access</td>
+                      </tr>
+
+                      <tr>
+                        <td>
+                          <span className='material-design-icon check-circle-icon text-red flex justify-end'>
+                            <FaCircleCheck />
+                          </span>
+                        </td>
+                        <td className="text-left">Fire Extinguishers</td>
+                      </tr>
+
+                      <tr>
+                        <td>
+                          <span className='material-design-icon check-circle-icon text-red flex justify-end'>
+                            <FaCircleCheck />
+                          </span>
+                        </td>
+                        <td className="text-left">Fire Hydrant</td>
+                      </tr>
+
+                      <tr>
+                        <td>
+                          <span className='material-design-icon check-circle-icon text-red flex justify-end'>
+                            <FaCircleCheck />
+                          </span>
+                        </td>
+                        <td className="text-left">Smoke Detector</td>
+                      </tr>
+                    </tbody>
+                  </table>
+              </div>
+           </div>
+
+           <div className="col-span-12 lg:col-span-3 space-y-6">
+              <div className="overflow-x-auto shadow-xl rounded-xl p-8">
+                  <h3 className="flex items-center gap-x-2 justify-center antialiased tracking-normal font-sans text-xl font-semibold leading-[1.3] text-blue-gray-900 my-3 text-center">
+                  <FaGears /> Services
+                  </h3>
+                  <table className="table table-sm">
+                    <tbody>
+                    <tr>
+                      <td>
+                        <span className='material-design-icon check-circle-icon text-red flex justify-end'>
+                          <FaCircleCheck />
+                        </span>
+                        </td>
+                        <td>Pallet Storage</td>
+                      </tr>
+                      <tr>
+                      <td>
+                        <span className='material-design-icon check-circle-icon text-red flex justify-end'>
+                          <FaCircleCheck />
+                        </span>
+                        </td>
+                        <td>Carton Pick</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <span className='material-design-icon check-circle-icon text-red flex justify-end'>
+                            <FaCircleCheck />
+                          </span>
+                        </td>
+                        <td className="text-left">Order Fulfillment</td>
+                      </tr>
+
+                      <tr>
+                        <td>
+                          <span className='material-design-icon check-circle-icon text-red flex justify-end'>
+                            <FaCircleCheck />
+                          </span>
+                        </td>
+                        <td className="text-left">Distribution</td>
+                      </tr>
+
+                      <tr>
+                        <td>
+                          <span className='material-design-icon check-circle-icon text-red flex justify-end'>
+                            <FaCircleCheck />
+                          </span>
+                        </td>
+                        <td className="text-left">Labeling</td>
+                      </tr>
+
+                      <tr>
+                        <td>
+                          <span className='material-design-icon check-circle-icon text-red flex justify-end'>
+                            <FaCircleCheck />
+                          </span>
+                        </td>
+                        <td className="text-left">Quality Checks</td>
+                      </tr>
+                    </tbody>
+                  </table>
+              </div>
+           </div>
+
+           <div className="col-span-12 lg:col-span-3 space-y-6">
+              <div className="overflow-x-auto shadow-xl rounded-xl p-8">
+                  <h3 className="flex items-center gap-x-2 justify-center antialiased tracking-normal font-sans text-xl font-semibold leading-[1.3] text-blue-gray-900 my-3 text-center">
+                    <TbTools /> Equipment
+                  </h3>
+                  <table className="table table-sm">
+                    <tbody>
+                      <tr>
+                      <td>
+                        <span className='material-design-icon check-circle-icon text-red flex justify-end'>
+                          <FaCircleCheck />
+                        </span>
+                        </td>
+                        <td>Pallet Racks</td> 
+                      </tr>
+                      <tr>
+                        <td>
+                          <span className='material-design-icon check-circle-icon text-red flex justify-end'>
+                            <FaCircleCheck />
+                          </span>
+                        </td>
+                        <td className="text-left">Industrial Shelving</td>
+                      </tr>
+
+                      <tr>
+                        <td>
+                          <span className='material-design-icon check-circle-icon text-red flex justify-end'>
+                            <FaCircleCheck />
+                          </span>
+                        </td>
+                        <td className="text-left">Forklifts</td>
+                      </tr>
+
+                      <tr>
+                        <td>
+                          <span className='material-design-icon check-circle-icon text-red flex justify-end'>
+                            <FaCircleCheck />
+                          </span>
+                        </td>
+                        <td className="text-left">Pallet Jacks</td>
+                      </tr>
+
+                      <tr>
+                        <td>
+                          <span className='material-design-icon check-circle-icon text-red flex justify-end'>
+                            <FaCircleCheck />
+                          </span>
+                        </td>
+                        <td className="text-left">Dock Plates</td>
+                      </tr>
+
+                      <tr>
+                        <td>
+                          <span className='material-design-icon check-circle-icon text-red flex justify-end'>
+                            <FaCircleCheck />
+                          </span>
+                        </td>
+                        <td className="text-left">Industrial Scales</td>
+                      </tr>
+                    </tbody>
+                  </table>
+              </div>
+           </div>
+        </div>
+       
     </div>
   )
 }

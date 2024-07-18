@@ -8,6 +8,12 @@ import { FaComputer } from "react-icons/fa6";
 import { FaRegStar } from "react-icons/fa";
 import { FaCircleCheck } from "react-icons/fa6";
 import FeaturesServices from '@/components/ourPresence/FeaturesServices';
+import OurKeyFeaturesOfferings from '@/components/ourPresence/OurKeyFeaturesOfferings';
+import WarehouseListed from '@/components/home/our-listed-warehouses/WarehouseListed';
+import OurPresenceFreq from '@/components/ourPresence/OurPresenceFreq';
+import Blog from '@/components/home/blog/Blog';
+import GetEnquiry from '@/components/services/GetEnquiry';
+import NetworkofWarehouzez from '@/components/home/networkofWarehouzez/NetworkofWarehouzez';
 
 
 const page = () => {
@@ -158,7 +164,6 @@ const page = () => {
                 </div>
             </div>           
       </section>
-
 
       <div className="container max-w-screen-xl mx-auto mt-20">
         <div className="lg:m-5">
@@ -470,11 +475,21 @@ const page = () => {
           </p>
 
           <FeaturesServices />
-          
-          
+          <OurKeyFeaturesOfferings />
+
+          <div className='my-6'>
+             <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-10 mt-10 my-6 text-center'>
+                Choose Your City For Warehouse Service
+              </h2>
+             <WarehouseListed />
+          </div>
+         
+          <OurPresenceFreq />          
         </div>
       </div>
-      
+      <GetEnquiry />
+      <Blog />
+      <NetworkofWarehouzez />
     </div>
   )
 }

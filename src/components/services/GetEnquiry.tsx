@@ -8,7 +8,6 @@ const GetEnquiry = () => {
           id='get-free-shares-today'
           className='relative  bg-gray-900 bg-opacity-80 '
         > <div className="container m-auto relative py-20 sm:py-8">
-          <Image alt="" src="/services/Aiimg.png" width={350} height={350} className="hidden lg:block absolute right-10 bottom-0"></Image>
               <div className='absolute left-20 top-1/2 -translate-y-1/2 sm:left-1/2 sm:-translate-x-1/2 hidden lg:block'>
                 <svg
                   viewBox='0 0 558 558'
