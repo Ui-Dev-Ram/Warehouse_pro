@@ -18,7 +18,7 @@ import OurVideo from '@/components/ourPresence/OurVideo'
 
 
 {/** warehouse location link paste here **/}
-const WarehouseLocation = "https://goo.gl/maps/Ky6jLT6Ef8ZncG6F8";
+const WarehouseLocation = "https://goo.gl/maps/fj2StB9r5asSaNf98";
 
 const page = () => {
   return (
@@ -31,19 +31,19 @@ const page = () => {
                       <span className="w-10 h-0.5 bg-red"></span>
 
                       <p className="font-medium text-red text-xl">
-                        Warehouse-in-Chennai
+                        Warehouse-in-Mumbai
                       </p>
                   </div>
 
                   <h1 className="font-bold text-gray-800 text-4xl md:text-6xl xl:text-7xl mb-10">
                       Warehouse in  <br />
-                      <span className='text-red'>Chennai</span>
+                      <span className='text-red'>Mumbai</span>
                   </h1>
 
                   <p className=" block antialiased font-sans lg:text-base leading-relaxed text-gray-700 text-justify font-normal text-sm md:text-md xl:text-lg mb-10">
-                      Warehouzez: Premium Quality Logistics and Warehouse Services<br /> for Every Business!
-                      Chennai, the capital of the Indian state of Tamil Nadu,<br /> is the country's largest industrial,
-                      manufacturing, and commercial hub. 
+                   Warehouzez : The Best 3pl Partner For Your Business <br /> Get your hands on The Best Warehousing and Logistics Services in Mumbai! <br />
+                   The rise of the digital age has certainly transformed the growth practices of businesses.
+
                   </p>
 
                   <div className="space-y-5 lg:space-x-5 mb-10">
@@ -54,36 +54,29 @@ const page = () => {
               </div>
 
               <div className="flex mx-auto lg:mx-0 align-middle">
-                  <Image src="/our-presence/chennai.png" className='f-3/4 m-auto' width={500} height={500} alt="Image" />
+                  <Image src="/our-presence/Mumbai.png" className='f-3/4 m-auto' width={500} height={500} alt="Image" />
               </div>
           </div>
           <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-            It certainly holds the top spot for having a thriving industrial base and infrastructure, along with a rapidly growing economy. The economic growth of this city is significantly related to its seaport and transportation facilities, which are regarded as one of the greatest in the country. Additionally, the city is home to a slew of industrial sectors like automotive and spare parts, wind, solar, and telecom, among others. It is a highly developed city that is constantly expanding, resulting in a growing need for warehouse in Chennai.
+            In recent times, businesses are required to operate beyond their physical spaces. With the advent of digitalization, businesses are expected to operate 24/7. Sellers can easily fulfill the demands of their customers via online platforms. In all likelihood, E- Commerce and FMCG have revolutionized the businesses forever! With the rise in digitalization, urbanization and online shopping, the demand for warehouse in Mumbai is increasing significantly, especially in the Metropolitan cities like Mumbai and Delhi. Therefore, it becomes all the more important to make a wise choice and go for the best warehouse services in Mumbai.
+          </p>
+
+          <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
+            The right warehousing company can help in effective management of supply chain and handling of raw materials. By availing the services of a renowned logistics' provider, you can enhance the productivity of your business and reduce the overall costs. You can also opt for shared warehouse space in Mumbai. Storing goods is absolutely necessary for traditional as well as online retailers. The idea of warehousing logistics is becoming immensely popular, especially in Metro cities like Mumbai. The use of a reputable and professional warehouse and it can help increase production while lowering overall costs. As a result, considerable study is required to locate the best warehouse in Mumbai for your company's expansion. The following are some of the most important factors to consider -
           </p>
 
           <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-10'>
-            Excellent Warehousing Services
+            More Number Of Warehouses
           </h2>
 
           <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-            The demand for warehouse services in Chennai is set to skyrocket, thanks to strong expansion in the manufacturing and e-commerce industries. Businesses from all verticals searching for a should straight away get in touch with Warehouzez. Undeniably, Warehouzez is the premier warehousing and logistics company in India. We seek to modernize the supply chain and foster an on-demand warehousing culture in India. Almost all of our warehouses in India are strategically located, and have best-in-class infrastructure. We employ the latest technologies, software, and systems to deliver state-of-the-art warehousing services. We ensure inventory accuracy, safety, and transparency at all levels of our operations. We offer end-to-end storage, distribution, inventory management, and 3PL logistics services to our businesses from different industries. We also provide cold-storage and temperature-controlled warehousing for perishable products. We intend to optimize inventory movement and successfully handle all aspects of the supply chain. With Warehouzez as your 3PL partner, you can surely rest assured of all your logistical as well as supply chain concerns!
-          </p>
-          
-          <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-10'>
-            Why Choose Warehouzez as Your Most Trusted 3PL Partner in Chennai?
-          </h2>
-
-          <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-            Warehouzez holds the top spot in the list of logistics companies in India. We can completely optimize your supply chain, and deliver comprehensive storage, distribution, e-commerce fulfillment, and other related services.
+            Before making a choice, try to choose the warehousing company that offers a large number of warehouses in different geographic locations. To get the best warehousing services, choose the well- known warehouse service providers in Mumbai. We have our well- established warehouses in over 70 locations throughout the country.
           </p>
 
-          <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-            Warehouzez is the leading provider of third-party logistics and warehouse services in Chennai. We extend a comprehensive range of service offerings that are specifically designed to meet the unique needs of our clients. We have a team of experienced professionals who are dedicated to providing the highest level of service possible. What sets us apart from other providers of logistics and warehousing services is our commitment to customer satisfaction. Our service offerings are cost-effective and affordable. We go above and beyond to make sure that our clients are happy with the services we provide. We are always available to answer any questions or concerns you may have.
-          </p>
 
         </div>     
       </div> 
-      
+
       <section className="bg-white py-10 md:py-10 xl:relative">
             <div className="container max-w-screen-xl mx-auto px-4">
                 <div className="flex flex-col xl:flex-row justify-end">
@@ -98,11 +91,11 @@ const page = () => {
                     
                     <div className="flex-1">
                         <h2 className="font-semibold text-gray-900 text-xl md:text-4xl text-center leading-normal mb-6">
-                            Warehouse and Inventory <br /> Management Solutions
+                            Cost-effective Warehouse <br /> Services in Mumbai
                         </h2>
 
                         <p className="block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify">
-                            Our warehouse in Chennai can provide you with best-in-class storage facilities where you can safely store your inventories. We also provide on-demand warehousing services. This is incredibly cost-effective because it eliminates the need for extra expansion and reduces storage costs. Warehouzez, a 3PL service provider, offers tech-enabled warehouse spaces that are managed by experts.
+                            Well, the first point to consider is the cost. Always choose warehouses with relatively lower storage charges. At Warehouzez, we offer warehouse services in Mumbai at affordable prices. We remain committed to our goal of providing our customers with the premium quality.
                         </p>
 
                         <div className="grid grid-cols-1 md:grid-cols-3 mb-16">
@@ -111,7 +104,7 @@ const page = () => {
                                   <PiWarehouse className="feather feather-award text-info text-2xl" />
                                 </div>
                                 <h3 className="font-semibold text-gray-900 text-xl md:text-2xl mb-4 text-center">
-                                    95K Sqft
+                                    100K Sqft
                                 </h3>
                                 <p className="font-light text-gray-400 text-md md:text-lg text-center">
                                   Total Space
@@ -123,7 +116,7 @@ const page = () => {
                                   <TbBuildingWarehouse className="feather feather-award text-red text-2xl" />
                                 </div>
                                 <h3 className="font-semibold text-gray-900 text-xl md:text-2xl mb-4 text-center">
-                                    27K Sqft
+                                    25K Sqft
                                 </h3>
                                 <p className="font-light text-gray-400 text-md md:text-lg text-center">
                                   Space Available
@@ -180,204 +173,257 @@ const page = () => {
                         </div>
                     </div>
                 </div>
-
-                <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify mt-8'>
-                    As a result, you not only have access to warehousing services, but also to expert assistance. Additionally, we also provide inventory management solutions, that is, efficiently managing the stored product inventory. We employ our in-house warehouse management software, which enables us to effectively handle inventory and keep a track of it through a centralized system. This is helpful for forecasting sales and avoiding product shortages. You can always meet your customers' needs if you have good inventory management.
-                </p>
             </div>           
       </section>
 
       <div className="container max-w-screen-xl mx-auto">
         <div className="lg:m-5">
+
+        <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2'>
+            Additional Facilities
+        </h2>
+
+        <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify mt-4'>
+            Another point of consideration is to select the warehouse service provider that offers value added facilities. <br />
+            All the above mentioned criteria are fulfilled by Warehouzez. We are one of the best warehousing companies in Mumbai. We Provide warehouse in Mumbai and offer supreme inventory warehouse storage services to promote business management. In addition, we make use of the latest technology like GPS, CCTV, WMPS, Bar Code Scanners and so on. We also provide 3PL Warehousing and Distribution services.
+        </p>
+
+        <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify mt-4'> 
+            We make use of the best strategies for efficient inventory management like
+        </p>
+        
+        <ul className='flex items-center flex-wrap gap-y-5 mt-4 mb-6'>
+            <li className='w-full lg:w-1/3'>
+                <div className='flex items-center space-x-2'>
+                <span className='material-design-icon check-circle-icon text-red'>
+                    <FaCircleCheck />
+                </span>
+                <span>
+                    Tracking the movement of stocks.
+                </span>
+                </div>
+            </li>
+
+            <li className='w-full lg:w-1/3'>
+                <div className='flex items-center space-x-2'>
+                <span className='material-design-icon check-circle-icon text-red'>
+                    <FaCircleCheck />
+                </span>
+                <span>
+                    Management of Inventory.
+                </span>
+                </div>
+            </li>
+
+            <li className='w-full lg:w-1/3'>
+                <div className='flex items-center space-x-2'>
+                <span className='material-design-icon check-circle-icon text-red'>
+                    <FaCircleCheck />
+                </span>
+                <span>
+                    Noting clear descriptions about the inventory.
+                </span>
+                </div>
+            </li>
+
+            <li className='w-full lg:w-1/3'>
+                <div className='flex items-center space-x-2'>
+                <span className='material-design-icon check-circle-icon text-red'>
+                    <FaCircleCheck />
+                </span>
+                <span>
+                    Keeping a record of products that are out of stock.
+                </span>
+                </div>
+            </li>
+
+            <li className='w-full lg:w-1/3'>
+                <div className='flex items-center space-x-2'>
+                <span className='material-design-icon check-circle-icon text-red'>
+                    <FaCircleCheck />
+                </span>
+                <span>
+                    Promoting smooth operations.
+                </span>
+                </div>
+            </li>
+        </ul>
+
+        <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify mt-4'>
+            We have a well- established network of warehouses in the whole country. Our ever- growing network of warehouses includes more than 70 cities in the country.
+        </p>
+
+        
           <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2'>
-          Here is a List Of Some of Our Key Features and Offerings
+            Why Choose Us?
           </h2>
 
+          <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify mt-4'>
+            Take a look at some of the benefits of using our services
+          </p>
+
           <ul className='flex items-center flex-wrap gap-y-5 mt-4'>
-              <li className='w-full'>
+              <li className='w-full lg:w-1/3'>
                 <div className='flex items-center space-x-2'>
                   <span className='material-design-icon check-circle-icon text-red'>
                     <FaCircleCheck />
                   </span>
                   <span>
-                    Cost- effective and strategically located Warehouses in Chennai and other major cities
+                    Complete satisfaction of customers.
                   </span>
                 </div>
               </li>
 
-              <li className='w-full'>
+              <li className='w-full lg:w-1/3'>
                 <div className='flex items-center space-x-2'>
                   <span className='material-design-icon check-circle-icon text-red'>
                     <FaCircleCheck />
                   </span>
                   <span>
-                    CCTV surveillance and fire safety features are available 24 hours a day, 7 days a week.
+                    We assist clients in finding the ideal warehouses for their needs.
                   </span>
                 </div>
               </li>
 
-              <li className='w-full'>
+              <li className='w-full lg:w-1/3'>
                 <div className='flex items-center space-x-2'>
                   <span className='material-design-icon check-circle-icon text-red'>
                     <FaCircleCheck />
                   </span>
                   <span>
-                    Software tools, advanced and ultra-modern technology, solid infrastructure, and the finest material handling equipments are all available.
+                    All our rental plans are cost effective.
                   </span>
                 </div>
               </li>
 
-              <li className='w-full'>
+              <li className='w-full lg:w-1/3'>
                 <div className='flex items-center space-x-2'>
                   <span className='material-design-icon check-circle-icon text-red'>
                     <FaCircleCheck />
                   </span>
                   <span>
-                    Efficient transportation and distribution facilities.
+                    We employ cutting-edge technology to deliver tech-driven logistics solutions.
                   </span>
                 </div>
               </li>
 
-              <li className='w-full'>
+              <li className='w-full lg:w-1/3'>
                 <div className='flex items-center space-x-2'>
                   <span className='material-design-icon check-circle-icon text-red'>
                     <FaCircleCheck />
                   </span>
                   <span>
-                    Real-time tracking updates.
+                    We help businesses in extending their core businesses.
                   </span>
                 </div>
               </li>
 
-              <li className='w-full'>
+              <li className='w-full lg:w-1/3'>
                 <div className='flex items-center space-x-2'>
                   <span className='material-design-icon check-circle-icon text-red'>
                     <FaCircleCheck />
                   </span>
                   <span>
-                    Real-time tracking updates.
+                     We believe in digitizing the supply chain operations completely.
                   </span>
                 </div>
               </li>
 
-              <li className='w-full'>
+              <li className='w-full lg:w-1/3'>
                 <div className='flex items-center space-x-2'>
                   <span className='material-design-icon check-circle-icon text-red'>
                     <FaCircleCheck />
                   </span>
                   <span>
-                    Efficient Supply Chain Management.
+                    To provide comprehensive solutions, we collaborate closely with our in-house teams.
                   </span>
                 </div>
               </li>
           </ul>
 
-          <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-10'>
-            Ultra-Modern Technologies and Innovative Solutions
-          </h2>
-
           <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-            Using best practises, implementing strong and automated tools, upgrading software, and making technical advancements is always our topmost duty. In today's competitive business scenario, it is tough to stay afloat without the right technology partner. Warehouzez's efficient Warehouse Management System (WMS) can be a game changer for your business. Our in-house WMS provides significant benefits, not just operationally, but also gives you a competitive advantage. Some potential benefits of our technological solutions and WMS include- increased accuracy of inventory, increased data visibility for better decision making, and demand forecasting. With this system, you can track your inventory in real-time, meaning you will never have to worry about losing track of your products again.
+            Our experts implement all the market strategies to promote the overall growth of your business. We have years of experience in Warehouse services and supply chain.
           </p>
 
-          <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-10'>
-            Cost-Effective Solutions
-          </h2>
+          <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
+            Warehouzez's Warehouse in Bhiwandi is an ultra- modern warehouse in the city known for its extraordinary and unmatched infrastructure. The Bhiwandi warehouse is equipped with all of the newest electronic features and latest technology.
+          </p>
 
           <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-            Partnering with a 3PL service provider like Warehouzez can be extremely beneficial and cost-efficient for your business. We can handle all of the major operations like warehousing, inventory management, picking, packing, and shipping. This allows you to reduce your in-house expenses while also improving your bottom line.
+            So if you are looking for a warehouse in Mumbai? Then you have landed at the right place. Our warehouse has the best-in- class infrastructure. It is well- equipped with the latest technology and gadgets. Approach us today if you are looking for an on warehousing services in Mumbai . We will offer the best solutions related to capital management and supply chain. Warehouzez is an all inclusive organization where experts will offer you the finest warehousing and logistics services in mumbai.
           </p>
 
           <FeaturesServices />
           <div className="relative max-w-screen-xl mx-auto grid grid-cols-12 gap-x-6">
             <div className="col-span-12 lg:col-span-6 space-y-6">
             <h2 className="block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-14">
-                Value-Added Services
+                What makes Warehouzez the best choice for warehousing services in Mumbai
             </h2>
+
+            <div className='flex space-x-2 items-baseline'>
+                <span className='material-design-icon check-circle-icon text-red'>
+                    <FaCircleCheck className='relative top-1' />
+                </span>
+                <span>
+                    Risk Management and Security Assurance
+                </span>
+            </div>
             <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-                Apart from core logistics and warehouse services, we also provide a wide range of value-added services, like:
+                Warehouzez the Digital supply chain gives utmost importance to the safety and security measures. All our warehouses are fully equipped with security systems. Our warehouses are well resourced with CCTVs to keep a track on all activities.
             </p>
 
-                <ul className='flex flex-col mt-4 gap-y-4'>
-                    <li className='w-full'>
-                        <div className='flex space-x-2 items-baseline'>
-                        <span className='material-design-icon check-circle-icon text-red'>
-                            <FaCircleCheck className='relative top-1' />
-                        </span>
-                        <span>
-                            Processing Delivery Orders
-                        </span>
-                        </div>
-                    </li>
-
-                    <li className='w-full'>
-                        <div className='flex space-x-2 items-baseline'>
-                        <span className='material-design-icon check-circle-icon text-red'>
-                            <FaCircleCheck className='relative top-1'  />
-                        </span>
-                        <span>
-                            Barcoding and Serialization
-                        </span>
-                        </div>
-                    </li>
-
-                    <li className='w-full'>
-                        <div className='flex space-x-2 items-baseline'>
-                        <span className='material-design-icon check-circle-icon text-red'>
-                            <FaCircleCheck className='relative top-1'  />
-                        </span>
-                        <span>
-                            Labelling and MRP Printing
-                        </span>
-                        </div>
-                    </li>
-
-                    <li className='w-full'>
-                        <div className='flex space-x-2 items-baseline'>
-                        <span className='material-design-icon check-circle-icon text-red'>
-                            <FaCircleCheck className='relative top-1'  />
-                        </span>
-                        <span>
-                            Kitting, Assembly, and Product Customization
-                        </span>
-                        </div>
-                    </li>
-
-                    <li className='w-full'>
-                        <div className='flex space-x-2 items-baseline'>
-                        <span className='material-design-icon check-circle-icon text-red'>
-                            <FaCircleCheck className='relative top-1'/>
-                        </span>
-                        <span>
-                            Vendor Management
-                        </span>
-                        </div>
-                    </li>
-
-                    <li className='w-full'>
-                        <div className='flex space-x-2 items-baseline'>
-                        <span className='material-design-icon check-circle-icon text-red'>
-                            <FaCircleCheck className='relative top-1'/>
-                        </span>
-                        <span>
-                            Inventory Management
-                        </span>
-                        </div>
-                    </li>
-                </ul>
+            <div className='flex space-x-2 items-baseline'>
+                <span className='material-design-icon check-circle-icon text-red'>
+                    <FaCircleCheck className='relative top-1' />
+                </span>
+                <span>
+                    Well-established Network
+                </span>
+            </div>
+            <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
+                Regarded as one of the best logistics and warehousing companies, Warehouzez has a number of warehouses in the entire nation. We offer exceptional services to our clients.
+            </p>
             </div>
             <div className="col-span-12 lg:col-span-6 space-y-6">
                 <OurVideo />
             </div>
         </div>
 
-        <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-            If you are looking for a warehouse in Chennai, Warehouzez is the best choice to make! Warehouzez has decades of experience and expertise in the logistics and warehousing industry along with a broad grasp of how to accomplish specific objectives such as potential savings, organizational growth, client- centric initiatives, and increased customer satisfaction.
-        </p>
+            <div className='flex space-x-2 items-baseline'>
+                <span className='material-design-icon check-circle-icon text-red'>
+                    <FaCircleCheck className='relative top-1' />
+                </span>
+                <span>
+                    Customer Satisfaction
+                </span>
+            </div>
+            <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-8 text-justify'>
+                We offer the best customer service to all our clients. Satisfaction of our customers is our sole motive. We certainly believe in providing the best possible solutions to customers. Apart from that, we make sure to meet the deadlines too.
+            </p>
 
-        <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'> 
-            Our state-of-the-art warehouses are fitted with smart devices and the most up-to-date software systems. We offer a wide range of services like Warehouse Management, Distribution and Transportation, Supply Chain Management, Third Party Logistics services and so on. Elevate the success of your business with Warehouzez!
-        </p>
+            <div className='flex space-x-2 items-baseline'>
+                <span className='material-design-icon check-circle-icon text-red'>
+                    <FaCircleCheck className='relative top-1' />
+                </span>
+                <span>
+                    3PL and 4PL Solutions
+                </span>
+            </div>
+            <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-8 text-justify'>
+                As stated above, Warehouzez is deemed as one of the leading warehouse service providers. We offer remarkable warehouse services to all our clients. We are your one stop destination for all our inventory solutions.
+            </p>
+
+            <div className='flex space-x-2 items-baseline'>
+                <span className='material-design-icon check-circle-icon text-red'>
+                    <FaCircleCheck className='relative top-1' />
+                </span>
+                <span>
+                    Market Strategies
+                </span>
+            </div>
+            <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-8 text-justify'>
+                Our experts implement all the market strategies to promote the overall growth of your business. We have years of experience in management of capital and supply chain. Warehouzez's Warehouse in Mumbai is an ultra- modern warehouse in the city known for its extraordinary and unmatched infrastructure. The Mumbai warehouse is equipped with all of the newest electronic features and latest technology.
+            </p>
 
           <div className='my-6'>
              <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-10 mt-10 my-6 text-center'>
