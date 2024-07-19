@@ -14,6 +14,10 @@ import OurPresenceFreq from '@/components/ourPresence/OurPresenceFreq';
 import Blog from '@/components/home/blog/Blog';
 import GetEnquiry from '@/components/services/GetEnquiry';
 import NetworkofWarehouzez from '@/components/home/networkofWarehouzez/NetworkofWarehouzez';
+import MapLocation from '@/components/ourPresence/MapLocation';
+
+{/** warehouse location link paste here **/}
+const WarehouseLocation = "https://goo.gl/maps/i67WwnTgWPsN94Gf7";
 
 
 const page = () => {
@@ -71,10 +75,13 @@ const page = () => {
       <section className="bg-white py-10 md:py-16 xl:relative">
             <div className="container max-w-screen-xl mx-auto px-4">
                 <div className="flex flex-col xl:flex-row justify-end">
-                  <div className='flex-1'>
+                <div className='relative flex-1'>
                     <div className="hidden xl:block xl:absolute left-0 bottom-0 w-full">
                         <img src="/our-presence/feature-img.png" alt="Feature img" />
                     </div>
+                        <div className='absolute bottom-20 right-6 z-50'>
+                            <MapLocation location={WarehouseLocation} />
+                        </div>
                   </div>
                     
                     <div className="flex-1">
