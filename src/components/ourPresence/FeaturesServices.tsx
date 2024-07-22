@@ -1,3 +1,5 @@
+import React from "react";
+import { Meteors } from "@/components/ui/meteors";
 
 import { FaCircleCheck } from "react-icons/fa6";
 import { FaComputer } from "react-icons/fa6";
@@ -13,260 +15,230 @@ const FeaturesServices = () => {
           Features and Services
         </h2>
 
-        <div className="relative max-w-screen-xl mx-auto grid grid-cols-12 gap-x-6">
-           <div className="col-span-12 lg:col-span-3 space-y-6">
-              <div className="overflow-x-auto shadow-xl rounded-xl p-8">
-                  <h3 className="flex items-center gap-x-2 justify-center antialiased tracking-normal font-sans text-xl font-semibold leading-[1.3] text-blue-gray-900 my-3 text-center">
-                    <FaComputer /> IT Infrastructure
-                  </h3>
-                  <table className="table table-sm">
-                    <tbody>
-                      <tr>
-                      <td>
-                        <span className='material-design-icon check-circle-icon text-red flex justify-end'>
-                          <FaCircleCheck />
-                        </span>
-                        </td>
-                        <td>WMS Software</td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <span className='material-design-icon check-circle-icon text-red flex justify-end'>
-                            <FaCircleCheck />
-                          </span>
-                        </td>
-                        <td className="text-left">Telephone/Landline</td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <span className='material-design-icon check-circle-icon text-red flex justify-end'>
-                            <FaCircleCheck />
-                          </span>
-                        </td>
-                        <td className="text-left">(Wi-Fi) interface</td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <span className='material-design-icon check-circle-icon text-red flex justify-end'>
-                            <FaCircleCheck />
-                          </span>
-                        </td>
-                        <td className="text-left">Computer & Printer</td>
-                      </tr>
+        <div className="flex gap-x-4 mt-8">
+          <div className="flex-1 relative max-w-xs">
+            <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
+              <div className="relative shadow-xl bg-gray-900 border border-gray-800  px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-start items-start">
+               
+                <h3 className="flex items-center gap-x-3 font-semibold text-xl text-white mb-4 relative z-50">
+                  <FaComputer className="text-white text-2xl" />  IT Infrastructure
+                </h3>
+      
+                <ul className="flex flex-col gap-y-3">
+                <li className="flex items-center gap-x-4 text-white">
+                  <span className='material-design-icon check-circle-icon text-white flex justify-end'>
+                    <FaCircleCheck />
+                  </span>
+                  WMS Software
+                </li>
 
-                      <tr>
-                        <td>
-                          <span className='material-design-icon check-circle-icon text-red flex justify-end'>
-                            <FaCircleCheck />
-                          </span>
-                        </td>
-                        <td className="text-left">Scanner</td>
-                      </tr>
+                <li className="flex items-center gap-x-4 text-white">
+                  <span className='material-design-icon check-circle-icon text-white flex justify-end'>
+                    <FaCircleCheck />
+                  </span>
+                  Telephone/Landline
+                </li>
 
-                      <tr>
-                        <td>
-                          <span className='material-design-icon check-circle-icon text-red flex justify-end'>
-                            <FaCircleCheck />
-                          </span>
-                        </td>
-                        <td className="text-left">Network Security</td>
-                      </tr>
-                    </tbody>
-                  </table>
+                <li className="flex items-center gap-x-4 text-white">
+                  <span className='material-design-icon check-circle-icon text-white flex justify-end'>
+                    <FaCircleCheck />
+                  </span>
+                  (Wi-Fi) interface
+                </li>
+
+                <li className="flex items-center gap-x-4 text-white">
+                  <span className='material-design-icon check-circle-icon text-white flex justify-end'>
+                    <FaCircleCheck />
+                  </span>
+                  Computer & Printer
+                </li>
+
+                <li className="flex items-center gap-x-4 text-white">
+                  <span className='material-design-icon check-circle-icon text-white flex justify-end'>
+                    <FaCircleCheck />
+                  </span>
+                  Scanner
+                </li>
+
+                <li className="flex items-center gap-x-4 text-white">
+                  <span className='material-design-icon check-circle-icon text-white flex justify-end'>
+                    <FaCircleCheck />
+                  </span>
+                  Network Security
+                </li>
+
+
+              </ul>
+      
+                {/* Meaty part - Meteor effect */}
+                <Meteors number={20} />
               </div>
-           </div>
+          </div>
 
-           <div className="col-span-12 lg:col-span-3 space-y-6">
-              <div className="overflow-x-auto shadow-xl rounded-xl p-8">
-                  <h3 className="flex items-center gap-x-2 justify-center antialiased tracking-normal font-sans text-xl font-semibold leading-[1.3] text-blue-gray-900 my-3 text-center">
-                  <MdOutlineSecurity /> Safety & Security
-                  </h3>
-                  <table className="table table-sm">
-                    <tbody>
-                    <tr>
-                      <td>
-                        <span className='material-design-icon check-circle-icon text-red flex justify-end'>
-                          <FaCircleCheck />
-                        </span>
-                        </td>
-                        <td>CCTV Surveillance</td>
-                      </tr>
-                      <tr>
-                      <td>
-                        <span className='material-design-icon check-circle-icon text-red flex justify-end'>
-                          <FaCircleCheck />
-                        </span>
-                        </td>
-                        <td>24X7 Security</td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <span className='material-design-icon check-circle-icon text-red flex justify-end'>
-                            <FaCircleCheck />
-                          </span>
-                        </td>
-                        <td className="text-left">24X7 Access</td>
-                      </tr>
+          <div className="flex-1 relative max-w-xs">
+            <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
+            <div className="relative shadow-xl bg-gray-900 border border-gray-800  px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-start items-start">
+              <h3 className="flex items-center gap-x-3 font-semibold text-xl text-white mb-4 relative z-50">
+                <MdOutlineSecurity /> Safety & Security
+              </h3>
+    
+              <ul  className="flex flex-col gap-y-3">
+                <li className="flex items-center gap-x-4 text-white">
+                  <span className='material-design-icon check-circle-icon text-white flex justify-end'>
+                    <FaCircleCheck />
+                  </span>
+                  CCTV Surveillance
+                </li>
 
-                      <tr>
-                        <td>
-                          <span className='material-design-icon check-circle-icon text-red flex justify-end'>
-                            <FaCircleCheck />
-                          </span>
-                        </td>
-                        <td className="text-left">Fire Extinguishers</td>
-                      </tr>
+                <li className="flex items-center gap-x-4 text-white">
+                  <span className='material-design-icon check-circle-icon text-white flex justify-end'>
+                    <FaCircleCheck />
+                  </span>
+                  24X7 Security
+                </li>
 
-                      <tr>
-                        <td>
-                          <span className='material-design-icon check-circle-icon text-red flex justify-end'>
-                            <FaCircleCheck />
-                          </span>
-                        </td>
-                        <td className="text-left">Fire Hydrant</td>
-                      </tr>
+                <li className="flex items-center gap-x-4 text-white">
+                  <span className='material-design-icon check-circle-icon text-white flex justify-end'>
+                    <FaCircleCheck />
+                  </span>
+                  24X7 Security
+                </li>
 
-                      <tr>
-                        <td>
-                          <span className='material-design-icon check-circle-icon text-red flex justify-end'>
-                            <FaCircleCheck />
-                          </span>
-                        </td>
-                        <td className="text-left">Smoke Detector</td>
-                      </tr>
-                    </tbody>
-                  </table>
-              </div>
-           </div>
+                <li className="flex items-center gap-x-4 text-white">
+                  <span className='material-design-icon check-circle-icon text-white flex justify-end'>
+                    <FaCircleCheck />
+                  </span>
+                  Fire Extinguishers
+                </li>
 
-           <div className="col-span-12 lg:col-span-3 space-y-6">
-              <div className="overflow-x-auto shadow-xl rounded-xl p-8">
-                  <h3 className="flex items-center gap-x-2 justify-center antialiased tracking-normal font-sans text-xl font-semibold leading-[1.3] text-blue-gray-900 my-3 text-center">
-                  <FaGears /> Services
-                  </h3>
-                  <table className="table table-sm">
-                    <tbody>
-                    <tr>
-                      <td>
-                        <span className='material-design-icon check-circle-icon text-red flex justify-end'>
-                          <FaCircleCheck />
-                        </span>
-                        </td>
-                        <td>Pallet Storage</td>
-                      </tr>
-                      <tr>
-                      <td>
-                        <span className='material-design-icon check-circle-icon text-red flex justify-end'>
-                          <FaCircleCheck />
-                        </span>
-                        </td>
-                        <td>Carton Pick</td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <span className='material-design-icon check-circle-icon text-red flex justify-end'>
-                            <FaCircleCheck />
-                          </span>
-                        </td>
-                        <td className="text-left">Order Fulfillment</td>
-                      </tr>
+                <li className="flex items-center gap-x-4 text-white">
+                  <span className='material-design-icon check-circle-icon text-white flex justify-end'>
+                    <FaCircleCheck />
+                  </span>
+                  Fire Hydrant
+                </li>
 
-                      <tr>
-                        <td>
-                          <span className='material-design-icon check-circle-icon text-red flex justify-end'>
-                            <FaCircleCheck />
-                          </span>
-                        </td>
-                        <td className="text-left">Distribution</td>
-                      </tr>
+                <li className="flex items-center gap-x-4 text-white">
+                  <span className='material-design-icon check-circle-icon text-white flex justify-end'>
+                    <FaCircleCheck />
+                  </span>
+                  Smoke Detector
+                </li>
 
-                      <tr>
-                        <td>
-                          <span className='material-design-icon check-circle-icon text-red flex justify-end'>
-                            <FaCircleCheck />
-                          </span>
-                        </td>
-                        <td className="text-left">Labeling</td>
-                      </tr>
 
-                      <tr>
-                        <td>
-                          <span className='material-design-icon check-circle-icon text-red flex justify-end'>
-                            <FaCircleCheck />
-                          </span>
-                        </td>
-                        <td className="text-left">Quality Checks</td>
-                      </tr>
-                    </tbody>
-                  </table>
-              </div>
-           </div>
+              </ul>
+    
+              {/* Meaty part - Meteor effect */}
+              <Meteors number={20} />
+            </div>
+          </div>
 
-           <div className="col-span-12 lg:col-span-3 space-y-6">
-              <div className="overflow-x-auto shadow-xl rounded-xl p-8">
-                  <h3 className="flex items-center gap-x-2 justify-center antialiased tracking-normal font-sans text-xl font-semibold leading-[1.3] text-blue-gray-900 my-3 text-center">
-                    <TbTools /> Equipment
-                  </h3>
-                  <table className="table table-sm">
-                    <tbody>
-                      <tr>
-                      <td>
-                        <span className='material-design-icon check-circle-icon text-red flex justify-end'>
-                          <FaCircleCheck />
-                        </span>
-                        </td>
-                        <td>Pallet Racks</td> 
-                      </tr>
-                      <tr>
-                        <td>
-                          <span className='material-design-icon check-circle-icon text-red flex justify-end'>
-                            <FaCircleCheck />
-                          </span>
-                        </td>
-                        <td className="text-left">Industrial Shelving</td>
-                      </tr>
+          <div className="flex-1 relative max-w-xs">
+            <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
+            <div className="relative shadow-xl bg-gray-900 border border-gray-800  px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-start items-start">
+              <h3 className="flex items-center gap-x-3 font-semibold text-xl text-white mb-4 relative z-50">
+                <FaGears /> Services
+              </h3>
+              <ul  className="flex flex-col gap-y-3">
+                <li className="flex items-center gap-x-4 text-white">
+                  <span className='material-design-icon check-circle-icon text-white flex justify-end'>
+                    <FaCircleCheck />
+                  </span>
+                  Pallet Storage
+                </li>
 
-                      <tr>
-                        <td>
-                          <span className='material-design-icon check-circle-icon text-red flex justify-end'>
-                            <FaCircleCheck />
-                          </span>
-                        </td>
-                        <td className="text-left">Forklifts</td>
-                      </tr>
+                <li className="flex items-center gap-x-4 text-white">
+                  <span className='material-design-icon check-circle-icon text-white flex justify-end'>
+                    <FaCircleCheck />
+                  </span>
+                  Carton Pick
+                </li>
 
-                      <tr>
-                        <td>
-                          <span className='material-design-icon check-circle-icon text-red flex justify-end'>
-                            <FaCircleCheck />
-                          </span>
-                        </td>
-                        <td className="text-left">Pallet Jacks</td>
-                      </tr>
+                <li className="flex items-center gap-x-4 text-white">
+                  <span className='material-design-icon check-circle-icon text-white flex justify-end'>
+                    <FaCircleCheck />
+                  </span>
+                  Order Fulfillment
+                </li>
 
-                      <tr>
-                        <td>
-                          <span className='material-design-icon check-circle-icon text-red flex justify-end'>
-                            <FaCircleCheck />
-                          </span>
-                        </td>
-                        <td className="text-left">Dock Plates</td>
-                      </tr>
+                <li className="flex items-center gap-x-4 text-white">
+                  <span className='material-design-icon check-circle-icon text-white flex justify-end'>
+                    <FaCircleCheck />
+                  </span>
+                  Distribution
+                </li>
 
-                      <tr>
-                        <td>
-                          <span className='material-design-icon check-circle-icon text-red flex justify-end'>
-                            <FaCircleCheck />
-                          </span>
-                        </td>
-                        <td className="text-left">Industrial Scales</td>
-                      </tr>
-                    </tbody>
-                  </table>
-              </div>
-           </div>
-        </div>
-       
+                <li className="flex items-center gap-x-4 text-white">
+                  <span className='material-design-icon check-circle-icon text-white flex justify-end'>
+                    <FaCircleCheck />
+                  </span>
+                  Labeling
+                </li>
+
+                <li className="flex items-center gap-x-4 text-white">
+                  <span className='material-design-icon check-circle-icon text-white flex justify-end'>
+                    <FaCircleCheck />
+                  </span>
+                  Quality Checks
+                </li>
+
+
+              </ul>
+    
+              {/* Meaty part - Meteor effect */}
+              <Meteors number={20} />
+            </div>
+          </div>
+
+          <div className="flex-1 relative max-w-xs">
+            <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
+            <div className="relative shadow-xl bg-gray-900 border border-gray-800  px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-start items-start">
+              <h3 className="flex items-center gap-x-3 font-semibold text-xl text-white mb-4 relative z-50">
+                <TbTools /> Equipment
+              </h3>
+
+              <ul  className="flex flex-col gap-y-3">
+                <li className="flex items-center gap-x-4 text-white">
+                  <span className='material-design-icon check-circle-icon text-white flex justify-end'>
+                    <FaCircleCheck />
+                  </span>
+                  Pallet Racks
+                </li>
+
+                <li className="flex items-center gap-x-4 text-white">
+                  <span className='material-design-icon check-circle-icon text-white flex justify-end'>
+                    <FaCircleCheck />
+                  </span>
+                  Industrial Shelving
+                </li>
+
+                <li className="flex items-center gap-x-4 text-white">
+                  <span className='material-design-icon check-circle-icon text-white flex justify-end'>
+                    <FaCircleCheck />
+                  </span>
+                  Forklifts
+                </li>
+
+                <li className="flex items-center gap-x-4 text-white">
+                  <span className='material-design-icon check-circle-icon text-white flex justify-end'>
+                    <FaCircleCheck />
+                  </span>
+                  Dock Plates
+                </li>
+
+                <li className="flex items-center gap-x-4 text-white">
+                  <span className='material-design-icon check-circle-icon text-white flex justify-end'>
+                    <FaCircleCheck />
+                  </span>
+                  Industrial Scales
+                </li>
+              </ul>
+    
+              {/* Meaty part - Meteor effect */}
+              <Meteors number={20} />
+            </div>
+          </div>
+        </div>  
     </div>
   )
 }

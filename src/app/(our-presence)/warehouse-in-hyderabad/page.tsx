@@ -59,7 +59,7 @@ const page = () => {
               </div>
           </div>
           <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-                With today's intense rivalry among competitive brands, every firm anticipates meeting the expectations and requirements of the customers. Since every brand or corporation is different, it becomes all the more important to maintain inventory visibility across the whole supply chain system. To increase profitability, strategic preparation and meticulous execution are necessary. In present times, every business must establish the best strategies and firmly press the appropriate vein of the supply chain, in order to accomplish inventory profitability. Warehouzez is regarded as one of the leading logistics and warehousing companies in Hyderabad.
+           <span className='text-4xl font-bold text-red pr-0.5'>W</span>ith today's intense rivalry among competitive brands, every firm anticipates meeting the expectations and requirements of the customers. Since every brand or corporation is different, it becomes all the more important to maintain inventory visibility across the whole supply chain system. To increase profitability, strategic preparation and meticulous execution are necessary. In present times, every business must establish the best strategies and firmly press the appropriate vein of the supply chain, in order to accomplish inventory profitability. Warehouzez is regarded as one of the leading logistics and warehousing companies in Hyderabad.
           </p>
 
           <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>

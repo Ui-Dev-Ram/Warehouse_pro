@@ -58,7 +58,7 @@ const page = () => {
               </div>
           </div>
           <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-            It certainly holds the top spot for having a thriving industrial base and infrastructure, along with a rapidly growing economy. The economic growth of this city is significantly related to its seaport and transportation facilities, which are regarded as one of the greatest in the country. Additionally, the city is home to a slew of industrial sectors like automotive and spare parts, wind, solar, and telecom, among others. It is a highly developed city that is constantly expanding, resulting in a growing need for warehouse in Chennai.
+            <span className='text-4xl font-bold text-red pr-0.5'>I</span>t certainly holds the top spot for having a thriving industrial base and infrastructure, along with a rapidly growing economy. The economic growth of this city is significantly related to its seaport and transportation facilities, which are regarded as one of the greatest in the country. Additionally, the city is home to a slew of industrial sectors like automotive and spare parts, wind, solar, and telecom, among others. It is a highly developed city that is constantly expanding, resulting in a growing need for warehouse in Chennai.
           </p>
 
           <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-10'>

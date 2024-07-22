@@ -58,7 +58,7 @@ const page = () => {
               </div>
           </div>
           <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-            The population living in Maharashtra's metropolis, is reliant on the city's thriving economic landscape. It is a major commercial hub that contributes significantly to the region's economy. There are several prominent industries in Bhiwandi, like Perfumes and Cosmetics, Fashion and Lifestyle and many more. Apart from these sectors required warehousing in Bhiwandi, there are various other associated businesses that cater to the needs of the aforementioned industries. Logistics sector which primarily handles the movement and storage of commodities, is a leading sector in this regard.
+          <span className='text-4xl font-bold text-red pr-0.5'>T</span>he population living in Maharashtra's metropolis, is reliant on the city's thriving economic landscape. It is a major commercial hub that contributes significantly to the region's economy. There are several prominent industries in Bhiwandi, like Perfumes and Cosmetics, Fashion and Lifestyle and many more. Apart from these sectors required warehousing in Bhiwandi, there are various other associated businesses that cater to the needs of the aforementioned industries. Logistics sector which primarily handles the movement and storage of commodities, is a leading sector in this regard.
           </p>
 
           <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-10'>

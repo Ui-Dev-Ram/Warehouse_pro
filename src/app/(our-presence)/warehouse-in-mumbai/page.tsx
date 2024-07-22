@@ -58,7 +58,7 @@ const page = () => {
               </div>
           </div>
           <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-            In recent times, businesses are required to operate beyond their physical spaces. With the advent of digitalization, businesses are expected to operate 24/7. Sellers can easily fulfill the demands of their customers via online platforms. In all likelihood, E- Commerce and FMCG have revolutionized the businesses forever! With the rise in digitalization, urbanization and online shopping, the demand for warehouse in Mumbai is increasing significantly, especially in the Metropolitan cities like Mumbai and Delhi. Therefore, it becomes all the more important to make a wise choice and go for the best warehouse services in Mumbai.
+          <span className='text-4xl font-bold text-red pr-0.5'>I</span>n recent times, businesses are required to operate beyond their physical spaces. With the advent of digitalization, businesses are expected to operate 24/7. Sellers can easily fulfill the demands of their customers via online platforms. In all likelihood, E- Commerce and FMCG have revolutionized the businesses forever! With the rise in digitalization, urbanization and online shopping, the demand for warehouse in Mumbai is increasing significantly, especially in the Metropolitan cities like Mumbai and Delhi. Therefore, it becomes all the more important to make a wise choice and go for the best warehouse services in Mumbai.
           </p>
 
           <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>

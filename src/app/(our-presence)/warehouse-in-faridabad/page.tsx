@@ -18,7 +18,7 @@ import OurVideo from '@/components/ourPresence/OurVideo'
 
 
 {/** warehouse location link paste here **/}
-const WarehouseLocation = "https://goo.gl/maps/AZzgcBg6mVB2Seb49";
+const WarehouseLocation = "https://goo.gl/maps/zpyM6aNaeVY8R1b28";
 
 const page = () => {
   return (
@@ -31,19 +31,17 @@ const page = () => {
                       <span className="w-10 h-0.5 bg-red"></span>
 
                       <p className="font-medium text-red text-xl">
-                        Warehouse-in-Pune
+                        Warehouse-in-Faridabad
                       </p>
                   </div>
 
                   <h1 className="font-bold text-gray-800 text-4xl md:text-6xl xl:text-7xl mb-10">
                       Warehouse in  <br />
-                      <span className='text-red'>Pune</span>
+                      <span className='text-red'>Faridabad</span>
                   </h1>
 
                   <p className=" block antialiased font-sans lg:text-base leading-relaxed text-gray-700 text-justify font-normal text-sm md:text-md xl:text-lg mb-10">
-                   Warehouzez: Complete Solutions for all your Warehousing <br />  and Logistics needs in Pune!<br /> 
-                   With the advent and rise of the E-commerce sector in India, <br />  demand for storage and warehouse in Pune is also booming.
-
+                    Warehouzez: Get All Your Warehousing And Logistics Solutions Under One Roof!
                   </p>
 
                   <div className="space-y-5 lg:space-x-5 mb-10">
@@ -52,30 +50,37 @@ const page = () => {
                       </a>
                   </div>
               </div>
-
+ 
               <div className="flex mx-auto lg:mx-0 align-middle">
-                  <Image src="/our-presence/pune.png" className='f-3/4 m-auto' width={500} height={500} alt="Image" />
+                  <Image src="/our-presence/manesar.png" className='f-3/4 m-auto' width={500} height={500} alt="Manesar Image" />
               </div>
           </div>
-          <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-          <span className='text-4xl font-bold text-red pr-0.5'>T</span>his is because these aforementioned services enable on-time delivery and efficient supply chain management. Nowadays, this criteria is all the more important for firms that manufacture or export commodities. Warehouses give businesses a centralized space to store items in a secure manner. This is especially important in fast-growing cities like Pune. In Pune, the expansion and growth of FMCG, e-commerce, and other businesses is intense as people opt for online channels to purchase commodities, products and services. Several enterprises require warehouse in Pune to meet their business requirements.
-          </p>
 
+          <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
+            <span className='text-4xl font-bold text-red pr-0.5'>F</span>aridabad is one of the most populated cities of Haryana. Owing to this reason, more than half of Haryana's Income Tax generated is from Faridabad and Gurgaon. Faridabad is widely regarded as the industrial capital of Haryana. This is because it has thousands of working factories. The industrial sector in Faridabad has seen a great rise in the last few years. Faridabad is indeed a hub of several manufacturing companies that produce different kinds of products. These manufacturing firms look for a warehouse in Faridabad for several reasons. Due to this, the demand for logistics and warehousing service is greatly rising in Faridabad and other NCR regions.
+          </p>
+          
           <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-10'>
-            Fine-Tuned Warehouse Services in Pune
+            Renowned Warehousing Company
           </h2>
 
-          <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-            Giants in the storage industry have made enormous claims to acquire orders for warehouse services in Pune from various customers. When it comes to Warehouse operations or 3PL services, every company must think about choosing the ideal partner. Some prominent and basic elements that help firms get the right 3PL partner in Pune include proven record of success, recognition, credibility and understanding of dealing with diverse industries and sectors. When compared to its opponents in the marketplace, Warehouzez employs distinctive business methods and makes difficult decisions, allowing it to stand out. Being one of the leading warehousing companies in Pune, Warehouzez follows a significant strategic plan to obtain desired results and to meet organisational goals efficiently, quickly and smoothly.
-          </p>
+            <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
+                If you are looking for a warehouse in Manesar or any other part of the country then We also provide warehouse for rent in Manesar. Undeniably, we are a dominant warehousing and logistics services provider in the industry. We provide remarkable logistics and distribution services to a variety of businesses.
+            </p>
 
+            <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-10'>
+                Accurate KPIs
+            </h2>
 
+            <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
+                Warehouzez assures that its clients have a set of verifiable and specified KPIs. This will guide and assist clients in tracking operational efficiencies, productivity, and other vital variables in order to achieve the desired goals.
+            </p>
         </div>     
       </div> 
 
       <section className="bg-white py-10 md:py-10 xl:relative">
             <div className="container max-w-screen-xl mx-auto px-4">
-                <div className="flex flex-col xl:flex-row justify-end">
+                <div className="flex flex-col xl:flex-row justify-end"> 
                   <div className='relative flex-1'>
                     <div className="hidden xl:block xl:absolute left-0 bottom-0 w-full">
                         <img src="/our-presence/feature-img.png" className='w-5/6' alt="Feature img" />
@@ -87,11 +92,11 @@ const page = () => {
                     
                     <div className="flex-1">
                         <h2 className="font-semibold text-gray-900 text-xl md:text-4xl text-center leading-normal mb-6">
-                            Customized Plans and Affordable <br /> Warehouse Solutions
+                            Customer Satisfaction
                         </h2>
 
                         <p className="block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify">
-                          Customized and adaptable warehousing is the foundation and future of supply chain management. Warehouzez certainly recognize the impact of industry variations and periodic demands, which is why our warehouses in Pune incorporate the most flexible storage solutions. 
+                            At Warehouzez, we believe that everyone should have access to high-quality logistics and distribution operations. Every client is essential to us, and our packages do not have any set prices. Because we believe in supply chain flexibility, we do not require significant security deposits. Satisfaction of our customers is our primary mantra.
                         </p>
 
                         <div className="grid grid-cols-1 md:grid-cols-3 mb-16">
@@ -100,7 +105,7 @@ const page = () => {
                                   <PiWarehouse className="feather feather-award text-info text-2xl" />
                                 </div>
                                 <h3 className="font-semibold text-gray-900 text-xl md:text-2xl mb-4 text-center">
-                                  25K Sqft
+                                    95K Sqft
                                 </h3>
                                 <p className="font-light text-gray-400 text-md md:text-lg text-center">
                                   Total Space
@@ -112,7 +117,7 @@ const page = () => {
                                   <TbBuildingWarehouse className="feather feather-award text-red text-2xl" />
                                 </div>
                                 <h3 className="font-semibold text-gray-900 text-xl md:text-2xl mb-4 text-center">
-                                  11K Sqft
+                                    25K Sqft
                                 </h3>
                                 <p className="font-light text-gray-400 text-md md:text-lg text-center">
                                   Space Available
@@ -174,17 +179,33 @@ const page = () => {
 
       <div className="container max-w-screen-xl mx-auto">
         <div className="lg:m-5">
-         
-        <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 text-justify mb-4'>
-          Our storage facilities in Pune can easily adjust to shifting client preferences or business needs. We assist enterprises in establishing a presence in places where their influence is minimal. We give them access to warehouses in these locations so that businesses can operate and increase market share. We give them access to warehouses in such locations so that businesses can operate and increase their market share.
-        </p>
-
-        <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2'>
-          What makes warehouzez the most trusted 3PL partner in Pune?
-        </h2>
+          
+        <h3 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-semibold leading-[1.3] text-blue-gray-900 mb-2 mt-10'>
+            Full Assurance of Material Safety
+        </h3>
 
         <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify mt-4'>
-          Take a closer look at some of the beneficial characteristics that Warehouzez uses to boost its client relationships
+            A collaboration with Warehouzez will provide you with integrated security procedures that are evaluated and reviewed on a daily basis. We believe in using the best method of handling the materials, therefore we use Pallets, Heavy Duty Racks, and MHEs, along with other things. We also safeguard the stockpiles with fire extinguishers and hydrants. Furthermore, Our customer service team is available 24 hours a day, 7 days a week to assist people in clearing insurance claims and addressing all damage compensation concerns in a timely and efficient manner.
+        </p>
+
+        <h3 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-semibold leading-[1.3] text-blue-gray-900 mb-2 mt-10'>
+            Innovative Techniques and Ultra-modern Technology
+        </h3>
+
+        <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify mt-4'>
+            At Warehouzez, we employ a digitized warehouse design strategy. We have specialists who have worked with software tools for a long time. We use various softwares, designs, procedures, and other parameters to simulate the overall impact. Additionally, All major cities around the country have access to our warehousing, E-Commerce fulfillment, transportation, and distribution services.
+        </p>
+
+        <h3 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-semibold leading-[1.3] text-blue-gray-900 mb-2 mt-10'>
+            Why Choose Us?
+        </h3>
+
+        <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify mt-4'>
+            Presently, Warehouzez is the country's major logistics company, focusing more on service quality rather than pricing. We are constantly improving our customer service inquiries so that they can see when their orders are being dispatched.
+        </p>
+
+        <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify mt-4'>
+            Here's a list of some prominent benefits of our on-demand warehousing services in Manesar
         </p>
         
         <ul className='flex items-center flex-wrap gap-y-5 mt-4 mb-6'>
@@ -194,7 +215,7 @@ const page = () => {
                     <FaCircleCheck />
                 </span>
                 <span>
-                  Complete satisfaction of customers.
+                    Complete satisfaction of customers.
                 </span>
                 </div>
             </li>
@@ -205,7 +226,7 @@ const page = () => {
                     <FaCircleCheck />
                 </span>
                 <span>
-                  We help clients locate the best warehouse in Pune for their requirements.
+                    We assist clients in finding the ideal warehouses for their needs.
                 </span>
                 </div>
             </li>
@@ -216,7 +237,7 @@ const page = () => {
                     <FaCircleCheck />
                 </span>
                 <span>
-                  Each of our warehouse service plans is reasonably priced.
+                    All our rental plans are cost effective.
                 </span>
                 </div>
             </li>
@@ -227,7 +248,7 @@ const page = () => {
                     <FaCircleCheck />
                 </span>
                 <span>
-                  To provide technology-driven storage facilities in Pune, we use cutting-edge technologies.
+                    We employ cutting-edge technology to deliver tech-driven logistics solutions.
                 </span>
                 </div>
             </li>
@@ -238,7 +259,7 @@ const page = () => {
                     <FaCircleCheck />
                 </span>
                 <span>
-                  We help businesses in extending their core businesses.
+                    We help businesses in extending their core businesses.
                 </span>
                 </div>
             </li>
@@ -249,7 +270,7 @@ const page = () => {
                     <FaCircleCheck />
                 </span>
                 <span>
-                  We provide complete supply chain operations digitization.
+                    We believe in digitizing the supply chain operations completely.
                 </span>
                 </div>
             </li>
@@ -260,157 +281,25 @@ const page = () => {
                     <FaCircleCheck />
                 </span>
                 <span>
-                  To provide warehouse services in Pune, we collaborate closely with our in-house teams.
+                    To provide comprehensive solutions, we collaborate closely with our in-house teams.
                 </span>
                 </div>
             </li>
         </ul>
-        
-          <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2'>
-            State-of-the-art Technology
-          </h2>
 
-          <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-            One of the most important characteristics that distinguishes Warehouzez from the other top logistics businesses in Pune is our commitment to using robust and cutting-edge technology. We feel that concentrating on the complexity rather than wasting time eliminating faults is more important, therefore we constantly introduce new robotic systems to assist people and make operations easier, faster and smoother. To provide the exceptional warehouse services in Pune, we use the latest and cutting-edge technological software systems like Warehouse Management System. A robust WMS makes it easier to manage warehousing operations, and keep a record of shipments and inventory. Our software is constantly being updated with the latest features, and their customer support is outstanding. So, what exactly can you expect from Warehouzez? There are a plethora of the benefits you can get with our WMS, like better inventory management, increased efficiency, reduced operational costs, and much more.
-          </p>
-
-          <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2'>
-            Fully Assurance of Inventory Safety
-          </h2>
-
-          <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-            Warehouzez a leading warehouse and logistics company in Pune, provides well-established and well-maintained warehouse in Pune where clients can count certain that their goods are safe. We provide on-demand warehouses in Pune.
-          </p>
-
-          <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-            Our professionals use modernised, and digital methods to improve and rebuild the supply chain, and they have a plethora of skills and experience. We extend wide-ranging warehouse and logistics services like Reverse Logistics, Inventory Storage, CFA/C&F Agent Services and Freight Forwarding in Pune. Connect with us today and get the best possible solutions for all your logistics needs. Our supply chain expert will develop growth-oriented strategies for you. Our footprint is growing steadily across the country, and our network has now surpassed the milestone of 70 locations.
-          </p>
-
-          <div className="flex">
-            <div className="flex-1">
-              <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2'>
-                Value-added Services
-              </h2>
-
-              <ul className='flex items-center flex-wrap gap-y-5 mt-4 mb-6'>
-                  <li className='w-full'>
-                      <div className='flex items-center space-x-2'>
-                      <span className='material-design-icon check-circle-icon text-red'>
-                          <FaCircleCheck />
-                      </span>
-                      <span>
-                        On-demand Warehouse services
-                      </span>
-                      </div>
-                  </li>
-
-                  <li className='w-full'>
-                      <div className='flex items-center space-x-2'>
-                      <span className='material-design-icon check-circle-icon text-red'>
-                          <FaCircleCheck />
-                      </span>
-                      <span>
-                        Efficient Supply Chain Management
-                      </span>
-                      </div>
-                  </li>
-
-                  <li className='w-full'>
-                      <div className='flex items-center space-x-2'>
-                      <span className='material-design-icon check-circle-icon text-red'>
-                          <FaCircleCheck />
-                      </span>
-                      <span>
-                        Contract Logistics (3PL)
-                      </span>
-                      </div>
-                  </li>
-
-                  <li className='w-full'>
-                      <div className='flex items-center space-x-2'>
-                      <span className='material-design-icon check-circle-icon text-red'>
-                          <FaCircleCheck />
-                      </span>
-                      <span>
-                        Real-time Updates and Live Tracking
-                      </span>
-                      </div>
-                  </li>
-
-                  <li className='w-full'>
-                      <div className='flex items-center space-x-2'>
-                      <span className='material-design-icon check-circle-icon text-red'>
-                          <FaCircleCheck />
-                      </span>
-                      <span>
-                        Reverse Logistics
-                      </span>
-                      </div>
-                  </li>
-              </ul>
-            </div>
-            <div className="flex-1">
-              <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2'>
-                Key Industries
-              </h2>
-
-              <ul className='flex items-center flex-wrap gap-y-5 mt-4 mb-6'>
-                  <li className='w-full'>
-                      <div className='flex items-center space-x-2'>
-                      <span className='material-design-icon check-circle-icon text-red'>
-                          <FaCircleCheck />
-                      </span>
-                      <span>
-                        Entertainment and Exhibition
-                      </span>
-                      </div>
-                  </li>
-
-                  <li className='w-full'>
-                      <div className='flex items-center space-x-2'>
-                      <span className='material-design-icon check-circle-icon text-red'>
-                          <FaCircleCheck />
-                      </span>
-                      <span>
-                        Fitness and Sporting
-                      </span>
-                      </div>
-                  </li>
-
-                  <li className='w-full'>
-                      <div className='flex items-center space-x-2'>
-                      <span className='material-design-icon check-circle-icon text-red'>
-                          <FaCircleCheck />
-                      </span>
-                      <span>
-                        Retail, FMGC and E-Commerce
-                      </span>
-                      </div>
-                  </li>
-
-                  <li className='w-full'>
-                      <div className='flex items-center space-x-2'>
-                      <span className='material-design-icon check-circle-icon text-red'>
-                          <FaCircleCheck />
-                      </span>
-                      <span>
-                        Cosmetic and Perfumes
-                      </span>
-                      </div>
-                  </li>
-              </ul>
-            </div>
-          </div>
+        <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify mt-4'>
+            You can leave all your warehouse, distribution and logistics on us, and watch your business expand quickly. Connect with us today if you are looking for warehouse on rent in Manesar and experience the magnificent logistical operations with us!
+        </p>
 
           <FeaturesServices />
           <div className="relative max-w-screen-xl mx-auto grid grid-cols-12 gap-x-6">
             <div className="col-span-12 lg:col-span-6 space-y-6">
             <h2 className="block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-14">
-              Our Key Features and Offerings
+                Our key features and offerings
             </h2>
 
             <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-              Here's a list of our key features and service offerings that sets us apart from other warehousing firms-
+                Here's a list of our key features and service offerings that sets us apart from other warehousing firms-
             </p>
 
             <ul className='flex items-center flex-wrap gap-y-5 mt-4 mb-6'>
@@ -420,7 +309,7 @@ const page = () => {
                           <FaCircleCheck />
                       </span>
                       <span>
-                        We presume that comprehensive planning, with the assistance of our skilled and knowledgeable specialists may help reduce industrial issues and risks.
+                        Affordable warehouses in Manesar and other nearby places.
                       </span>
                       </div>
                   </li>
@@ -431,7 +320,7 @@ const page = () => {
                           <FaCircleCheck />
                       </span>
                       <span>
-                        Warehouzez firm believer of innovation, and as a result, we prioritise regular software upgrades, the use of ultra-modern and cutting-edge technology, and the selection of the most appropriate WMS.
+                        Software tools, innovative and automated technology to give the best possible logistics solutions.
                       </span>
                       </div>
                   </li>
@@ -442,13 +331,55 @@ const page = () => {
                           <FaCircleCheck />
                       </span>
                       <span>
-                        Our team of experts begin from the starting, by gaining a thorough understanding of the client's needs and developing a strategy to get the best storage facilities in Pune.
+                        Real-time tracking updates and reports.
+                      </span>
+                      </div>
+                  </li>
+
+                  <li className='w-full'>
+                      <div className='flex items-center space-x-2'>
+                      <span className='material-design-icon check-circle-icon text-red'>
+                          <FaCircleCheck />
+                      </span>
+                      <span>
+                        Best-in-class transportation and distribution facilities.
+                      </span>
+                      </div>
+                  </li>
+
+                  <li className='w-full'>
+                      <div className='flex items-center space-x-2'>
+                      <span className='material-design-icon check-circle-icon text-red'>
+                          <FaCircleCheck />
+                      </span>
+                      <span>
+                        A full suite of E-Commerce Fulfillment services.
+                      </span>
+                      </div>
+                  </li>
+
+                  <li className='w-full'>
+                      <div className='flex items-center space-x-2'>
+                      <span className='material-design-icon check-circle-icon text-red'>
+                          <FaCircleCheck />
+                      </span>
+                      <span>
+                        Security cameras and fire safety features are available 24 hours a day, 7 days a week.
+                      </span>
+                      </div>
+                  </li>
+
+                  <li className='w-full'>
+                      <div className='flex items-center space-x-2'>
+                      <span className='material-design-icon check-circle-icon text-red'>
+                          <FaCircleCheck />
+                      </span>
+                      <span>
+                        Efficient Supply Chain Management.
                       </span>
                       </div>
                   </li>
               </ul>
-
-            
             </div>
             <div className="col-span-12 lg:col-span-6 space-y-6">
                 <OurVideo />

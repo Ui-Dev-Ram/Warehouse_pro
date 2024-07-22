@@ -59,7 +59,7 @@ const page = () => {
               </div>
           </div>
           <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-            This is because it is a hub for several foreign e-commerce giants like Amazon, Walmart, Flipkart, Target, and so much more. Bangalore is host to various I.T. related corporations too. Since the past couple of decades, Bangalore's e-commerce development has driven up the demand for warehouse spaces. Warehouse in Bangalore could be the answer for all of the companies looking for infrastructure and domestic place to store their inventory safely. However, finding the proper organisation that can provide excellent warehouse and distribution facilities as well as provide warehouse for rent in Bangalore.
+          <span className='text-4xl font-bold text-red pr-0.5'>T</span>his is because it is a hub for several foreign e-commerce giants like Amazon, Walmart, Flipkart, Target, and so much more. Bangalore is host to various I.T. related corporations too. Since the past couple of decades, Bangalore's e-commerce development has driven up the demand for warehouse spaces. Warehouse in Bangalore could be the answer for all of the companies looking for infrastructure and domestic place to store their inventory safely. However, finding the proper organisation that can provide excellent warehouse and distribution facilities as well as provide warehouse for rent in Bangalore.
           </p>
 
           <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-10'>
