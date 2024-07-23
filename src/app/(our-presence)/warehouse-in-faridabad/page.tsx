@@ -52,7 +52,7 @@ const page = () => {
               </div>
  
               <div className="flex mx-auto lg:mx-0 align-middle">
-                  <Image src="/our-presence/manesar.png" className='f-3/4 m-auto' width={500} height={500} alt="Manesar Image" />
+                  <Image src="/our-presence/faridabad.png" className='f-3/4 m-auto' width={500} height={500} alt="Manesar Image" />
               </div>
           </div>
 
@@ -61,19 +61,46 @@ const page = () => {
           </p>
           
           <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-10'>
-            Renowned Warehousing Company
+            Are you searching for a warehouse in Faridabad?
           </h2>
 
             <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-                If you are looking for a warehouse in Manesar or any other part of the country then We also provide warehouse for rent in Manesar. Undeniably, we are a dominant warehousing and logistics services provider in the industry. We provide remarkable logistics and distribution services to a variety of businesses.
+                Are you looking for the best place to store your inventory stock safely? Then you are at the right place. Warehouzez the Digital Supply Chain is indeed a prominent logistics and warehousing service provider. Our warehouse is ideally positioned in the prime location.
             </p>
 
             <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-10'>
-                Accurate KPIs
+                Our prominent services include
             </h2>
+            <h3 className='text-xl font-semibold'>
+                3PL Warehouse services
+            </h3>
 
             <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-                Warehouzez assures that its clients have a set of verifiable and specified KPIs. This will guide and assist clients in tracking operational efficiencies, productivity, and other vital variables in order to achieve the desired goals.
+                Warehouzez offers a wide range of logistics services for all types of businesses. We totally understand that 3PL indeed plays a significant role in effective functioning of any business. We certainly provide all the third party logistics services like supply chain management, warehousing services, inventory management and faster delivery.
+            </p>
+
+            <h3 className='text-xl font-semibold'>
+                Warehouse on hire and rent
+            </h3>
+
+            <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
+                Warehouzez has its warehouses in over 70 locations throughout the country. We provide well- established and well-maintained warehouses on hire. We make it a point to provide fully functional warehouse spaces to both small and large businesses. So, if you are searching for warehouse for rent in Faridabad or anyother part of the country, do connect with us!
+            </p>
+
+            <h3 className='text-xl font-semibold'>
+                Transportation and Distribution services
+            </h3>
+
+            <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
+                At Warehouzez, it is our primary duty to ensure seamless and smooth flow of commodities from their original destination to the end destination.
+            </p>
+
+            <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
+                Our team expertise in offering customized services to various industries like - telecom and solar, apparel and lifestyle, power grid and energy, electrical and E- Commerce and so much more.
+            </p>
+
+            <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
+                Our operations team indeed has considerable experience in professionally handling integrated logistics solutions. Our aim is to meet up with the ever changing demands of our clients.
             </p>
         </div>     
       </div> 
@@ -92,11 +119,11 @@ const page = () => {
                     
                     <div className="flex-1">
                         <h2 className="font-semibold text-gray-900 text-xl md:text-4xl text-center leading-normal mb-6">
-                            Customer Satisfaction
+                        Why Choose Warehouzez as your <br /> Warehousing and Logistics Partner?
                         </h2>
 
                         <p className="block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify">
-                            At Warehouzez, we believe that everyone should have access to high-quality logistics and distribution operations. Every client is essential to us, and our packages do not have any set prices. Because we believe in supply chain flexibility, we do not require significant security deposits. Satisfaction of our customers is our primary mantra.
+                            A variety of businesses and industries employ the services of Warehouzez. We assist businesses in selecting the well- established warehouses in our Indian network. Our warehouses are certainly equipped with all of the essential amenities to ensure proper inventory management.
                         </p>
 
                         <div className="grid grid-cols-1 md:grid-cols-3 mb-16">
@@ -181,33 +208,9 @@ const page = () => {
         <div className="lg:m-5">
           
         <h3 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-semibold leading-[1.3] text-blue-gray-900 mb-2 mt-10'>
-            Full Assurance of Material Safety
-        </h3>
-
-        <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify mt-4'>
-            A collaboration with Warehouzez will provide you with integrated security procedures that are evaluated and reviewed on a daily basis. We believe in using the best method of handling the materials, therefore we use Pallets, Heavy Duty Racks, and MHEs, along with other things. We also safeguard the stockpiles with fire extinguishers and hydrants. Furthermore, Our customer service team is available 24 hours a day, 7 days a week to assist people in clearing insurance claims and addressing all damage compensation concerns in a timely and efficient manner.
-        </p>
-
-        <h3 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-semibold leading-[1.3] text-blue-gray-900 mb-2 mt-10'>
-            Innovative Techniques and Ultra-modern Technology
-        </h3>
-
-        <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify mt-4'>
-            At Warehouzez, we employ a digitized warehouse design strategy. We have specialists who have worked with software tools for a long time. We use various softwares, designs, procedures, and other parameters to simulate the overall impact. Additionally, All major cities around the country have access to our warehousing, E-Commerce fulfillment, transportation, and distribution services.
-        </p>
-
-        <h3 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-semibold leading-[1.3] text-blue-gray-900 mb-2 mt-10'>
             Why Choose Us?
         </h3>
 
-        <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify mt-4'>
-            Presently, Warehouzez is the country's major logistics company, focusing more on service quality rather than pricing. We are constantly improving our customer service inquiries so that they can see when their orders are being dispatched.
-        </p>
-
-        <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify mt-4'>
-            Here's a list of some prominent benefits of our on-demand warehousing services in Manesar
-        </p>
-        
         <ul className='flex items-center flex-wrap gap-y-5 mt-4 mb-6'>
             <li className='w-full lg:w-2/4'>
                 <div className='flex items-center space-x-2'>
@@ -288,8 +291,66 @@ const page = () => {
         </ul>
 
         <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify mt-4'>
-            You can leave all your warehouse, distribution and logistics on us, and watch your business expand quickly. Connect with us today if you are looking for warehouse on rent in Manesar and experience the magnificent logistical operations with us!
+            We help you in choosing the best warehouse for rent in Faridabad and other areas. We offer end to end 3PL and warehousing services. In our warehouse at Faridabad, businesses can easily carry out logistics operations like storing the goods, transporting them, checking the quality and dispatching goods. Our warehouses are established near the industry sector. This further helps in accommodating the short term as well as long term storage needs of corporations. Our warehouse or godown is quite accessible for meeting immediate storage requirements. Our warehouse is available for rent or lease in Faridabad's prime location.
         </p>
+
+        <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify mt-4'>
+            One of our prominent features is that we provide customized solutions to our clients so that they can stand out in this competitive environment. Apart from that, we offer real time data access for inventory stocks. We provide daily updates to our users via emails.
+        </p>
+
+        <p>
+            Warehouzez the Digital Supply Chain is one of the leading warehousing service providers in the nation.
+        </p>
+
+        <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-10'>
+            Some of Our Key Features
+        </h2>
+
+        <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
+            Enlisted below are some prominent features that make us stand out in the industry.
+        </p>
+
+        <h3 className='text-md font-semibold'>
+            Growth Potential
+        </h3>
+
+        <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
+            We always see a growth potential in your business. We totally understand the fact that a business can expand any day, anytime. Keeping this in mind, we offer a buffer space in almost all of our warehouses.
+        </p>
+
+        <b>
+            Connectedness With Different Cities
+        </b>
+
+        <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
+            In India, almost all of our warehouses are located closer to cities with great transportation facilities. Warehouzez offers excellent warehousing services in various cities throughout the country. We have an ever- growing network of warehouses, and fully- functional warehouses located in over 70 locations in India.
+        </p>
+
+        <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-10'>
+            All Size Requirements Are Supported
+        </h2>
+
+        <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
+            Warehouzez the offers warehouses of a minimum 500 square feet area. However, there is no maximum limit. The warehouse area can be as large as the requirement of the client.
+        </p>
+
+        <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-10'>
+            Safety of Inventory
+        </h2>
+
+        <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
+            We ensure all the safety measures at our warehouses to keep your inventory safe. Proper safety of your inventory is our primary duty. Our security guards and team members are always there to keep your stocks safe.
+        </p>
+
+        <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
+            At Warehouzez the Digital Supply Chain we cater to the diverse needs of various enterprises. We offer the best-in- class logistics and warehouse services for precise inventory management. One of our primary aims is to help businesses grow exponentially and save their operational expenses. So, approach us today if you are looking for a warehouse for rent in Faridabad. In all likelihood, Warehouzez is regarded as one the top- graded logistics firms in the country.
+        </p>
+
+        <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
+            Book a warehouse for your business in Faridabad at affordable prices. We will provide you with the great deals and best warehousing solutions.
+        </p>
+
+
 
           <FeaturesServices />
           <div className="relative max-w-screen-xl mx-auto grid grid-cols-12 gap-x-6">
@@ -309,7 +370,7 @@ const page = () => {
                           <FaCircleCheck />
                       </span>
                       <span>
-                        Affordable warehouses in Manesar and other nearby places.
+                        We provide cost-efficient warehouses on rent.
                       </span>
                       </div>
                   </li>
@@ -320,7 +381,7 @@ const page = () => {
                           <FaCircleCheck />
                       </span>
                       <span>
-                        Software tools, innovative and automated technology to give the best possible logistics solutions.
+                        Live inventory control.
                       </span>
                       </div>
                   </li>
@@ -331,7 +392,7 @@ const page = () => {
                           <FaCircleCheck />
                       </span>
                       <span>
-                        Real-time tracking updates and reports.
+                        Fair management of inventory.
                       </span>
                       </div>
                   </li>
@@ -342,7 +403,7 @@ const page = () => {
                           <FaCircleCheck />
                       </span>
                       <span>
-                        Best-in-class transportation and distribution facilities.
+                        All time security through CCTVs and security guards.
                       </span>
                       </div>
                   </li>
@@ -353,7 +414,7 @@ const page = () => {
                           <FaCircleCheck />
                       </span>
                       <span>
-                        A full suite of E-Commerce Fulfillment services.
+                        Availability of proper material handling equipment.
                       </span>
                       </div>
                   </li>
@@ -364,7 +425,7 @@ const page = () => {
                           <FaCircleCheck />
                       </span>
                       <span>
-                        Security cameras and fire safety features are available 24 hours a day, 7 days a week.
+                        Expansive 3PL Warehouse Network.
                       </span>
                       </div>
                   </li>
@@ -375,7 +436,7 @@ const page = () => {
                           <FaCircleCheck />
                       </span>
                       <span>
-                        Efficient Supply Chain Management.
+                        Fast delivery and transportation.
                       </span>
                       </div>
                   </li>
