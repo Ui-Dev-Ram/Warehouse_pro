@@ -94,7 +94,7 @@ export const StickyScroll = ({
               >
                 <div className="flex flex-col items-baseline justify-start">
                   {item.description}
-                  <button className="w-fit transition duration-200 ease-linear text-xs mt-3 bg-red hover:bg-red text-white px-3 py-2 rounded-full border-2 border-red group-hover:text-white group-hover:bg-darkGray group-hover:border-white group-hover:border-2 hover:delay-300">
+                  <button className="bg-red hover:bg-red text-white text-sm font-bold py-2 px-4 rounded-full mt-4">
                         Read More
                   </button>
                 </div>
