@@ -16,10 +16,6 @@ import NetworkofWarehouzez from '@/components/home/networkofWarehouzez/Networkof
 import MapLocation from '@/components/ourPresence/MapLocation';
 import OurVideo from '@/components/ourPresence/OurVideo'
 
-
-{/** warehouse location link paste here **/}
-const WarehouseLocation = "https://goo.gl/maps/Ky6jLT6Ef8ZncG6F8";
-
 const page = () => {
   return (
     <div>
@@ -92,7 +88,7 @@ const page = () => {
                         <img src="/our-presence/feature-img.png" className='w-5/6' alt="Feature img" />
                     </div>
                         <div className='absolute bottom-20 right-14 z-50'>
-                            <MapLocation location={WarehouseLocation} />
+                            <MapLocation location="" />
                         </div>
                   </div>
                     

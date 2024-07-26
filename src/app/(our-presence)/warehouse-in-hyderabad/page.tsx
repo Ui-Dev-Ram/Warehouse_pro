@@ -1,4 +1,6 @@
-import React from 'react'
+'use client'
+
+import React, { useState } from 'react'
 import Image from 'next/image'
 import { PiWarehouse } from "react-icons/pi";
 import { TbBuildingWarehouse } from "react-icons/tb";
@@ -8,7 +10,6 @@ import { FaComputer } from "react-icons/fa6";
 import { FaRegStar } from "react-icons/fa";
 import { FaCircleCheck } from "react-icons/fa6";
 import FeaturesServices from '@/components/ourPresence/FeaturesServices';
-import OurKeyFeaturesOfferings from '@/components/ourPresence/OurKeyFeaturesOfferings';
 import WarehouseListed from '@/components/home/our-listed-warehouses/WarehouseListed';
 import OurPresenceFreq from '@/components/ourPresence/OurPresenceFreq';
 import Blog from '@/components/home/blog/Blog';
@@ -16,12 +17,11 @@ import GetEnquiry from '@/components/services/GetEnquiry';
 import NetworkofWarehouzez from '@/components/home/networkofWarehouzez/NetworkofWarehouzez';
 import MapLocation from '@/components/ourPresence/MapLocation';
 import OurVideo from '@/components/ourPresence/OurVideo'
-
-
-{/** warehouse location link paste here **/}
-const WarehouseLocation = "https://goo.gl/maps/dn9AANtaZ9XpexFj7";
+import { cities } from '@/data/cityPageDetails'
 
 const page = () => {
+  
+      const [getthumb, setGetThumb] = useState(cities.hyderabad.thumb)
   return (
     <div>
       <div className="container max-w-screen-xl mx-auto">
@@ -55,7 +55,7 @@ const page = () => {
               </div>
 
               <div className="flex mx-auto lg:mx-0 align-middle">
-                  <Image src="/our-presence/hydrabad.png" className='f-3/4 m-auto' width={500} height={500} alt="Image" />
+                  <Image src={cities.hyderabad.cityimg} className='f-3/4 m-auto' width={500} height={500} alt="Image" />
               </div>
           </div>
           <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
@@ -184,10 +184,10 @@ const page = () => {
                 <div className="flex flex-col xl:flex-row justify-end">
                   <div className='relative flex-1'>
                     <div className="hidden xl:block xl:absolute left-0 bottom-0 w-full">
-                        <img src="/our-presence/feature-img.png" className='w-5/6' alt="Feature img" />
+                        <img src={cities.hyderabad.sideimg} className='w-5/6' alt="Feature img" />
                     </div>
                         <div className='absolute bottom-20 right-14 z-50'>
-                            <MapLocation location={WarehouseLocation} />
+                            <MapLocation location={cities.hyderabad.location} />
                         </div>
                   </div>
                     
@@ -489,9 +489,9 @@ const page = () => {
                 </ul>
             </div>
             <div className="col-span-12 lg:col-span-6 space-y-6">
-                <OurVideo />
+                <OurVideo getthumb={getthumb} />
             </div>
-        </div>
+          </div>
 
           <div className='my-6'>
              <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-10 mt-10 my-6 text-center'>

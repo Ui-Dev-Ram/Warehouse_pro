@@ -1,7 +1,10 @@
 'use client'
 import { useState } from 'react';
+import { cities } from '@/data/cityPageDetails'
 
-const ModalVideoComponent = () => {
+
+
+const ModalVideoComponent = (props: any) => {
   const [modalOpen, setModalOpen] = useState(false);
 
   const openModal = () => setModalOpen(true);
@@ -22,7 +25,7 @@ const ModalVideoComponent = () => {
               >
                 <img
                   className="rounded-3xl shadow-2xl transition-shadow duration-300 ease-in-out"
-                  src="https://cruip-tutorials.vercel.app/modal-video/modal-video-thumb.jpg"
+                  src={props.getthumb} 
                   width="768"
                   height="432"
                   alt="Modal video thumbnail"
@@ -73,7 +76,7 @@ const ModalVideoComponent = () => {
                       height="1080"
                       loop
                       controls
-                      src="https://cruip-tutorials.vercel.app/modal-video/video.mp4"
+                      src={cities.bangalore.videolink}
                     >
                       Your browser does not support the video tag.
                     </video>

@@ -11,7 +11,7 @@ import { FaPhone } from "react-icons/fa6";
 const page = () => {
   return (
     <div>
-        <section className="mb-10 lg:mb-32">
+        <section className="mb-10 lg:mb-0">
         <div id="map" className="relative h-[300px] overflow-hidden bg-cover bg-[50%] bg-no-repeat">
             <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.8698367560787!2d77.75538111534318!3d12.980176018200828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae0f2ce9fae88d%3A0xf596d40350aa5ab1!2sWarehouzez%20The%20digital%20supply%20chain!5e0!3m2!1sen!2sin!4v1654600975952!5m2!1sen!2sin"

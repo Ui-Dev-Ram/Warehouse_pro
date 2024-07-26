@@ -1,4 +1,5 @@
-import React from 'react'
+'use client'
+import React, {useState} from 'react'
 import Image from 'next/image'
 import { PiWarehouse } from "react-icons/pi";
 import { TbBuildingWarehouse } from "react-icons/tb";
@@ -8,19 +9,19 @@ import { FaComputer } from "react-icons/fa6";
 import { FaRegStar } from "react-icons/fa";
 import { FaCircleCheck } from "react-icons/fa6";
 import FeaturesServices from '@/components/ourPresence/FeaturesServices';
-import OurKeyFeaturesOfferings from '@/components/ourPresence/OurKeyFeaturesOfferings';
 import WarehouseListed from '@/components/home/our-listed-warehouses/WarehouseListed';
 import OurPresenceFreq from '@/components/ourPresence/OurPresenceFreq';
 import Blog from '@/components/home/blog/Blog';
 import GetEnquiry from '@/components/services/GetEnquiry';
 import NetworkofWarehouzez from '@/components/home/networkofWarehouzez/NetworkofWarehouzez';
 import MapLocation from '@/components/ourPresence/MapLocation';
-
-{/** warehouse location link paste here **/}
-const WarehouseLocation = "https://goo.gl/maps/i67WwnTgWPsN94Gf7";
-
-
+import OurVideo from '@/components/ourPresence/OurVideo'
+import { cities } from '@/data/cityPageDetails'
+ 
 const page = () => {
+  
+  const [getthumb, setGetThumb] = useState(cities.bangalore.thumb)
+
   return (
     <div>
       <div className="container max-w-screen-xl mx-auto">
@@ -44,7 +45,6 @@ const page = () => {
                       Warehouzez - All Inclusive Warehousing and Logistics Partner in Bangalore! <br />
                       Undeniably, the demand for warehousing services in Bangalore is increasing rapidly.<br />
                       Bangalore is deemed as one of the greatest consumer marketplace in the country.
-                      
                   </p>
 
                   <div className="space-y-5 lg:space-x-5 mb-10">
@@ -55,7 +55,7 @@ const page = () => {
               </div>
 
               <div className="flex mx-auto lg:mx-0 align-middle">
-                  <Image src="/our-presence/bangalore.png" className='f-3/4 m-auto' width={500} height={500} alt="Image" />
+                  <Image src={cities.bangalore.cityimg} className='f-3/4 m-auto' width={500} height={500} alt="Image" />
               </div>
           </div>
           <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
@@ -77,10 +77,10 @@ const page = () => {
                 <div className="flex flex-col xl:flex-row justify-end">
                 <div className='relative flex-1'>
                     <div className="hidden xl:block xl:absolute left-0 bottom-0 w-full">
-                        <img src="/our-presence/feature-img.png" alt="Feature img" />
+                        <img src={cities.bangalore.sideimg} alt="Feature img" />
                     </div>
                         <div className='absolute bottom-20 right-6 z-50'>
-                            <MapLocation location={WarehouseLocation} />
+                            <MapLocation location={cities.bangalore.location} />
                         </div>
                   </div>
                     
@@ -267,7 +267,7 @@ const page = () => {
             </div>
 
             <div className='col-span-12 lg:col-span-7 flex items-center'>
-              <Image src="/our-presence/graph.jpg" className='f-3/4 m-auto' width={500} height={500} alt="Image" />
+              <Image src="/our-presence/sideimg/graph.jpg" className='f-3/4 m-auto' width={500} height={500} alt="Image" />
             </div>
           </div>
 
@@ -482,7 +482,76 @@ const page = () => {
           </p>
 
           <FeaturesServices />
-          <OurKeyFeaturesOfferings />
+          <div className="relative max-w-screen-xl mx-auto grid grid-cols-12 gap-x-6">
+            <div className="col-span-12 lg:col-span-6 space-y-6">
+            <h2 className="block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-14">
+                Our Key Features and Offerings
+            </h2>
+            <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
+              Here's a list of our key features and service offerings that sets us apart from other warehousing firms-
+            </p>
+
+                <ul className='flex flex-col mt-4 gap-y-4'>
+                    <li className='w-full'>
+                        <div className='flex space-x-2 items-baseline'>
+                        <span className='material-design-icon check-circle-icon text-red'>
+                            <FaCircleCheck className='relative top-1' />
+                        </span>
+                        <span>
+                          Storage, Distribution and Transportation of the goods as per the customers' specifications.
+                        </span>
+                        </div>
+                    </li>
+
+                    <li className='w-full'>
+                        <div className='flex space-x-2 items-baseline'>
+                        <span className='material-design-icon check-circle-icon text-red'>
+                            <FaCircleCheck className='relative top-1'  />
+                        </span>
+                        <span>
+                          Excellent storage systems that are customized to meet the specific requirements of clients.
+                        </span>
+                        </div>
+                    </li>
+
+                    <li className='w-full'>
+                        <div className='flex space-x-2 items-baseline'>
+                        <span className='material-design-icon check-circle-icon text-red'>
+                            <FaCircleCheck className='relative top-1'  />
+                        </span>
+                        <span>
+                          Optimization of supply chain operations.
+                        </span>
+                        </div>
+                    </li>
+
+                    <li className='w-full'>
+                        <div className='flex space-x-2 items-baseline'>
+                        <span className='material-design-icon check-circle-icon text-red'>
+                            <FaCircleCheck className='relative top-1'  />
+                        </span>
+                        <span>
+                          On-demand warehouses; warehouses located in strategic locations.
+                        </span>
+                        </div>
+                    </li>
+
+                    <li className='w-full'>
+                        <div className='flex space-x-2 items-baseline'>
+                        <span className='material-design-icon check-circle-icon text-red'>
+                            <FaCircleCheck className='relative top-1'/>
+                        </span>
+                        <span>
+                          Best-in-class logistics solutions
+                        </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div className="col-span-12 lg:col-span-6 space-y-6">
+                <OurVideo getthumb={getthumb} />
+            </div>
+          </div>
 
           <div className='my-6'>
              <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-10 mt-10 my-6 text-center'>
