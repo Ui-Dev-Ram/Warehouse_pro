@@ -15,12 +15,15 @@ import GetEnquiry from '@/components/services/GetEnquiry';
 import NetworkofWarehouzez from '@/components/home/networkofWarehouzez/NetworkofWarehouzez';
 import MapLocation from '@/components/ourPresence/MapLocation';
 import OurVideo from '@/components/ourPresence/OurVideo'
+import { cities } from '@/data/cityPageDetails'
 
 
-{/** warehouse location link paste here **/}
-const WarehouseLocation = "https://goo.gl/maps/zpyM6aNaeVY8R1b28";
+interface VideoData {
+    thumb: string;
+  }
 
-const page = () => {
+const page: React.FC = () => {
+    const videoData: VideoData = cities.manesar;
   return (
     <div>
       <div className="container max-w-screen-xl mx-auto">
@@ -52,7 +55,7 @@ const page = () => {
               </div>
 
               <div className="flex mx-auto lg:mx-0 align-middle">
-                  <Image src="/our-presence/manesar.png" className='f-3/4 m-auto' width={500} height={500} alt="Manesar Image" />
+                  <Image src={cities.manesar.cityimg} className='f-3/4 m-auto' width={500} height={500} alt="Manesar Image" />
               </div>
           </div>
 
@@ -83,10 +86,10 @@ const page = () => {
                 <div className="flex flex-col xl:flex-row justify-end"> 
                   <div className='relative flex-1'>
                     <div className="hidden xl:block xl:absolute left-0 bottom-0 w-full">
-                        <img src="/our-presence/feature-img.png" className='w-5/6' alt="Feature img" />
+                        <img src={cities.manesar.sideimg} className='w-5/6' alt="Feature img" />
                     </div>
                         <div className='absolute bottom-20 right-14 z-50'>
-                            <MapLocation location={WarehouseLocation} />
+                            <MapLocation location={cities.manesar.location} />
                         </div>
                   </div>
                     
@@ -382,7 +385,7 @@ const page = () => {
               </ul>
             </div>
             <div className="col-span-12 lg:col-span-6 space-y-6">
-                <OurVideo />
+                <OurVideo  thumb={videoData.thumb}/>
             </div>
         </div>
 

@@ -19,14 +19,11 @@ import { cities } from '@/data/cityPageDetails'
 
 
 interface VideoData {
-  thumb: string; 
-}
+    thumb: string; 
+  }
 
-const page: React.FC = () => {
-
-  const videoData: VideoData = cities.ahmedabad;
-
-
+const page = () => {
+    const videoData: VideoData = cities.hoskote;
   return (
     <div>
       <div className="container max-w-screen-xl mx-auto">
@@ -37,19 +34,17 @@ const page: React.FC = () => {
                       <span className="w-10 h-0.5 bg-red"></span>
 
                       <p className="font-medium text-red text-xl">
-                        Warehouse-in-Ahmedabad
+                        Warehouse-in-Hoskote
                       </p>
                   </div>
 
                   <h1 className="font-bold text-gray-800 text-4xl md:text-6xl xl:text-7xl mb-10">
                       Warehouse in  <br />
-                      <span className='text-red'>Ahmedabad</span>
+                      <span className='text-red'>Hoskote</span>
                   </h1>
 
                   <p className=" block antialiased font-sans lg:text-base leading-relaxed text-gray-700 text-justify font-normal text-sm md:text-md xl:text-lg mb-10">
-                   Warehouzez: One-stop shop for excellent warehousing and<br /> logistics solutions in Ahmedabad!<br />
-                   There is no denying the fact that there are enormous opportunities  <br /> for business ventures in Ahmedabad. 
-
+                    Warehouzez: Best-quality Warehousing and Logistics Services!
                   </p>
 
                   <div className="space-y-5 lg:space-x-5 mb-10">
@@ -58,58 +53,55 @@ const page: React.FC = () => {
                       </a>
                   </div>
               </div>
-
+ 
               <div className="flex mx-auto lg:mx-0 align-middle">
-                  <Image src={cities.ahmedabad.cityimg} className='f-3/4 m-auto' width={500} height={500} alt="Image" />
+                  <Image src={cities.hoskote.cityimg} className='f-3/4 m-auto' width={500} height={500} alt="Manesar Image" />
               </div>
           </div>
+
           <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-            <span className='text-4xl font-bold text-red pr-0.5'>G</span>ujarat's capital, Ahmedabad is regarded as one of the most popular investment locations in central India, besides Mumbai. The GDP of this particular city was speculated to be $160 billion a few years ago, with Fashion and Lifestyle sectors being the key contributors to the city's economic development. Wind, Solar, Telecom, Pharmaceuticals and Medical, Automotive and Spare parts are just some of the prominent industries of Ahmedabad and these industries need warehouse in Ahmedabad. Furthermore, The Gandhinagar corridor has certainly developed into a technical center. Ahmedabad has evolved as Manufacturing and export center in the twenty-first century.
+            <span className='text-4xl font-bold text-red pr-0.5'>H</span>oskote is a fast growing industrial and residential district located 27 kilometres from Bangalore, the metropolitan city. It is conveniently positioned at the crossroads of Routes NH 207 and 4. The residential expansion in this district is boosted by proximity to employment areas, easy access to necessary amenities, and inexpensive real estate prices. By way of NH 75, this area is well connected to major IT clusters. It has excellent connections to the rest of Bangalore. Additionally, it is also interconnected with Whitefield, which is host to IT cluster centers. Both Hoskote and Whitefield are home to small and medium-sized industries, such as Automotive and Spare parts, Packed Food Products, Wind, Solar and Telecom, among others.As a result, the demand for warehouse services in Hoskote is rapidly increasing.
           </p>
+
           
-          <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-            It is indeed the best and perfect location to establish and run a business. Its infrastructure is also exceptional, supporting and encouraging commercial prospects. Due to the aforementioned reasons, and E-Commerce gaining a considerable prominence, the demand for warehousing services is greatly increasing in this city.
-          </p>
-
-          <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-10'>
-            Top-Rated Warehousing Firm
+          <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-5'>
+            Excellent Warehousing Services in Hoskote
           </h2>
+          
+          
+            <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
+                Warehousing and Logistics solutions are inseparable element of any business. For all the people looking for warehouse for rent in Hoskote should connect with Warehouzez. Warehouzez is country's preeminent and efficient logistics services provider. It is a leading warehouse company that provides end-to-end solutions for all kinds of storage needs. By choosing Warehouzez, you can get the best possible offers and best-in-class solutions. In Bangalore, and its nearby regions (Hoskote and Whitefield), the warehouse and logistics sector has seen an upsurge since the pandemic began. Warehouzez has emerged as one of India's major logistics conglomerates in offering cost efficient services in the last few decades, as the warehousing services sector has evolved from a disorganized to an organized sector.
+            </p>
 
-          <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-            Warehouzez, being the pre-eminent warehousing and logistics services provider is the go-to choice of various businesses and conglomerates. We extend a variety of services to our clients like E-Commerce Fulfillment, On demand Warehousing, Reverse Logistics and warehouse for rent in Ahmedabad. Warehouzez provides warehouse services in Ahmedabad, it has been providing reliable services to the customers for decades using innovative strategies and the newest technology like Global SCM Technology, WMS and so on.
-          </p>
+            <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-5'>
+                Modernized Technology
+            </h2>
 
-          <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-10'>
-            Value-Added Services in Ahmedabad
-          </h2>
-
-          <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-            Multiple offerings, facilities and amenities always provide more potential advantages, so choose a partner who can efficiently handle your firm's consequential pressures, such as material handling and installation, cross-docking, Business to business orders, temperature control services, and so much more. In all likelihood, warehouse management is an extremely critical decision to make for every company selling products in order to ensure efficient operations across all departments. Most of the required criteria mentioned above is fully met by the services provided by Warehouzez. Our team understands the importance of your business and focuses on continual technological advancements. We have best warehouse in Ahmedabad.
-          </p>
-
-
+            <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
+                At Warehouzez, we employ advanced technology, software and digital tools. We continuously work on how technology can be better integrated into processes, lowering the risk of human mistake and enhancing the company's digital footprint so that it can reach across the country and provide reliable and smooth services. Additionally, we have a motivated and well-trained staff that works as a team and effectively completes all jobs. Our team is experienced in a variety of fields. We integrate our procedures to achieve efficient supply chain management.
+            </p>
         </div>     
       </div> 
 
       <section className="bg-white py-10 md:py-10 xl:relative">
             <div className="container max-w-screen-xl mx-auto px-4">
-                <div className="flex flex-col xl:flex-row justify-end">
+                <div className="flex flex-col xl:flex-row justify-end"> 
                   <div className='relative flex-1'>
                     <div className="hidden xl:block xl:absolute left-0 bottom-0 w-full">
-                        <img src={cities.ahmedabad.sideimg} className='w-5/6' alt="Feature img" />
+                        <img src={cities.hoskote.sideimg} className='w-5/6' alt="Feature img" />
                     </div>
                         <div className='absolute bottom-20 right-14 z-50'>
-                            <MapLocation location={cities.ahmedabad.location} />
+                            <MapLocation location={cities.hoskote.location} />
                         </div>
                   </div>
                     
                     <div className="flex-1">
                         <h2 className="font-semibold text-gray-900 text-xl md:text-4xl text-center leading-normal mb-6">
-                            Customer Satisfaction
+                            Ever-increasing <br /> Warehouse Network
                         </h2>
 
                         <p className="block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify">
-                            Our success philosophy is dedication and consistency, so we always believe in completing projects of all sizes and specifications within the agreed-upon date. The satisfaction of our customers always tops our priority list.
+                            Our network of warehouses is certainly far superior to that of some of India's largest warehousing corporations. Our warehouses feature cutting-edge technology and they are well equipped with all the necessary tools and material handling equipments. 
                         </p>
 
                         <div className="grid grid-cols-1 md:grid-cols-3 mb-16">
@@ -118,7 +110,7 @@ const page: React.FC = () => {
                                   <PiWarehouse className="feather feather-award text-info text-2xl" />
                                 </div>
                                 <h3 className="font-semibold text-gray-900 text-xl md:text-2xl mb-4 text-center">
-                                    20K Sqft
+                                    50K Sqft
                                 </h3>
                                 <p className="font-light text-gray-400 text-md md:text-lg text-center">
                                   Total Space
@@ -130,7 +122,7 @@ const page: React.FC = () => {
                                   <TbBuildingWarehouse className="feather feather-award text-red text-2xl" />
                                 </div>
                                 <h3 className="font-semibold text-gray-900 text-xl md:text-2xl mb-4 text-center">
-                                    8K Sqft
+                                    12K Sqft
                                 </h3>
                                 <p className="font-light text-gray-400 text-md md:text-lg text-center">
                                   Space Available
@@ -192,15 +184,27 @@ const page: React.FC = () => {
 
       <div className="container max-w-screen-xl mx-auto">
         <div className="lg:m-5">
-         
-        <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2'>
-            At Warehouzez, we employ the most effective and important aspects of inventory management, such as
+          
+        <p className="block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify">
+            This gives us a competitive edge over other corporations. For the past few decades, we have provided our consumers with a range of on-demand warehousing services as an efficient and reliable service provider. Apart from that, we deliver a variety of services like E-Commerce Fulfillment, Contract Logistics and Global SCM technology, among others.
+        </p>
+
+        <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-10'>
+            Online Booking Facilities
         </h2>
 
-        <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-semibold text-gray-700 mb-3 text-justify mt-4'>
-         WHY CHOOSE US?
+        <p className="block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify">
+            The growth of digital operations has resulted in a surge in warehouse demand that has never been seen before. As a result, many clients are having difficulty finding warehouse spaces to store their goods. Many customers have benefited from the online booking facilities of Warehouzez. They can easily reserve a warehouse for them. In order to maximize efficiency and production, we also provide clients with dashboard access and real-time tracking facilities. We take utmost care of all your supply chain operations and make your shipments faster and safer.
         </p>
-        
+
+        <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-10'>
+            Why Choose Us?
+        </h2>
+
+        <p className="block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify">
+            Enlisted below are some prominent features that give us a competitive advantage and help us stand out in the industry.
+        </p>
+
         <ul className='flex items-center flex-wrap gap-y-5 mt-4 mb-6'>
             <li className='w-full lg:w-2/4'>
                 <div className='flex items-center space-x-2'>
@@ -208,7 +212,7 @@ const page: React.FC = () => {
                     <FaCircleCheck />
                 </span>
                 <span>
-                    Keeping track of all inventory status and stock movement operations.
+                    Complete satisfaction of customers.
                 </span>
                 </div>
             </li>
@@ -219,7 +223,7 @@ const page: React.FC = () => {
                     <FaCircleCheck />
                 </span>
                 <span>
-                    Counting inventory on a daily basis.
+                    We assist clients in finding the ideal warehouses for their needs.
                 </span>
                 </div>
             </li>
@@ -230,7 +234,7 @@ const page: React.FC = () => {
                     <FaCircleCheck />
                 </span>
                 <span>
-                    Taking care of out-of-stock items.
+                    All our rental plans are cost effective.
                 </span>
                 </div>
             </li>
@@ -241,7 +245,7 @@ const page: React.FC = () => {
                     <FaCircleCheck />
                 </span>
                 <span>
-                    Providing a detailed inventory description.
+                    We employ cutting-edge technology to deliver tech-driven logistics solutions.
                 </span>
                 </div>
             </li>
@@ -252,7 +256,7 @@ const page: React.FC = () => {
                     <FaCircleCheck />
                 </span>
                 <span>
-                    Creating a well-organized work environment to ensure efficient and effective operations.
+                    We help businesses in extending their core businesses.
                 </span>
                 </div>
             </li>
@@ -263,7 +267,7 @@ const page: React.FC = () => {
                     <FaCircleCheck />
                 </span>
                 <span>
-                    Taking care of out-of-stock items.
+                    We believe in digitizing the supply chain operations completely.
                 </span>
                 </div>
             </li>
@@ -274,7 +278,28 @@ const page: React.FC = () => {
                     <FaCircleCheck />
                 </span>
                 <span>
-                    Providing a detailed inventory description.
+                    To provide comprehensive solutions, we collaborate closely with our in-house teams.
+                </span>
+                </div>
+            </li>
+        </ul>
+
+        <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-10'>
+            Industries we deal with
+        </h2>
+
+        <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
+            A number of industrial sectors entrust us with their logistical needs. Enlisted below are some of the prominent industrial sectors we deal with.
+        </p>
+
+        <ul className='flex items-center flex-wrap gap-y-5 mt-4 mb-6'>
+            <li className='w-full lg:w-2/4'>
+                <div className='flex items-center space-x-2'>
+                <span className='material-design-icon check-circle-icon text-red'>
+                    <FaCircleCheck />
+                </span>
+                <span>
+                    Fashion and Lifestyle
                 </span>
                 </div>
             </li>
@@ -285,29 +310,47 @@ const page: React.FC = () => {
                     <FaCircleCheck />
                 </span>
                 <span>
-                    Creating a well-organized work environment to ensure efficient and effective operations.
+                    E-Commerce and FMCG
+                </span>
+                </div>
+            </li>
+
+            <li className='w-full lg:w-2/4'>
+                <div className='flex items-center space-x-2'>
+                <span className='material-design-icon check-circle-icon text-red'>
+                    <FaCircleCheck />
+                </span>
+                <span>
+                    Battery (EV) and Powergrid
+                </span>
+                </div>
+            </li>
+
+            <li className='w-full lg:w-2/4'>
+                <div className='flex items-center space-x-2'>
+                <span className='material-design-icon check-circle-icon text-red'>
+                    <FaCircleCheck />
+                </span>
+                <span>
+                    Packed Food Products
+                </span>
+                </div>
+            </li>
+
+            <li className='w-full lg:w-2/4'>
+                <div className='flex items-center space-x-2'>
+                <span className='material-design-icon check-circle-icon text-red'>
+                    <FaCircleCheck />
+                </span>
+                <span>
+                    Computer and Electrical
                 </span>
                 </div>
             </li>
         </ul>
         
-          <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2'>
-            Successive Operations for more than twenty years
-          </h2>
-
-          <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-            Warehouzez has been recognised as one of the industry's best pioneers several times, and it continues to serve clients with innovations and perfection. We have an ever-increasing network of warehouses in over 70 locations throughout the country.
-          </p>
-
-          <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2'>
-            Why choose Warehouzez as your trusted logistics partner?
-          </h2>
-
-          <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-            We offer the most affordable and cost-effective plans for warehouse in Ahmedabad. All our warehouses are strategically located and are equipped with the latest digital tools and world class infrastructure. So, you can end your research for a warehouse in Ahmedabad, and shake hands with Warehouzez as the perfect logistics partner for your firm. Our team of professionals will provide you with high-quality services and solutions.
-          </p>
-
           <FeaturesServices />
+
           <div className="relative max-w-screen-xl mx-auto grid grid-cols-12 gap-x-6">
             <div className="col-span-12 lg:col-span-6 space-y-6">
             <h2 className="block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-14">
@@ -325,7 +368,7 @@ const page: React.FC = () => {
                           <FaCircleCheck />
                       </span>
                       <span>
-                        Top-of-the-range safety and security measures.
+                        Trusted and Reliable 3PL Partners.
                       </span>
                       </div>
                   </li>
@@ -336,7 +379,7 @@ const page: React.FC = () => {
                           <FaCircleCheck />
                       </span>
                       <span>
-                        Modernized technology and latest digital tools.
+                        Highest Quality Solutions.
                       </span>
                       </div>
                   </li>
@@ -347,7 +390,7 @@ const page: React.FC = () => {
                           <FaCircleCheck />
                       </span>
                       <span>
-                        Best-in-class warehousing solutions.
+                        1,00,000+ Satisfied Clients.
                       </span>
                       </div>
                   </li>
@@ -358,7 +401,7 @@ const page: React.FC = () => {
                           <FaCircleCheck />
                       </span>
                       <span>
-                        Outsourcing warehousing operations.
+                        Guaranteed 100% Customer Satisfaction.
                       </span>
                       </div>
                   </li>
@@ -369,18 +412,20 @@ const page: React.FC = () => {
                           <FaCircleCheck />
                       </span>
                       <span>
-                        Global Supply Chain Management Technology.
+                        Guaranteed 100% Customer Satisfaction.
                       </span>
                       </div>
                   </li>
               </ul>
-
-            
             </div>
             <div className="col-span-12 lg:col-span-6 space-y-6">
-                <OurVideo thumb={videoData.thumb}/> 
+                <OurVideo thumb={videoData.thumb}/>
             </div>
         </div>
+
+        <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
+            There is absolutely no need to look elsewhere if you are searching for a warehouse in Hoskote and Whitefield. Warehouzez offers indeed the best logistics and warehousing solutions for a wide range of businesses. To achieve optimal efficiency, we employ performance improvement approaches. Contact us today if you are looking for a 3PL partner to upscale your business.
+        </p>
 
           <div className='my-6'>
              <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-10 mt-10 my-6 text-center'>

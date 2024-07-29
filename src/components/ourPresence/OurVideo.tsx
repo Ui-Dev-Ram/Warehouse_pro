@@ -1,14 +1,15 @@
 'use client'
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { cities } from '@/data/cityPageDetails'
 
-
-
-const ModalVideoComponent = (props: any) => {
+interface ModalVideoComponentProps {
+  thumb: string;
+}
+const ModalVideoComponent: React.FC<ModalVideoComponentProps> = ({thumb}) => {
   const [modalOpen, setModalOpen] = useState(false);
 
   const openModal = () => setModalOpen(true);
-  const closeModal = () => setModalOpen(false);
+  const closeModal = () => setModalOpen(false); 
 
   return (
     <div className="relative font-inter antialiased">
@@ -25,7 +26,7 @@ const ModalVideoComponent = (props: any) => {
               >
                 <img
                   className="rounded-3xl shadow-2xl transition-shadow duration-300 ease-in-out"
-                  src={props.getthumb} 
+                  src={thumb} 
                   width="768"
                   height="432"
                   alt="Modal video thumbnail"
@@ -71,7 +72,7 @@ const ModalVideoComponent = (props: any) => {
                 <div className="max-w-5xl mx-auto h-full flex items-center">
                   <div className="w-full max-h-full rounded-3xl shadow-2xl aspect-video bg-black overflow-hidden">
                     <video
-                      autoPlay
+                      autoPlay={false}
                       width="1920"
                       height="1080"
                       loop

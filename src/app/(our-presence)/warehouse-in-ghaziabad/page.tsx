@@ -15,12 +15,14 @@ import GetEnquiry from '@/components/services/GetEnquiry';
 import NetworkofWarehouzez from '@/components/home/networkofWarehouzez/NetworkofWarehouzez';
 import MapLocation from '@/components/ourPresence/MapLocation';
 import OurVideo from '@/components/ourPresence/OurVideo'
+import { cities } from '@/data/cityPageDetails'
 
-
-{/** warehouse location link paste here **/}
-const WarehouseLocation = "https://goo.gl/maps/sNyKDB6wxSmJMkzZA";
+interface VideoData {
+    thumb: string; 
+  }
 
 const page = () => {
+    const videoData: VideoData = cities.ghaziabad;
   return (
     <div>
       <div className="container max-w-screen-xl mx-auto">
@@ -52,14 +54,14 @@ const page = () => {
               </div>
  
               <div className="flex mx-auto lg:mx-0 align-middle">
-                  <Image src="/our-presence/city/hydrabad.png" className='f-3/4 m-auto' width={500} height={500} alt="Manesar Image" />
+                  <Image src={cities.ghaziabad.cityimg} className='f-3/4 m-auto' width={500} height={500} alt="Manesar Image" />
               </div>
           </div>
 
           <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
             <span className='text-4xl font-bold text-red pr-0.5'>G</span>haziabad is also known as the Central hub of Uttar Pradesh West (NCR). This is because it provides enormous space for effective supply chain management throughout the state (U.P.) with easy accessibility from the National Capital Region. It caters to large company demands and provides high-quality services. If you have been searching for warehouse services in Ghaziabad, then Warehouzez is a leading warehousing and logistics provider in the Delhi NCR region. Our team of experts is always there to assist you with modernized technology setup, expertize and extensive experience from diverse industries' supply chain operations such as Telecom, Solar, Fashion, Lifestyle, FMGC, Automotive and Spare parts and so on. This city is primarily known for its factories and industries.
           </p>
-          
+
             <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
                 Ghaziabad, as one of Uttar Pradesh's most industrialised cities, is also one of the biggest revenue-generating cities in terms of economy, trade and business. Commercialization has increased the city's per capita revenue and financial operations by leaps and bounds. It is known as the most well-planned industrial city in the world, with excellent road and rail connections due to its strategic location. The city's economy is mostly dependent on the industries that have been established in the city. With so many job opportunities, Ghaziabad is drawing a large number of highly trained workers. With this tremendous growth opportunity, the requirement for warehousing and logistics solutions is also incredibly increasing.
             </p>
@@ -75,10 +77,10 @@ const page = () => {
                 <div className="flex flex-col xl:flex-row justify-end"> 
                   <div className='relative flex-1'>
                     <div className="hidden xl:block xl:absolute left-0 bottom-0 w-full">
-                        <img src="/our-presence/feature-img.png" className='w-5/6' alt="Feature img" />
+                        <img src={cities.ghaziabad.sideimg} className='w-5/6' alt="Feature img" />
                     </div>
                         <div className='absolute bottom-20 right-14 z-50'>
-                            <MapLocation location={WarehouseLocation} />
+                            <MapLocation location={cities.ghaziabad.location} />
                         </div>
                   </div>
                     
@@ -374,7 +376,7 @@ const page = () => {
               </ul>
             </div>
             <div className="col-span-12 lg:col-span-6 space-y-6">
-                <OurVideo />
+                <OurVideo thumb={videoData.thumb}/>
             </div>
         </div>
 

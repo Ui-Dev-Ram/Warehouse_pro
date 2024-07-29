@@ -15,12 +15,15 @@ import GetEnquiry from '@/components/services/GetEnquiry';
 import NetworkofWarehouzez from '@/components/home/networkofWarehouzez/NetworkofWarehouzez';
 import MapLocation from '@/components/ourPresence/MapLocation';
 import OurVideo from '@/components/ourPresence/OurVideo'
+import { cities } from '@/data/cityPageDetails'
 
+interface VideoData {
+  thumb: string;
+}
 
-{/** warehouse location link paste here **/}
-const WarehouseLocation = "https://goo.gl/maps/AZzgcBg6mVB2Seb49";
+const page: React.FC = () => {
 
-const page = () => {
+  const videoData = cities.pune;
   return (
     <div>
       <div className="container max-w-screen-xl mx-auto">
@@ -54,7 +57,7 @@ const page = () => {
               </div>
 
               <div className="flex mx-auto lg:mx-0 align-middle">
-                  <Image src="/our-presence/pune.png" className='f-3/4 m-auto' width={500} height={500} alt="Image" />
+                  <Image src={cities.pune.cityimg} className='f-3/4 m-auto' width={500} height={500} alt="Image" />
               </div>
           </div>
           <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
@@ -78,10 +81,10 @@ const page = () => {
                 <div className="flex flex-col xl:flex-row justify-end">
                   <div className='relative flex-1'>
                     <div className="hidden xl:block xl:absolute left-0 bottom-0 w-full">
-                        <img src="/our-presence/feature-img.png" className='w-5/6' alt="Feature img" />
+                        <img src={cities.pune.sideimg} className='w-5/6' alt="Feature img" />
                     </div>
                         <div className='absolute bottom-20 right-14 z-50'>
-                            <MapLocation location={WarehouseLocation} />
+                            <MapLocation location={cities.pune.location} />
                         </div>
                   </div>
                     
@@ -451,7 +454,7 @@ const page = () => {
             
             </div>
             <div className="col-span-12 lg:col-span-6 space-y-6">
-                <OurVideo />
+                <OurVideo thumb={videoData.thumb}/>
             </div>
         </div>
 

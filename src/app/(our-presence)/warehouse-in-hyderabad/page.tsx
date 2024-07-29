@@ -1,6 +1,4 @@
-'use client'
-
-import React, { useState } from 'react'
+import React from 'react'
 import Image from 'next/image'
 import { PiWarehouse } from "react-icons/pi";
 import { TbBuildingWarehouse } from "react-icons/tb";
@@ -18,10 +16,15 @@ import NetworkofWarehouzez from '@/components/home/networkofWarehouzez/Networkof
 import MapLocation from '@/components/ourPresence/MapLocation';
 import OurVideo from '@/components/ourPresence/OurVideo'
 import { cities } from '@/data/cityPageDetails'
+ 
+interface VideoData {
+  thumb: string;
+}
 
 const page = () => {
+
+  const videoData = cities.hyderabad;
   
-      const [getthumb, setGetThumb] = useState(cities.hyderabad.thumb)
   return (
     <div>
       <div className="container max-w-screen-xl mx-auto">
@@ -489,7 +492,7 @@ const page = () => {
                 </ul>
             </div>
             <div className="col-span-12 lg:col-span-6 space-y-6">
-                <OurVideo getthumb={getthumb} />
+                <OurVideo thumb={videoData.thumb} />
             </div>
           </div>
 
