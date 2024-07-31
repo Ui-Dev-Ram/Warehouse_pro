@@ -24,7 +24,7 @@ interface VideoData {
 
 const page: React.FC = () => {
 
-    const videoData: VideoData = cities.sonipat;
+    const videoData: VideoData = cities.kanpur;
 
   return (
     <div>
@@ -36,17 +36,17 @@ const page: React.FC = () => {
                       <span className="w-10 h-0.5 bg-red"></span>
 
                       <p className="font-medium text-red text-xl">
-                        Warehouse-in-Sonipat
+                        Warehouse-in-Kanpur
                       </p>
                   </div>
 
                   <h1 className="font-bold text-gray-800 text-4xl md:text-6xl xl:text-7xl mb-10">
                       Warehouse in  <br />
-                      <span className='text-red'>Sonipat</span>
+                      <span className='text-red'>Kanpur</span>
                   </h1>
 
                   <p className=" block antialiased font-sans lg:text-base leading-relaxed text-gray-700 text-justify font-normal text-sm md:text-md xl:text-lg mb-10">
-                    Warehouzez: Experience Supreme Quality Warehousing And Logistics Services!
+                    Warehouzez: High-class Warehousing and Logistics Services for your Business!
                   </p>
 
                   <div className="space-y-5 lg:space-x-5 mb-10">
@@ -57,19 +57,19 @@ const page: React.FC = () => {
               </div>
 
               <div className="flex mx-auto lg:mx-0 align-middle">
-                  <Image src={cities.sonipat.cityimg} className='f-3/4 m-auto' width={500} height={500} alt="Image" />
+                  <Image src={cities.kanpur.cityimg} className='f-3/4 m-auto' width={500} height={500} alt="Image" />
               </div>
           </div>
           <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-            <span className='text-4xl font-bold text-red pr-0.5'>O</span>wing to an increase in the export business, India's warehousing sector has been expanding at a fast pace. The establishment of production units has generated a huge possibility for trade, which has increased the demand for warehouse spaces to manage the inventory stock. For all the people, investors or firms looking for a warehouse in Sonipat or any other city should connect and shake hands with Warehouzez. Warehouzez is among the top logistics companies in India. We have a country-wide network of warehouses where you can keep your company's inventory stock in the most convenient location. Our greatest storage system in India ensures that you have the infrastructure and facilities as per your requirements.
+            <span className='text-4xl font-bold text-red pr-0.5'>K</span>anpur has a long history as an industrial city and commercial hub. It was once India's second most economically developed city, trailing only Calcutta. It is a significant city in the state of Uttar Pradesh. It is located on the banks of Ganga River, and is India's primary industrial and economic center. Known as 'Manchester of Asia', this district was globally famous for production of clothes. Presently, this city is widely regarded as a business hub for companies that manufacture automobiles. The demand for warehouse services in Kanpur is also booming. Kanpur is well-known for its industries like Automotive and Spare Parts, Computer and Electrical, Wind, Solar and Telecom, Lifestyle and Fashion among others.
           </p>
 
           <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-10'>
-            Best-in-Class Logistics Services in Sonipat
+            Excellent Warehousing Services
           </h2>
 
           <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-            Sonipat is constantly developing and has been added to the list of 'Smart Cities,' which bodes well for its future development. It has grown rapidly in recent years, providing excellent possibilities to live a wholesome life in a small town. It is one such place that has recently piqued the interest of several entrepreneurs and investors. It is rapidly expanding and has become a popular tourist attraction. The city is one of the top cities in India experiencing a real estate boom, owing to the rise in residential and business units. As a result, the demand for warehouse spaces is also increasing in this district. For everyone searching for a warehouse in Sonipat should get in touch with Warehouzez, the best logistics company in India. Our team of experts can help you with customized warehouse and logistics operations, short and long-term storage facilities, and other value-added solutions. Warehouzez is a popular and preferred third party logistics partner (3PL) in the country.
+            As Kanpur is continuing to expand its industrial base, the demand for warehousing services is incredibly increasing. Warehouzez is the most preferred choice of all the firms looking out for warehouse spaces and logistics services. Over the decades, our associates and customers in a wide range of industries, like E-Commerce and FMCG, Minerals and Mining, Pharmaceuticals and Medical, and Telecom, have put their trust in us to handle their multilateral operations. Warehouzez has earned a reputation for meeting the customer expectations. We attain excellent results by implementing a unique and innovative approach to meet the client's needs and targets, which sets us apart from the competitors. So, if you are searching for a warehouse in Kanpur, or any other city of Uttar Pradesh like Varanasi, Ghaziabad, Noida and so on, do connect with us! All our warehouses are equipped with ultra-modern features. We also provide warehouse for rent in Kanpur.
           </p>
         </div>     
       </div> 
@@ -79,20 +79,20 @@ const page: React.FC = () => {
                 <div className="flex flex-col xl:flex-row justify-end"> 
                   <div className='relative flex-1'>
                     <div className="hidden xl:block xl:absolute left-0 bottom-0 w-full">
-                        <img src={cities.sonipat.sideimg} className='w-5/6' alt="Feature img" />
+                        <img src={cities.kanpur.sideimg} className='w-5/6' alt="Feature img" />
                     </div>
                         <div className='absolute bottom-20 right-14 z-50'>
-                            <MapLocation location={cities.sonipat.location} />
+                            <MapLocation location={cities.kanpur.location} />
                         </div>
                   </div>
                     
                     <div className="flex-1">
                         <h2 className="font-semibold text-gray-900 text-xl md:text-4xl text-center leading-normal mb-6">
-                            Why Choose Warehouzez <br /> in Sonipat
+                        Why Choose Warehouzez <br />  in Kanpur
                         </h2>
 
                         <p className="block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify">
-                            We offer a full range of logistics, distribution and transportation services to fulfill the demands of our clients. Warehouzez has extended its spectrum of services and solutions, creating a strong position in India's logistics sector.
+                            In order to deliver best-in-class logistics solutions, we are consistently broadening our operations. Businesses of various sizes choose us because of our remarkable performance over the years. Warehouzez is one of India's extremely fast warehouse firms.
                         </p>
 
                         <div className="grid grid-cols-1 md:grid-cols-3 mb-16">
@@ -101,7 +101,7 @@ const page: React.FC = () => {
                                   <PiWarehouse className="feather feather-award text-info text-2xl" />
                                 </div>
                                 <h3 className="font-semibold text-gray-900 text-xl md:text-2xl mb-4 text-center">
-                                    60K Sqft
+                                    18K Sqft
                                 </h3>
                                 <p className="font-light text-gray-400 text-md md:text-lg text-center">
                                   Total Space
@@ -113,7 +113,7 @@ const page: React.FC = () => {
                                   <TbBuildingWarehouse className="feather feather-award text-red text-2xl" />
                                 </div>
                                 <h3 className="font-semibold text-gray-900 text-xl md:text-2xl mb-4 text-center">
-                                    23K Sqft
+                                4.5K Sqft
                                 </h3>
                                 <p className="font-light text-gray-400 text-md md:text-lg text-center">
                                   Space Available   
@@ -176,73 +176,12 @@ const page: React.FC = () => {
       <div className="container max-w-screen-xl mx-auto">
         <div className="lg:m-5">
 
-          <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2'>
-             Why Choose Us?
-          </h2>
-
-          <ul className='flex items-center flex-wrap gap-y-5 mt-4 mb-6'>
-            <li className='w-full lg:w-2/4'>
-                <div className='flex items-center space-x-2'>
-                <span className='material-design-icon check-circle-icon text-red'>
-                    <FaCircleCheck />
-                </span>
-                <span>
-                    We certainly help businesses reach their full potential by offering a wide range of exceptional logistics solutions.
-                </span>
-                </div>
-            </li>
-
-            <li className='w-full lg:w-2/4'>
-                <div className='flex items-center space-x-2'>
-                <span className='material-design-icon check-circle-icon text-red'>
-                    <FaCircleCheck />
-                </span>
-                <span>
-                    Inventory management, picking and packing, temperature regulation, order fulfillment, are some of the services provided by us.
-                </span>
-                </div>
-            </li>
-
-            <li className='w-full lg:w-2/4'>
-                <div className='flex items-center space-x-2'>
-                <span className='material-design-icon check-circle-icon text-red'>
-                    <FaCircleCheck />
-                </span>
-                <span>
-                    To maintain the safety, efficiency, and quality standards, our experts go through a thorough verification procedure.
-                </span>
-                </div>
-            </li>
-
-            <li className='w-full lg:w-2/4'>
-                <div className='flex items-center space-x-2'>
-                <span className='material-design-icon check-circle-icon text-red'>
-                    <FaCircleCheck />
-                </span>
-                <span>
-                    We utilize the latest technology and digital tools to meet the challenges of warehouse management and supply chain management.
-                </span>
-                </div>
-            </li>
-
-            <li className='w-full lg:w-2/4'>
-                <div className='flex items-center space-x-2'>
-                <span className='material-design-icon check-circle-icon text-red'>
-                    <FaCircleCheck />
-                </span>
-                <span>
-                    We gain a thorough understanding of your inventory to determine the best storage methods, solutions and locations for you.
-                </span>
-                </div>
-            </li>
-    </ul>           
-
-        <h2 className="block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-14">
-            Industries we deal with
-        </h2>
+            <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-10'>
+                Why Choose Us?
+            </h2>
 
             <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-                A number of industrial sectors entrust us with their logistical needs. Enlisted below are some of the prominent industrial sectors we deal with.
+                Following are some of the reasons that make us stand out in the industry
             </p>
 
             <ul className='flex items-center flex-wrap gap-y-5 mt-4 mb-6'>
@@ -252,7 +191,7 @@ const page: React.FC = () => {
                           <FaCircleCheck />
                       </span>
                       <span>
-                        Wind, Solar and Telecom
+                      Our Warehouse Management Solutions are of high-value.
                       </span>
                       </div>
                   </li>
@@ -263,7 +202,7 @@ const page: React.FC = () => {
                           <FaCircleCheck />
                       </span>
                       <span>
-                      E-Commerce and FMCG   
+                      We focus on improving and optimizing the inventory flow.
                       </span>
                       </div>
                   </li>
@@ -274,7 +213,7 @@ const page: React.FC = () => {
                           <FaCircleCheck />
                       </span>
                       <span>
-                      Battery (EV) and Powergrid
+                      All aspects of the supply chain are successfully managed by our team of experts.
                       </span>
                       </div>
                   </li>
@@ -285,7 +224,7 @@ const page: React.FC = () => {
                           <FaCircleCheck />
                       </span>
                       <span>
-                      Consumer Goods
+                      We intend to become one of the best service providers in the world.
                       </span>
                       </div>
                   </li>
@@ -296,20 +235,51 @@ const page: React.FC = () => {
                           <FaCircleCheck />
                       </span>
                       <span>
-                        Computer and Electrical
+                      We deliver comprehensive value-added services.
                       </span>
                       </div>
                   </li>
-            </ul>  
+
+                  <li className='w-full lg:w-2/4'>
+                      <div className='flex items-center space-x-2'>
+                      <span className='material-design-icon check-circle-icon text-red'>
+                          <FaCircleCheck />
+                      </span>
+                      <span>
+                      Our integrated warehouse and distribution solutions assure increased efficiency and timely delivery.
+                      </span>
+                      </div>
+                  </li>
+
+                  <li className='w-full lg:w-2/4'>
+                      <div className='flex items-center space-x-2'>
+                      <span className='material-design-icon check-circle-icon text-red'>
+                          <FaCircleCheck />
+                      </span>
+                      <span>
+                      We use a variety of forms of transportation to satisfy the needs of our customers.
+                      </span>
+                      </div>
+                  </li>
+            </ul> 
+
+            <h2 className="block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-14">
+                Value-Added Services
+            </h2>
+
+            <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
+                We offer a full suite of value-added services to our clients. Our warehouse infrastructure is indeed the finest in the country. To provide unparalleled facilities, we combine cutting-edge technology with tried-and-true methods. Our supply chain strategies are specially designed to meet the varying demands of organizations.
+            </p>
+
           <FeaturesServices />
           <div className="relative max-w-screen-xl mx-auto grid grid-cols-12 gap-x-6">
             <div className="col-span-12 lg:col-span-6 space-y-6">
             <h2 className="block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-14">
-                Our key features and offerings
+                Key Features and Offerings
             </h2>
 
             <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-                Here's a list of some of the significant services we offer
+            Here's a list of some of our key features and offerings
             </p>
 
             <ul className='flex items-center flex-wrap gap-y-5 mt-4 mb-6'>
@@ -319,8 +289,7 @@ const page: React.FC = () => {
                           <FaCircleCheck />
                       </span>
                       <span>
-                      Contract Logistics and Third Party Logistics.
-
+                      World-Class Warehousing and Distribution Services.
                       </span>
                       </div>
                   </li>
@@ -331,7 +300,18 @@ const page: React.FC = () => {
                           <FaCircleCheck />
                       </span>
                       <span>
-                      Best-in-class Warehousing and Distribution facilities.
+                      Outstanding E-Commerce Fulfillment Solutions.
+                      </span>
+                      </div>
+                  </li>
+
+                  <li className='w-full'>
+                      <div className='flex items-center space-x-2'>
+                      <span className='material-design-icon check-circle-icon text-red'>
+                          <FaCircleCheck />
+                      </span>
+                      <span>
+                      Third Party Logistics and Contract Logistics.
                       </span>
                       </div>
                   </li>
@@ -353,18 +333,7 @@ const page: React.FC = () => {
                           <FaCircleCheck />
                       </span>
                       <span>
-                      We offer a great assortment of E-Commerce Fulfillment solutions.
-                      </span>
-                      </div>
-                  </li>
-
-                  <li className='w-full'>
-                      <div className='flex items-center space-x-2'>
-                      <span className='material-design-icon check-circle-icon text-red'>
-                          <FaCircleCheck />
-                      </span>
-                      <span>
-                      State-of-the-art and Global SCM Technology.
+                      We employ modernized Global SCM Technology to ensure efficient management of Supply Chains.
                       </span>
                       </div>
                   </li>
@@ -376,7 +345,11 @@ const page: React.FC = () => {
         </div>
 
         <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-            If you're looking for a warehouse for rent in Sonipat , there is no need to explore further. Let Warehouzez fulfill all of your storage and logistical needs to the best extent possible. We will transform the way you organize your inventory. We will, in fact, offer entire supply chain solutions and warehousing services to you. So please feel free to contact with us right away for detailed information.
+        Any successful business organization understands how critical it is to have well-organized logistical support. We firmly believe that integrating smooth operations is necessary to meet client's needs and surpass competition. So, if you are searching for a warehouse in Kanpur or any other part of the city, then do contact us.
+        </p>
+
+        <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
+            We will leave no stone unturned to provide you with exceptional warehousing and logistics solutions. We are incredibly pleased to provide our customers with flawless services.
         </p>
 
           <div className='my-6'>

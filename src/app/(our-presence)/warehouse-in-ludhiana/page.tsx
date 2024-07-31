@@ -24,7 +24,7 @@ interface VideoData {
 
 const page: React.FC = () => {
 
-    const videoData: VideoData = cities.sonipat;
+    const videoData: VideoData = cities.ludhiana;
 
   return (
     <div>
@@ -36,17 +36,17 @@ const page: React.FC = () => {
                       <span className="w-10 h-0.5 bg-red"></span>
 
                       <p className="font-medium text-red text-xl">
-                        Warehouse-in-Sonipat
+                        Warehouse-in-Ludhiana
                       </p>
                   </div>
 
                   <h1 className="font-bold text-gray-800 text-4xl md:text-6xl xl:text-7xl mb-10">
                       Warehouse in  <br />
-                      <span className='text-red'>Sonipat</span>
+                      <span className='text-red'>Ludhiana</span>
                   </h1>
 
                   <p className=" block antialiased font-sans lg:text-base leading-relaxed text-gray-700 text-justify font-normal text-sm md:text-md xl:text-lg mb-10">
-                    Warehouzez: Experience Supreme Quality Warehousing And Logistics Services!
+                  Warehouzez: Delivering The Finest- Quality Warehousing And Logistics Services!
                   </p>
 
                   <div className="space-y-5 lg:space-x-5 mb-10">
@@ -57,19 +57,23 @@ const page: React.FC = () => {
               </div>
 
               <div className="flex mx-auto lg:mx-0 align-middle">
-                  <Image src={cities.sonipat.cityimg} className='f-3/4 m-auto' width={500} height={500} alt="Image" />
+                  <Image src={cities.ludhiana.cityimg} className='f-3/4 m-auto' width={500} height={500} alt="Image" />
               </div>
           </div>
           <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-            <span className='text-4xl font-bold text-red pr-0.5'>O</span>wing to an increase in the export business, India's warehousing sector has been expanding at a fast pace. The establishment of production units has generated a huge possibility for trade, which has increased the demand for warehouse spaces to manage the inventory stock. For all the people, investors or firms looking for a warehouse in Sonipat or any other city should connect and shake hands with Warehouzez. Warehouzez is among the top logistics companies in India. We have a country-wide network of warehouses where you can keep your company's inventory stock in the most convenient location. Our greatest storage system in India ensures that you have the infrastructure and facilities as per your requirements.
+            <span className='text-4xl font-bold text-red pr-0.5'>T</span>he logistics industry has played a critical role in propelling several other industries as India's growth model has evolved tremendously. The key driving forces for growth in the warehousing sector are Retailing, E-commerce, modernized and advanced technologies. India's warehousing industry has been rapidly developing due to a rise in economic growth and export business. All the individuals, business owners, and stakeholders looking for a warehouse in Ludhiana or any other city should contact Warehouzez. Warehouzez is certainly one of the most significant warehousing companies in India. We offer innovative and tailor-made warehousing solutions along with top-class infrastructure for businesses.
+          </p>
+
+          <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
+            Our team of experts can help you with customized warehouse and logistical operations, short and long-term storage facilities, and other value-added solutions. Warehouzez is a prominent, popular and most preferred third party logistics partner (3PL) in the country.
           </p>
 
           <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-10'>
-            Best-in-Class Logistics Services in Sonipat
+            Top-notch Warehousing Services in Ludhiana
           </h2>
 
           <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-            Sonipat is constantly developing and has been added to the list of 'Smart Cities,' which bodes well for its future development. It has grown rapidly in recent years, providing excellent possibilities to live a wholesome life in a small town. It is one such place that has recently piqued the interest of several entrepreneurs and investors. It is rapidly expanding and has become a popular tourist attraction. The city is one of the top cities in India experiencing a real estate boom, owing to the rise in residential and business units. As a result, the demand for warehouse spaces is also increasing in this district. For everyone searching for a warehouse in Sonipat should get in touch with Warehouzez, the best logistics company in India. Our team of experts can help you with customized warehouse and logistics operations, short and long-term storage facilities, and other value-added solutions. Warehouzez is a popular and preferred third party logistics partner (3PL) in the country.
+            Since its establishment as a separate district, Ludhiana's economy has been on the rise. Ludhiana is a large industrial city in Indian state of Punjab. The development of several types of industries, including Packed Food Products, Minerals and Mining, Oil and Chemical, Consumer Goods, has expedited the commercial growth of this city. As a result, the demand for logistics and warehousing services is also increasing in this district. For everyone searching for a warehouse in Ludhiana should approach and contact Warehouzez. We have a country-wide network of warehouses where you can keep your company's inventory stock in the most convenient location. Our greatest storage system in India ensures that you have the infrastructure and facilities as per your requirements. We make it a point to use the latest software and technological tools to get the best results. Warehouzez is in the list of top logistics companies of India.
           </p>
         </div>     
       </div> 
@@ -79,20 +83,20 @@ const page: React.FC = () => {
                 <div className="flex flex-col xl:flex-row justify-end"> 
                   <div className='relative flex-1'>
                     <div className="hidden xl:block xl:absolute left-0 bottom-0 w-full">
-                        <img src={cities.sonipat.sideimg} className='w-5/6' alt="Feature img" />
+                        <img src={cities.ludhiana.sideimg} className='w-5/6' alt="Feature img" />
                     </div>
                         <div className='absolute bottom-20 right-14 z-50'>
-                            <MapLocation location={cities.sonipat.location} />
+                            <MapLocation location={cities.ludhiana.location} />
                         </div>
                   </div>
                     
                     <div className="flex-1">
                         <h2 className="font-semibold text-gray-900 text-xl md:text-4xl text-center leading-normal mb-6">
-                            Why Choose Warehouzez <br /> in Sonipat
+                            Why Choose Warehouzez <br /> in Ludhiana?
                         </h2>
 
                         <p className="block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify">
-                            We offer a full range of logistics, distribution and transportation services to fulfill the demands of our clients. Warehouzez has extended its spectrum of services and solutions, creating a strong position in India's logistics sector.
+                            To address our customer's demands and requirements, we provide a broad array of logistics, supply chain management, distribution, and transportation services.
                         </p>
 
                         <div className="grid grid-cols-1 md:grid-cols-3 mb-16">
@@ -101,7 +105,7 @@ const page: React.FC = () => {
                                   <PiWarehouse className="feather feather-award text-info text-2xl" />
                                 </div>
                                 <h3 className="font-semibold text-gray-900 text-xl md:text-2xl mb-4 text-center">
-                                    60K Sqft
+                                80k Sqft
                                 </h3>
                                 <p className="font-light text-gray-400 text-md md:text-lg text-center">
                                   Total Space
@@ -113,7 +117,7 @@ const page: React.FC = () => {
                                   <TbBuildingWarehouse className="feather feather-award text-red text-2xl" />
                                 </div>
                                 <h3 className="font-semibold text-gray-900 text-xl md:text-2xl mb-4 text-center">
-                                    23K Sqft
+                                20k Sqft
                                 </h3>
                                 <p className="font-light text-gray-400 text-md md:text-lg text-center">
                                   Space Available   
@@ -176,70 +180,70 @@ const page: React.FC = () => {
       <div className="container max-w-screen-xl mx-auto">
         <div className="lg:m-5">
 
-          <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2'>
-             Why Choose Us?
-          </h2>
+            <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
+                Here's how we can significantly help conglomerates in a variety of industries
+            </p>
+            
+            <ul className='flex items-center flex-wrap gap-y-5 mt-4 mb-6'>
+                  <li className='w-full lg:w-2/4'>
+                      <div className='flex items-center space-x-2'>
+                      <span className='material-design-icon check-circle-icon text-red'>
+                          <FaCircleCheck />
+                      </span>
+                      <span>
+                      We certainly help businesses reach their full potential by offering a wide range of exceptional logistics solutions.
+                      </span>
+                      </div>
+                  </li>
 
-          <ul className='flex items-center flex-wrap gap-y-5 mt-4 mb-6'>
-            <li className='w-full lg:w-2/4'>
-                <div className='flex items-center space-x-2'>
-                <span className='material-design-icon check-circle-icon text-red'>
-                    <FaCircleCheck />
-                </span>
-                <span>
-                    We certainly help businesses reach their full potential by offering a wide range of exceptional logistics solutions.
-                </span>
-                </div>
-            </li>
+                  <li className='w-full lg:w-2/4'>
+                      <div className='flex items-center space-x-2'>
+                      <span className='material-design-icon check-circle-icon text-red'>
+                          <FaCircleCheck />
+                      </span>
+                      <span>
+                      Our staff protects your merchandise while simultaneously helping you save money.
+                      </span>
+                      </div>
+                  </li>
 
-            <li className='w-full lg:w-2/4'>
-                <div className='flex items-center space-x-2'>
-                <span className='material-design-icon check-circle-icon text-red'>
-                    <FaCircleCheck />
-                </span>
-                <span>
-                    Inventory management, picking and packing, temperature regulation, order fulfillment, are some of the services provided by us.
-                </span>
-                </div>
-            </li>
+                  <li className='w-full lg:w-2/4'>
+                      <div className='flex items-center space-x-2'>
+                      <span className='material-design-icon check-circle-icon text-red'>
+                          <FaCircleCheck />
+                      </span>
+                      <span>
+                      We can provide temperature control storage facilities, on-demand warehousing facilities, E-Commerce fulfillment solutions, or any other customized service you require.
+                      </span>
+                      </div>
+                  </li>
 
-            <li className='w-full lg:w-2/4'>
-                <div className='flex items-center space-x-2'>
-                <span className='material-design-icon check-circle-icon text-red'>
-                    <FaCircleCheck />
-                </span>
-                <span>
-                    To maintain the safety, efficiency, and quality standards, our experts go through a thorough verification procedure.
-                </span>
-                </div>
-            </li>
+                  <li className='w-full lg:w-2/4'>
+                      <div className='flex items-center space-x-2'>
+                      <span className='material-design-icon check-circle-icon text-red'>
+                          <FaCircleCheck />
+                      </span>
+                      <span>
+                      Our professionals go through a thorough evaluation method to ensure that the security, reliability, and quality standards are maintained in the best possible manner.
+                      </span>
+                      </div>
+                  </li>
 
-            <li className='w-full lg:w-2/4'>
-                <div className='flex items-center space-x-2'>
-                <span className='material-design-icon check-circle-icon text-red'>
-                    <FaCircleCheck />
-                </span>
-                <span>
-                    We utilize the latest technology and digital tools to meet the challenges of warehouse management and supply chain management.
-                </span>
-                </div>
-            </li>
+                  <li className='w-full lg:w-2/4'>
+                      <div className='flex items-center space-x-2'>
+                      <span className='material-design-icon check-circle-icon text-red'>
+                          <FaCircleCheck />
+                      </span>
+                      <span>
+                      We provide a host of services like On-demand Warehousing, E-Commerce Fulfillment Solutions, Efficient Supply Chain Management, and many more.
+                      </span>
+                      </div>
+                  </li>
+            </ul> 
 
-            <li className='w-full lg:w-2/4'>
-                <div className='flex items-center space-x-2'>
-                <span className='material-design-icon check-circle-icon text-red'>
-                    <FaCircleCheck />
-                </span>
-                <span>
-                    We gain a thorough understanding of your inventory to determine the best storage methods, solutions and locations for you.
-                </span>
-                </div>
-            </li>
-    </ul>           
-
-        <h2 className="block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-14">
-            Industries we deal with
-        </h2>
+            <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-10'>
+                Industries we deal with
+            </h2>
 
             <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
                 A number of industrial sectors entrust us with their logistical needs. Enlisted below are some of the prominent industrial sectors we deal with.
@@ -252,7 +256,7 @@ const page: React.FC = () => {
                           <FaCircleCheck />
                       </span>
                       <span>
-                        Wind, Solar and Telecom
+                      Wind, Solar and Telecom
                       </span>
                       </div>
                   </li>
@@ -263,7 +267,7 @@ const page: React.FC = () => {
                           <FaCircleCheck />
                       </span>
                       <span>
-                      E-Commerce and FMCG   
+                      E-Commerce and FMCG
                       </span>
                       </div>
                   </li>
@@ -296,20 +300,21 @@ const page: React.FC = () => {
                           <FaCircleCheck />
                       </span>
                       <span>
-                        Computer and Electrical
+                      Computer and Electrical
                       </span>
                       </div>
                   </li>
-            </ul>  
+            </ul> 
+
           <FeaturesServices />
           <div className="relative max-w-screen-xl mx-auto grid grid-cols-12 gap-x-6">
             <div className="col-span-12 lg:col-span-6 space-y-6">
             <h2 className="block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-14">
-                Our key features and offerings
+            Key Service Offerings
             </h2>
 
             <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-                Here's a list of some of the significant services we offer
+            Here's a list of some of the significant services we offer.
             </p>
 
             <ul className='flex items-center flex-wrap gap-y-5 mt-4 mb-6'>
@@ -320,7 +325,6 @@ const page: React.FC = () => {
                       </span>
                       <span>
                       Contract Logistics and Third Party Logistics.
-
                       </span>
                       </div>
                   </li>
@@ -376,7 +380,7 @@ const page: React.FC = () => {
         </div>
 
         <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-            If you're looking for a warehouse for rent in Sonipat , there is no need to explore further. Let Warehouzez fulfill all of your storage and logistical needs to the best extent possible. We will transform the way you organize your inventory. We will, in fact, offer entire supply chain solutions and warehousing services to you. So please feel free to contact with us right away for detailed information.
+        If you are searching for a warehouse for rent in Ludhiana, then there is need to look anywhere else. Let Warehouzez handle all your warehousing and logistics concerns in the best possible manner. We will improve the way your inventory is stored. We will indeed provide you with world-class supply chain solutions and services. So, do contact us today for more information.
         </p>
 
           <div className='my-6'>
