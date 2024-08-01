@@ -24,7 +24,7 @@ interface VideoData {
 
 const page: React.FC = () => {
 
-    const videoData: VideoData = cities.patna;
+    const videoData: VideoData = cities.indore;
 
   return (
     <div>
@@ -36,17 +36,17 @@ const page: React.FC = () => {
                       <span className="w-10 h-0.5 bg-red"></span>
 
                       <p className="font-medium text-red text-xl">
-                        Warehouse-in-Patna
+                        Warehouse-in-Indore
                       </p>
                   </div>
 
                   <h1 className="font-bold text-gray-800 text-4xl md:text-6xl xl:text-7xl mb-10">
                       Warehouse in  <br />
-                      <span className='text-red'>Patna</span>
+                      <span className='text-red'>Indore</span>
                   </h1>
 
                   <p className=" block antialiased font-sans lg:text-base leading-relaxed text-gray-700 text-justify font-normal text-sm md:text-md xl:text-lg mb-10">
-                    Warehouzez: Experience top-class Logistics and Warehousing Services with us!
+                    Warehouzez: Outstanding Logistics and Warehousing Services to Make Your Business Thrive!
                   </p>
 
                   <div className="space-y-5 lg:space-x-5 mb-10">
@@ -57,19 +57,19 @@ const page: React.FC = () => {
               </div>
 
               <div className="flex mx-auto lg:mx-0 align-middle">
-                  <Image src={cities.patna.cityimg} className='f-3/4 m-auto' width={500} height={500} alt="Image" />
+                  <Image src={cities.dibrugarh.cityimg} className='f-3/4 m-auto' width={500} height={500} alt="Image" />
               </div>
           </div>
           <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-            <span className='text-4xl font-bold text-red pr-0.5'>T</span>he capital of Bihar, Patna is one of largest and fastest-growing cities of India. The city has traditionally been an important agricultural and commercial hub. It was ranked as the second greatest city in India to set up any business by the World Bank. This city has one of the biggest export markets of the country and wheat, sugarcane, sunflower, and rice are the most popular exports. As a result, there is a growing demand for warehouse services in Patna. The city's economy has been growing at an exponential rate. The significant industrial sectors in this city include E-Commerce and FMCG, Wind, Solar and Telecom, Consumer Goods, Automotive and Spare parts, among others. These industries require warehouse in Patna to store their inventory stock safely.
+            <span className='text-4xl font-bold text-red pr-0.5'>I</span>ndore is Madhya Pradesh's trading and commercial capital and is the fastest growing economy of the state. The economic system of this city is significant for its prominence in the sectors of trade, commerce, and distribution. The city also includes a number of business locations that are considered to be a part of Indore. Pithampur, widely known as the country's Detroit, is among the most prominent. Being one of the vibrant cities of Madhya Pradesh, it has grown to become a key industrial center in the state. The notable industries in this city include Automotive and Spare Parts, Fashion and Lifestyle, Computer and Electrical and these are industries demand for warehousing services in Indore.
           </p>
-
+ 
           <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-10'>
-            Top-Quality Warehousing Services
+              Finest Warehousing Services in Indore
           </h2>
 
           <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-            With the growth in E-Commerce and fast moving consumer goods sector, the need and demand for warehousing and logistics services is also experiencing a surge. Undoubtedly, Warehouzez is one of the best warehouse and logistics companies in Patna. At Warehouzez, we intend to provide our clients with the best-in-class warehousing solutions as per their requirements. We offer secure and affordable warehouse storage solutions. When it comes to assisting you with safekeeping your company's inventory stock, we take great pride in being the finest. Our goal is to give our customers functional, efficient, and premium quality warehouse management, logistics and distribution facilities. Warehouzez provides a complete spectrum of warehousing solutions to help your company effortlessly drive more value across the board. We can help you with anything, whether you want to enhance order delivery, plan better supply management, or save shipping expenses. Being one of the most chosen third party logistics partners (3PL), we have combined technological tools and solutions to provide you with simple and convenient logistics solutions.
+            Since the economy of Indore is booming, the demand for logistics and warehousing services is also growing. For all the ones looking for a warehouse in Indore or third party logistics partner, Warehouzez is indeed the best choice. Warehouzez is a top-class logistics firm in the country offering exceptional warehousing solutions. We are widely known as the torchbearers of the logistics' industry. Our services include everything from basic freight forwarding to primary and secondary transportation and distribution facilities, warehouse management, among other things. Our mission is for Warehouzez to become the most well-established global logistics and supply chain management firm, serving as a trusted 3PL partner to all of our clients. We consistently hope to increase our success and consumer loyalty. Warehouzez is the joint venture of a youthful yet veteran group of logistics specialists. We provide services across several industries like E-Commerce and FMCG, Fashion and Lifestyle, Consumer Goods, and many more. Furthermore, we provide warehousing services in Indore and other cities of the country. Our warehouses have the best infrastructure and all the necessary tools. We provide a full suite services like warehousing and storage, pick and pack, kitting, locations of warehouses, inventory management and supply chain management support.
           </p>
         </div>     
       </div> 
@@ -79,20 +79,20 @@ const page: React.FC = () => {
                 <div className="flex flex-col xl:flex-row justify-end"> 
                   <div className='relative flex-1'>
                     <div className="hidden xl:block xl:absolute left-0 bottom-0 w-full">
-                        <img src={cities.patna.sideimg} className='w-5/6' alt="Feature img" />
+                        <img src={cities.indore.sideimg} className='w-5/6' alt="Feature img" />
                     </div>
                         <div className='absolute bottom-20 right-14 z-50'>
-                            <MapLocation location={cities.patna.location} />
+                            <MapLocation location={cities.indore.location} /> 
                         </div>
                   </div>
                     
                     <div className="flex-1">
                         <h2 className="font-semibold text-gray-900 text-xl md:text-4xl text-center leading-normal mb-6">
-                          Why Choose Warehouzez in Patna?
+                            Why Choose Warehouzez in Indore
                         </h2>
 
                         <p className="block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify">
-                          Warehouzez occupies a significant place in the list of top warehousing companies of India. We are widely regarded as a pioneer in the realm of logistics and supply chain management. You can give greater attention to your customers, meet their demands, and expand your business by collaborating with us.
+                            Warehouzez is an accredited warehousing firm, having a strong nation wide network of warehouses. We offer a multitude of services and solutions to our clients based on their requirements. For nearly two decades, our team has been providing entire supply chain management solutions to their clients throughout the country.
                         </p>
 
                         <div className="grid grid-cols-1 md:grid-cols-3 mb-16">
@@ -101,7 +101,7 @@ const page: React.FC = () => {
                                   <PiWarehouse className="feather feather-award text-info text-2xl" />
                                 </div>
                                 <h3 className="font-semibold text-gray-900 text-xl md:text-2xl mb-4 text-center">
-                                12k Sqft
+                                40k Sqft
                                 </h3>
                                 <p className="font-light text-gray-400 text-md md:text-lg text-center">
                                   Total Space
@@ -113,7 +113,7 @@ const page: React.FC = () => {
                                   <TbBuildingWarehouse className="feather feather-award text-red text-2xl" />
                                 </div>
                                 <h3 className="font-semibold text-gray-900 text-xl md:text-2xl mb-4 text-center">
-                                3k Sqft
+                                23k Sqft
                                 </h3>
                                 <p className="font-light text-gray-400 text-md md:text-lg text-center">
                                   Space Available   
@@ -176,12 +176,12 @@ const page: React.FC = () => {
       <div className="container max-w-screen-xl mx-auto">
         <div className="lg:m-5">
 
-          <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-10'>
-          Why Choose Us
-          </h2>
+            <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-10'>
+            Why Choose Us
+            </h2>
 
             <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-              Here's a list of features and reasons that give us an upper hand over our competitors
+            Here's how our cutting-edge logistics solutions can help your business
             </p>
             
             <ul className='flex items-center flex-wrap gap-y-5 mt-4 mb-6'>
@@ -191,7 +191,7 @@ const page: React.FC = () => {
                           <FaCircleCheck />
                       </span>
                       <span>
-                      With our nationwide network of warehouses, we ensure that your goods are stored in the perfect manner. We follow all the required safety measures in our storage centers.
+                      By offering modernized solutions, we help businesses in reducing their organizational load.
                       </span>
                       </div>
                   </li>
@@ -202,7 +202,7 @@ const page: React.FC = () => {
                           <FaCircleCheck />
                       </span>
                       <span>
-                      With our exceptional transportation facilities, Warehouzez assures that your shipment arrives on time. We pay careful attention to the promised delivery date and make every attempt to meet it.
+                      We believe that customers are the backbone of any business, therefore we help in enhancing the customer experience.
                       </span>
                       </div>
                   </li>
@@ -213,7 +213,7 @@ const page: React.FC = () => {
                           <FaCircleCheck />
                       </span>
                       <span>
-                      We make certain that your shipment arrives in perfect condition.
+                      We assist businesses in accomplishing more by providing excellent supply chain management and warehouse management solutions.
                       </span>
                       </div>
                   </li>
@@ -224,7 +224,7 @@ const page: React.FC = () => {
                           <FaCircleCheck />
                       </span>
                       <span>
-                      We ensure the highest level of customer satisfaction. We give 100 percent customised services based on our customers' individual demands and specifications. All we strive for is a satisfied customer.
+                      We offer best-in-class transportation services, and deliver the products timely.
                       </span>
                       </div>
                   </li>
@@ -235,30 +235,31 @@ const page: React.FC = () => {
                           <FaCircleCheck />
                       </span>
                       <span>
-                      With us, your goods are in incredibly safe hands.
+                      Warehouzez provides value addition services that optimize and streamline the supply chain system of a company.
                       </span>
                       </div>
                   </li>
             </ul> 
 
             <h2 className='block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-10'>
-              Our Strategy and Vision
+                Our Business Strategy
             </h2>
 
             <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-              In all likelihood, we remain focused on our goal of establishing the greatest ethical standards in the corporate world. We are dedicated to providing results by combining efficient operations with excellent time management. We utilize leading-edge WMS and Global SCM technology to ensure that our objectives are met.
+                We will give exceptional service to our valuable customers through advanced technologies, professional competence, and dedicated and skilled staff. We work hard to guarantee that Warehouzez and its key partners are dedicated, trusted experts and specialists of entire supply chain and logistics operations. We offer storage services for a variety of goods, as well as temperature controlled warehouse management. We believe that warehousing is an important component of the supply chain, with the primary goal of controlling all movements and storages.
             </p>
 
+          
           <FeaturesServices />
           <div className="relative max-w-screen-xl mx-auto grid grid-cols-12 gap-x-6">
             <div className="col-span-12 lg:col-span-6 space-y-6">
 
             <h2 className="block antialiased tracking-normal font-sans text-2xl lg:text-2xl font-bold leading-[1.3] text-blue-gray-900 mb-2 mt-14">
-              Key Offerings and Features
+            Our Key Features and Offerings
             </h2>
 
             <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-              Here's a list of some of our key service offerings and features
+            Enlisted below are some of our key service offerings-
             </p>
 
             <ul className='flex items-center flex-wrap gap-y-5 mt-4 mb-6'>
@@ -268,7 +269,7 @@ const page: React.FC = () => {
                           <FaCircleCheck />
                       </span>
                       <span>
-                      We provide innovative logistics solutions.
+                      E-Commerce Fulfillment Services.
                       </span>
                       </div>
                   </li>
@@ -279,7 +280,7 @@ const page: React.FC = () => {
                           <FaCircleCheck />
                       </span>
                       <span>
-                      We believe that service advancements are ongoing.
+                      Third Party Logistics.
                       </span>
                       </div>
                   </li>
@@ -290,7 +291,7 @@ const page: React.FC = () => {
                           <FaCircleCheck />
                       </span>
                       <span>
-                      We ensure that customers' time and money are saved.
+                      Warehouse Management and Inventory Management.
                       </span>
                       </div>
                   </li>
@@ -301,7 +302,7 @@ const page: React.FC = () => {
                           <FaCircleCheck />
                       </span>
                       <span>
-                      We cover the whole spectrum of warehousing and distribution services.
+                      Freight Forwarding and Transportation Services.
                       </span>
                       </div>
                   </li>
@@ -312,7 +313,7 @@ const page: React.FC = () => {
                           <FaCircleCheck />
                       </span>
                       <span>
-                      All our warehouses are well-equipped with the necessary tools and devices.
+                      Efficient Supply Chain Management.
                       </span>
                       </div>
                   </li>
@@ -324,11 +325,7 @@ const page: React.FC = () => {
         </div>
 
         <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-          So, if you are searching for a Warehousing services in Patna , then do contact us. We have easy warehouse storage options. We ensure that your inventory stock is stored in a safe and secure manner. We provide a range of warehousing and logistical facilities. For detailed information or a quote, contact our team now.
-        </p>
-
-        <p className='block antialiased font-sans text-sm lg:text-base leading-relaxed font-normal text-gray-700 mb-3 text-justify'>
-          Make your business profitable with our excellent and comprehensive logistics solutions!
+            So, if you are searching for a warehouse in Indore, then you have landed at the right place. There is no need to look elsewhere. Warehouzez offers premium quality warehousing and logistics solutions to make your business all the more profitable! Therefore, do connect with us today and let us handle all your supply chain operations in the best possible manner.
         </p>
 
           <div className='my-6'>
