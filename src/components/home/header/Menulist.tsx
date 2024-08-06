@@ -223,7 +223,7 @@ export const navlinks :NavItem[] = [
     },
     {
         title : "Blog",
-        path : "/blog",
+        path : "/blogs",
        
     },
     {
