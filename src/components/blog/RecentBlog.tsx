@@ -4,6 +4,9 @@ import Image from 'next/image'
 const RecentBlog = () => {
   return (
     <div className='flex flex-col items-center'>
+        <h2 className="text-md tracking-tight text-gray-900 sm:text-xl text-left mb-2">
+            Recent Post
+        </h2>
         <div className="overflow-hidden rounded-xl border border-default-200 w-5/6 p-2">
             <Image src="https://www.warehouzez.com/assets/img/bonded-vs-private-wzz-out-side.png" width={100} height={100} className='w-full rounded-md' alt='' />
             <div className="p-4 px-2"><div className="flex items-center gap-6">

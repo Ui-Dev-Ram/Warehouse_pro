@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const ContactCard = () => {
   return (
-    <Link href="tel:+919999615962">
+    <Link href="tel:+919999615962" className='w-full'>
         <GlareCard className="flex flex-col items-center justify-end relative">
         
             <img

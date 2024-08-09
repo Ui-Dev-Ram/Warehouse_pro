@@ -6,8 +6,27 @@ import LookingForBest from '@/components/home/lookingForBest/LookingForBest'
 import NetworkofWarehouzez from '@/components/home/networkofWarehouzez/NetworkofWarehouzez'
 import React from 'react'
 
+async function fetchBlog(){
+  const option = {
+    headers: {
+      Authorization: `Bearer ${process.env.STRAPI_API_TOKEN}`
+    }
+  }
 
-const page = ({}) => {
+  try {
+    const res =await fetch("http://127.0.0.1:1337/api/blogs?populate=*", option);
+    const response = await res.json();
+    return response
+  } catch (err) {
+    console.error(err);
+  }
+}
+
+
+export default async function page() {
+  
+  const blog = await fetchBlog();
+
   return (
     <div>
         <div className="container m-auto">
@@ -22,12 +41,12 @@ const page = ({}) => {
               
             <div className="grid grid-cols-3 gap-4">
                 <div className="col-span-2">
-                    <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-x-[30px] gap-y-[40px]">
-                      <BlogItem />
-                    </div>
+                      <BlogItem blogs={blog} /> 
                 </div>
                 <div className="flex flex-col items-center">
+                  <div className="w-5/6">
                     <ContactCard />
+                  </div>
                     <RecentBlog />
                 </div>
             </div>
@@ -42,5 +61,3 @@ const page = ({}) => {
     </div>
   )
 }
-
-export default page
