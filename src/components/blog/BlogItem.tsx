@@ -1,5 +1,6 @@
 // components/blog/BlogItem.tsx
 import React from 'react';
+import Image from 'next/image'
 
 interface Blog {
   id: number;
@@ -7,6 +8,13 @@ interface Blog {
     Title: string;
     Description: string;
     img: {
+      data: {
+        attributes: {
+          url: string;
+        };
+      };
+    };
+    innerImage:{
       data: {
         attributes: {
           url: string;
@@ -25,16 +33,18 @@ interface BlogItemProps {
 }
 
 const BlogItem: React.FC<BlogItemProps> = ({ blogs }) => {
+
   return (
     <div>
       <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-x-[30px] gap-y-[40px]">
         {
           blogs?.data?.map((blog) => (
-            <article className="post group" key={blog.id}>
+            <article className="post group" key={blog?.id}>
               <div className="post-image overflow-hidden rounded-[10px] h-[200px] md:h-auto relative">
                 <a href={`/blogs/${blog.attributes.slug}`} className="">
-                  <img
-                    src={`http://127.0.0.1:1337${blog.attributes.img.data.attributes.url}`}
+                  <Image
+                    width={500} height={500}
+                    src={`http://127.0.0.1:1337${blog?.attributes?.img?.data?.attributes?.url}`}
                     alt={blog.attributes.Title}
                     className="object-cover h-full w-full group-hover:scale-110 transition-all duration-500"
                   />
@@ -53,17 +63,17 @@ const BlogItem: React.FC<BlogItemProps> = ({ blogs }) => {
                   </div>
                 </div>
                 <h5 className="md:font-semibold pt-4 mb-0 hover:text-red lg:text-xl">
-                  <a href={`/blogs/${blog.attributes.slug}`} className="">
-                    {blog.attributes.Title}
+                  <a href={`/blogs/${blog?.attributes?.slug}`} className="">
+                    {blog?.attributes?.Title}
                   </a>
                 </h5>
-                <p className="mt-3" dangerouslySetInnerHTML={{ __html: blog.attributes.Description.length > 80 ? blog.attributes.Description.substring(0, 100) + "..." : blog.attributes.Description }}>
-                </p>
+                <div className="mt-3" dangerouslySetInnerHTML={{ __html: blog?.attributes?.Description.length > 80 ? blog?.attributes?.Description.substring(0, 100) + "..." : blog.attributes.Description }}>
+                </div>
                 <div className="meta flex items-center mt-4">
                   <div className="flex items-center">
                     <i className="icofont-ui-calendar"></i>
-                    <p className="pl-2">
-                      Published on {new Date(blog.attributes.publishedAt).toLocaleDateString()}
+                    <p>
+                      Published on {new Date(blog?.attributes?.publishedAt).toLocaleDateString()}
                     </p>
                   </div>
                 </div>

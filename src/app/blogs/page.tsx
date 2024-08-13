@@ -47,7 +47,7 @@ export default async function page() {
                   <div className="w-5/6">
                     <ContactCard />
                   </div>
-                    <RecentBlog />
+                    <RecentBlog blogs={blog} />
                 </div>
             </div>
 

@@ -15,9 +15,9 @@ const ContactCard = () => {
         
 
         <div className="absolute text-white top-0 bottom-0 right-0 left-0 flex flex-col gap-y-5 justify-center items-start pl-14 z-[99999]">
-            <h1 className='font-bold text-2xl'>
+            <h3 className='font-bold text-2xl contact-card'>
                 Warehouse & <br /> Logistics Services
-            </h1>
+            </h3>
             <button className='bg-red hover:bg-red text-white text-sm font-bold py-3 px-4 rounded-full'>
                 Contact Now
             </button>
