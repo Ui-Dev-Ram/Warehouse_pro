@@ -5,14 +5,16 @@ import Image from 'next/image';
 import { MdOutlineAccessTime } from "react-icons/md";
 import ContactCard from '@/components/blog/ContactCard';
 import RecentBlog from '@/components/blog/RecentBlog';
-
-
+import { Metadata } from 'next';
 
 interface Blog {
   id: number;
+  openGraph: any;
+  
   attributes: {
     Title: string;
     Description: string;
+    MetaDescription: string;
     img: {
       data: {
         attributes: {
@@ -32,7 +34,6 @@ interface Blog {
   };
 }
 
-
 async function fetchBlog(){
   const option = {
     headers: {
@@ -49,7 +50,6 @@ async function fetchBlog(){
   }
 }
 
-
 async function fetchBlogBySlug(slug: string): Promise<Blog | null> {
   try {
     const res = await fetch(`http://127.0.0.1:1337/api/blogs?filters[slug][$eq]=${slug}&populate=*`, {
@@ -64,6 +64,29 @@ async function fetchBlogBySlug(slug: string): Promise<Blog | null> {
     console.error(error);
     return null;
   }
+}
+
+export async function generateMetadata({ params }: { params: { slug: string }}): Promise<Metadata> {
+  const blog = await fetchBlogBySlug(params.slug); 
+  const title = blog?.attributes?.Title;
+  const desc = blog?.attributes?.MetaDescription;
+  const imgUrl = "http://127.0.0.1:1337" + blog?.attributes?.innerImage?.data?.attributes?.url;
+
+  return{
+      title: title,
+      description: desc,
+      openGraph: {
+        images: [imgUrl],
+      },
+      metadataBase: new URL('https://localhost:3000' + `/blogs/${blog?.attributes?.slug}` ),
+      alternates: {
+        canonical: '/',
+        languages: {
+          'en-US': '/en-US',
+          'de-DE': '/de-DE',
+        },
+      }
+     }
 }
 
 const BlogDetails = async ({ params }: { params: { slug: string } }) => {

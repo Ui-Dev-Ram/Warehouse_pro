@@ -36,10 +36,10 @@ const BlogItem: React.FC<BlogItemProps> = ({ blogs }) => {
 
   return (
     <div>
-      <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-x-[30px] gap-y-[40px]">
+      <div className="flex flex-row-reverse flex-wrap-reverse gap-8">
         {
           blogs?.data?.map((blog) => (
-            <article className="post group" key={blog?.id}>
+            <article className="post group w-[48%]" key={blog?.id}>
               <div className="post-image overflow-hidden rounded-[10px] h-[200px] md:h-auto relative">
                 <a href={`/blogs/${blog.attributes.slug}`} className="">
                   <Image

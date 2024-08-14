@@ -17,6 +17,17 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "warehouzez.com",
   description: "Warehouzez is Warehouse and logistics company and is most well-known logistics and warehousing service providers in the country.",
+  metadataBase: new URL('https://localhost:3000'),
+  alternates: {
+    canonical: '/',
+    languages: {
+      'en-US': '/en-US',
+      'de-DE': '/de-DE',
+    },
+  },
+  openGraph: {
+    images: '/og-image.png',
+  },
 };
 
 export default function RootLayout({

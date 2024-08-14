@@ -33,7 +33,7 @@ interface BlogItemProps {
 
 const RecentBlog: React.FC<BlogItemProps> = ({ blogs }) => {
 
-    const recentPost = blogs.data.reverse().slice(0, 3)
+    const recentPost = blogs.data.reverse().slice(0, 3);
 
   return (
     <div className='flex flex-col items-center recentBlog'>
