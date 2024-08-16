@@ -32,13 +32,32 @@ interface BlogItemProps {
   };
 }
 
-const BlogItem: React.FC<BlogItemProps> = ({ blogs }) => {
+async function fetchBlog(){
+  const option = {
+    headers: {
+      Authorization: `Bearer ${process.env.STRAPI_API_TOKEN}`
+    }
+  }
 
+  try {
+    const res =await fetch("http://127.0.0.1:1337/api/blogs?populate=*", option);
+    const response = await res.json();
+    return response
+  } catch (err) {
+    console.error(err);
+  }
+}
+
+
+const BlogItem: React.FC<BlogItemProps> = ({ blogs }) => {
+  
+  const recentBlog = blogs.data.reverse();
+ 
   return (
     <div>
-      <div className="flex flex-row-reverse flex-wrap-reverse gap-8">
+      <div className="flex flex-wrap gap-8">
         {
-          blogs?.data?.map((blog) => (
+          recentBlog?.map((blog) => (
             <article className="post group w-[48%]" key={blog?.id}>
               <div className="post-image overflow-hidden rounded-[10px] h-[200px] md:h-auto relative">
                 <a href={`/blogs/${blog.attributes.slug}`} className="">

@@ -6,6 +6,7 @@ import { MdOutlineAccessTime } from "react-icons/md";
 import ContactCard from '@/components/blog/ContactCard';
 import RecentBlog from '@/components/blog/RecentBlog';
 import { Metadata } from 'next';
+import AuthorBox from '@/components/blog/AuthorBox';
 
 interface Blog {
   id: number;
@@ -129,8 +130,12 @@ const BlogDetails = async ({ params }: { params: { slug: string } }) => {
             
           <div className='flex w-full lg:w-3/4'>
               <div key={blog.id}>
-                <img className='blog-banner' src={`http://127.0.0.1:1337${blog?.attributes?.innerImage?.data?.attributes?.url}`} alt={blog?.attributes?.Title} />
+                <Image className='blog-banner' src={`http://127.0.0.1:1337${blog?.attributes?.innerImage?.data?.attributes?.url}`} alt={blog?.attributes?.Title} width={250} height={250} />
                 <div dangerouslySetInnerHTML={{ __html: blog?.attributes?.Description }}></div>
+                
+                <div className="my-8">
+                  <AuthorBox />
+                </div>
               </div>
           </div>
           <div className='flex flex-col items-center w-full lg:w-1/4 mt-3'>
@@ -140,6 +145,9 @@ const BlogDetails = async ({ params }: { params: { slug: string } }) => {
                 <RecentBlog blogs={blogs} />
           </div>
         </div>
+
+       
+
       </div>
     </div>
   );

@@ -25,7 +25,9 @@ async function fetchBlog(){
 
 export default async function page() {
   
-  const blog = await fetchBlog();
+  const blogItem = await fetchBlog();
+  const blogRecent = await fetchBlog();
+
 
   return (
     <div>
@@ -41,13 +43,13 @@ export default async function page() {
               
             <div className="grid grid-cols-3 gap-4">
                 <div className="col-span-2">
-                      <BlogItem blogs={blog} /> 
+                      <BlogItem blogs={blogItem} /> 
                 </div>
                 <div className="flex flex-col items-center">
                   <div className="w-5/6">
                     <ContactCard />
                   </div>
-                    <RecentBlog blogs={blog} />
+                    <RecentBlog blogs={blogRecent} />
                 </div>
             </div>
 

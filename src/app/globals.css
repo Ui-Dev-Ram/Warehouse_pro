@@ -251,9 +251,9 @@
       }
       
       /* Images */
-      .rich-text img {
+      /* .rich-text img {
         @apply w-full object-cover rounded-xl my-6;
-      }
+      } */
 
       .rich-text img.blog-banner {
         @apply w-full object-cover rounded-xl mb-6 mt-3;
