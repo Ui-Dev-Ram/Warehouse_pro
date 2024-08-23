@@ -1,6 +1,7 @@
 'use client'
 import React, { useState } from 'react';
 import { cities } from '@/data/cityPageDetails'
+import Image from 'next/image';
 
 interface ModalVideoComponentProps {
   thumb: string;
@@ -24,7 +25,7 @@ const ModalVideoComponent: React.FC<ModalVideoComponentProps> = ({thumb}) => {
                 onClick={openModal}
                 aria-label="Watch the video"
               >
-                <img
+                <Image
                   className="rounded-3xl shadow-2xl transition-shadow duration-300 ease-in-out"
                   src={thumb} 
                   width="768"

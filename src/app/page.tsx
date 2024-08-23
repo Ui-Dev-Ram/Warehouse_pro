@@ -7,32 +7,29 @@ import OurValueOurPresence from "@/components/home/ourValueOurPresence/OurValueO
 import Testimonial from "@/components/home/testimonial/Testimonial";
 import FrequentlyAskedQuestion from "@/components/home/frequentlyAskedQuestion/FrequentlyAskedQuestion";
 import Blog from "@/components/home/blog/Blog";
-import Head from 'next/head'
+import Head from "next/head";
 import NetworkofWarehouzez from "@/components/home/networkofWarehouzez/NetworkofWarehouzez";
 import LookingForBest from "@/components/home/lookingForBest/LookingForBest";
 
-
-
-
 export default function Home() {
-  return (
-    <div>
-      <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </Head>
-      <HeroBanner />
-      <OurListedWarehouses />
-      <OurBouquetof3PLServices />
-      <WeProvideReliableServices />
-      <LetCheckoutOurIndustry />
-      <OurValueOurPresence />
-      <Testimonial />
-      <LookingForBest />
-      <FrequentlyAskedQuestion />
-      <Blog />
-      <NetworkofWarehouzez />
+	return (
+		<div>
+			<Head>
+				<meta name="viewport" content="width=device-width, initial-scale=1" />
+			</Head>
+			<HeroBanner />
+			<OurListedWarehouses />
+			<OurBouquetof3PLServices />
+			<WeProvideReliableServices />
+			<LetCheckoutOurIndustry />
+			<OurValueOurPresence />
+			<Testimonial />
+			<LookingForBest />
+			<FrequentlyAskedQuestion />
+			<Blog />
+			<NetworkofWarehouzez />
     
-    </div>
+		</div>
     
-  );
+	);
 }

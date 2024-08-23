@@ -83,7 +83,7 @@ const page: React.FC = () => {
                 <div className="flex flex-col xl:flex-row justify-end"> 
                   <div className='relative flex-1'>
                     <div className="hidden xl:block xl:absolute left-0 bottom-0 w-full">
-                        <img src={cities.vijayawada.sideimg} className='w-5/6' alt="Feature img" />
+                        <Image src={cities.vijayawada.sideimg} alt="warehouse in vijayawada" width={500} height={500}/>
                     </div>
                         <div className='absolute bottom-20 right-14 z-50'>
                             <MapLocation location={cities.vijayawada.location} /> 
