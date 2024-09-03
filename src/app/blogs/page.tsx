@@ -23,7 +23,6 @@ async function fetchBlog(){
 }
 
 export default async function page() {
-  
 	const blogItem = await fetchBlog();
 	const blogRecent = await fetchBlog();
 
