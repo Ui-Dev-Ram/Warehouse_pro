@@ -32,9 +32,9 @@ interface BlogItemProps {
   };
 }
 
-export const API_URL =
-    process.env.STRAPI_API_TOKEN || 'http://127.0.0.1:1337'
-
+export function getStrapiURL() {
+  return process.env.STRAPI_URL ?? "http://localhost:1337";
+}
 
 async function fetchBlog(){
   const option = {
@@ -44,7 +44,7 @@ async function fetchBlog(){
   }
 
   try {
-    const res =await fetch("`${API_URL}`/api/blogs?populate=*", option);
+    const res =await fetch("`${getStrapiURL}`/api/blogs?populate=*", option);
     const response = await res.json();
     return response
   } catch (err) {
@@ -56,7 +56,7 @@ async function fetchBlog(){
 const BlogItem: React.FC<BlogItemProps> = ({ blogs }) => {
   
   const recentBlog = blogs.data.reverse();
-  console.log(recentBlog);
+
  
   return (
     <div>
