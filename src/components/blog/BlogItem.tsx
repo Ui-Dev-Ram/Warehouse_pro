@@ -32,9 +32,6 @@ interface BlogItemProps {
   };
 }
 
-export function getStrapiURL() {
-  return process.env.STRAPI_URL ?? "http://localhost:1337";
-}
 
 async function fetchBlog(){
   const option = {
@@ -44,7 +41,7 @@ async function fetchBlog(){
   }
 
   try {
-    const res =await fetch("`${getStrapiURL}`/api/blogs?populate=*", option);
+    const res =await fetch("http://127.0.0.1:1337/api/blogs?populate=*", option);
     const response = await res.json();
     return response
   } catch (err) {
