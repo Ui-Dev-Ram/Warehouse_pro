@@ -39,12 +39,15 @@ interface Blog {
 async function fetchBlog(){
   const option = {
     headers: {
-      Authorization: `Bearer ${process.env.STRAPI_API_TOKEN}`
+      Authorization: `Bearer ${process.env.STRAPI_URL}`
     }
   }
 
   try {
     const res =await fetch("http://127.0.0.1:1337/api/blogs?populate=*", option);
+    if(!res.ok){
+            throw new Error('Network response was not ok: ${response.statusText}');
+		}
     const response = await res.json();
     return response
   } catch (err) {
