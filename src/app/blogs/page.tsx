@@ -6,10 +6,12 @@ import LookingForBest from "@/components/home/lookingForBest/LookingForBest";
 import NetworkofWarehouzez from "@/components/home/networkofWarehouzez/NetworkofWarehouzez";
 import React from "react";
 
+
+
 async function fetchBlog(){ 
 	const option = {
 		headers: {
-			Authorization: `Bearer ${process.env.STRAPI_URL}`
+			Authorization: `Bearer ${process.env.STRAPI_API_TOKEN}`
 		}
 	};
 

@@ -32,16 +32,21 @@ interface BlogItemProps {
   };
 }
 
+export function getStrapiURL() {
+	return process.env.STRAPI_URL ?? "http://localhost:1337";
+  }
 
 async function fetchBlog(){
   const option = {
     headers: {
-      Authorization: `Bearer ${process.env.STRAPI_URL}`
+      Authorization: `Bearer ${process.env.STRAPI_API_TOKEN}`
     }
   }
 
   try {
-    const res =await fetch("http://127.0.0.1:1337/api/blogs?populate=*", option);
+    const url = `${getStrapiURL()}/api/blogs?populate=*`;
+    const res = await fetch(url, option);
+
     if(!res.ok){
             throw new Error('Network response was not ok: ${response.statusText}');
 		}
@@ -56,6 +61,7 @@ async function fetchBlog(){
 const BlogItem: React.FC<BlogItemProps> = ({ blogs }) => {
   
   const recentBlog = blogs.data.reverse();
+  console.log(fetchBlog())
 
  
   return (

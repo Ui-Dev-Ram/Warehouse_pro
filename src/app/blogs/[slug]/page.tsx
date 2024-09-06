@@ -39,7 +39,7 @@ interface Blog {
 async function fetchBlog(){
   const option = {
     headers: {
-      Authorization: `Bearer ${process.env.STRAPI_URL}`
+      Authorization: `Bearer ${process.env.STRAPI_API_TOKEN}`
     }
   }
 
