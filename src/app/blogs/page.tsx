@@ -4,33 +4,46 @@ import RecentBlog from "@/components/blog/RecentBlog";
 import Blog from "@/components/home/blog/Blog";
 import LookingForBest from "@/components/home/lookingForBest/LookingForBest";
 import NetworkofWarehouzez from "@/components/home/networkofWarehouzez/NetworkofWarehouzez";
+import { getStrapiURL } from "@/utils/url";
 import React from "react";
 
 
 
-async function fetchBlog(){ 
-	const option = {
-		headers: {
-			Authorization: `Bearer ${process.env.STRAPI_API_TOKEN}`
-		}
-	};
-
-	try {
-		const res =await fetch("http://127.0.0.1:1337/api/blogs?populate=*", option);
-		if(!res.ok){
-            throw new Error('Network response was not ok: ${response.statusText}');
-		}
-		const response = await res.json();
-		return response;
-	} catch (err) {
-		console.error(err);
-	}
-}
+async function fetchBlog() {
+    const option = {
+      headers: {
+        Authorization: `Bearer ${process.env.STRAPI_TOKEN}`  // Ensure this is the correct environment variable for the token
+      }
+    };
+  
+    try {
+      const url = `${getStrapiURL()}/api/blogs?populate=*`;
+      const res = await fetch(url, option);
+	  console.log(url, res)
+  
+    //   if (!res.ok) {
+    //     throw new Error(`Network response was not ok: ${res.statusText}`);
+    //   }
+  
+      const response = await res.json();
+  
+      // Debugging response structure
+      console.log('API Response:', response);
+  
+      // Handle response structure based on the actual data
+      if (response && response.data) {
+        return response.data;  // Adjust based on actual structure
+      } else {
+        throw new Error('Response data is undefined or missing');
+      }
+    } catch (err) {
+      console.error(err);
+    }
+  }
 
 
 export default async function page() {
 	const blogItem = await fetchBlog();
-	const blogRecent = await fetchBlog();
 
 	return (
 		<div>
@@ -52,7 +65,7 @@ export default async function page() {
 							<div className="w-5/6">
 								<ContactCard />
 							</div>
-							<RecentBlog blogs={blogRecent} />
+							<RecentBlog blogs={blogItem} />
 						</div>
 					</div>
 

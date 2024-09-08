@@ -1,6 +1,7 @@
 // components/blog/BlogItem.tsx
 import React from 'react';
 import Image from 'next/image'
+import { getStrapiURL } from '@/utils/url';
 
 interface Blog {
   id: number;
@@ -27,43 +28,44 @@ interface Blog {
 }
 
 interface BlogItemProps { 
-  blogs: {
-    data: Blog[];
-  };
+  blogs: Blog[];
 }
 
-export function getStrapiURL() {
-	return process.env.STRAPI_URL ?? "http://localhost:1337";
-  }
-
-async function fetchBlog(){
+async function fetchBlog() {
   const option = {
     headers: {
-      Authorization: `Bearer ${process.env.STRAPI_API_TOKEN}`
+      Authorization: `Bearer ${process.env.STRAPI_TOKEN}`  // Ensure this is the correct environment variable for the token
     }
-  }
+  };
 
   try {
     const url = `${getStrapiURL()}/api/blogs?populate=*`;
     const res = await fetch(url, option);
 
-    if(!res.ok){
-            throw new Error('Network response was not ok: ${response.statusText}');
-		}
+    if (!res.ok) {
+      throw new Error(`Network response was not ok: ${res.statusText}`);
+    }
+
     const response = await res.json();
-    return response
+
+    // Debugging response structure
+    console.log('API Response:', response);
+
+    // Handle response structure based on the actual data
+    if (response && response.data) {
+      return response.data;  // Adjust based on actual structure
+    } else {
+      throw new Error('Response data is undefined or missing');
+    }
   } catch (err) {
     console.error(err);
   }
 }
 
-
 const BlogItem: React.FC<BlogItemProps> = ({ blogs }) => {
   
-  const recentBlog = blogs.data.reverse();
-  console.log(fetchBlog())
+  const recentBlog = blogs?.reverse();
 
- 
   return (
     <div>
       <div className="flex flex-wrap gap-8">
@@ -74,7 +76,7 @@ const BlogItem: React.FC<BlogItemProps> = ({ blogs }) => {
                 <a href={`/blogs/${blog.attributes.slug}`} className="">
                   <Image
                     width={500} height={500}
-                    src={`http://127.0.0.1:1337${blog?.attributes?.img?.data?.attributes?.url}`}
+                    src={`${blog?.attributes?.img?.data?.attributes?.url}`}
                     alt={blog.attributes.Title}
                     className="object-cover h-full w-full group-hover:scale-110 transition-all duration-500"
                   />

@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import { getStrapiURL } from '@/utils/url';
 
 interface Blog {
   id: number;
@@ -26,14 +27,12 @@ interface Blog {
 }
 
 interface BlogItemProps {
-  blogs: {
-    data: Blog[];
-  };
+  blogs:  Blog[]
 }
 
 const RecentBlog: React.FC<BlogItemProps> = ({ blogs }) => {
 
-    const recentPost = blogs.data.reverse().slice(0, 3);
+    const recentPost = blogs?.reverse().slice(0, 3);
 
   return (
     <div className='flex flex-col items-center recentBlog'>
@@ -43,7 +42,7 @@ const RecentBlog: React.FC<BlogItemProps> = ({ blogs }) => {
       {
         recentPost?.map((blog) => (
           <div key={blog.id} className="overflow-hidden rounded-xl border border-default-200 w-5/6 p-2 mb-4">
-            <Image src={`http://127.0.0.1:1337${blog?.attributes?.img?.data?.attributes?.url}`} width={100} height={100} className='w-full rounded-md' alt={blog.attributes.Title} />
+            <Image src={`${blog?.attributes?.img?.data?.attributes?.url}`} width={100} height={100} className='w-full rounded-md' alt={blog.attributes.Title} />
             <div className="p-4 px-2">
               <div className="flex items-center gap-6">
                 <div className="flex items-center gap-2">

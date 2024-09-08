@@ -7,6 +7,7 @@ import ContactCard from '@/components/blog/ContactCard';
 import RecentBlog from '@/components/blog/RecentBlog';
 import { Metadata } from 'next';
 import AuthorBox from '@/components/blog/AuthorBox';
+import { getStrapiURL } from '@/utils/url';
 
 interface Blog {
   id: number;
@@ -36,20 +37,32 @@ interface Blog {
 }
 
 
-async function fetchBlog(){
+async function fetchBlog() {
   const option = {
     headers: {
-      Authorization: `Bearer ${process.env.STRAPI_API_TOKEN}`
+      Authorization: `Bearer ${process.env.STRAPI_TOKEN}`  // Ensure this is the correct environment variable for the token
     }
-  }
+  };
 
   try {
-    const res =await fetch("http://127.0.0.1:1337/api/blogs?populate=*", option);
-    if(!res.ok){
-            throw new Error('Network response was not ok: ${response.statusText}');
-		}
+    const url = `${getStrapiURL()}/api/blogs?populate=*`;
+    const res = await fetch(url, option);
+
+    if (!res.ok) {
+      throw new Error(`Network response was not ok: ${res.statusText}`);
+    }
+
     const response = await res.json();
-    return response
+
+    // Debugging response structure
+    console.log('API Response:', response);
+
+    // Handle response structure based on the actual data
+    if (response && response.data) {
+      return response.data;  // Adjust based on actual structure
+    } else {
+      throw new Error('Response data is undefined or missing');
+    }
   } catch (err) {
     console.error(err);
   }
@@ -57,25 +70,28 @@ async function fetchBlog(){
 
 async function fetchBlogBySlug(slug: string): Promise<Blog | null> {
   try {
-    const res = await fetch(`http://127.0.0.1:1337/api/blogs?filters[slug][$eq]=${slug}&populate=*`, {
+    const res = await fetch(`${getStrapiURL()}/api/blogs?filters[slug][$eq]=${slug}&populate=*`, {
       headers: {
-        Authorization: `Bearer ${process.env.STRAPI_API_TOKEN}`
+        Authorization: `Bearer ${process.env.STRAPI_TOKEN}`
       },
       cache: 'no-store', // ensure fresh data
     });
-    const data = await res.json();
-    return data.data[0] || null;
+    const response = await res.json();
+    console.log("=>>>>>>>>>>>>", response, slug)
+    return response.data[0] || null;
   } catch (error) {
     console.error(error);
     return null;
   }
 } 
 
-export async function generateMetadata({ params }: { params: { slug: string }}): Promise<Metadata> {
+
+export async function generateMetadata({params} : {params: {slug: string}}): Promise<Metadata> {
   const blog = await fetchBlogBySlug(params.slug); 
   const title = blog?.attributes?.Title;
   const desc = blog?.attributes?.MetaDescription;
-  const imgUrl = "http://127.0.0.1:1337" + blog?.attributes?.innerImage?.data?.attributes?.url;
+  const imgUrl = blog?.attributes?.innerImage?.data?.attributes?.url || "";
+  
 
   return{
       title: title,
@@ -83,7 +99,7 @@ export async function generateMetadata({ params }: { params: { slug: string }}):
       openGraph: {
         images: [imgUrl],
       },
-      metadataBase: new URL('`${API_URL}`' + `/blogs/${blog?.attributes?.slug}` ),
+      metadataBase: new URL(getStrapiURL() + `/blogs/${blog?.attributes?.slug}` ),
       alternates: {
         canonical: '/',
         languages: {
@@ -112,7 +128,7 @@ const BlogDetails = async ({ params }: { params: { slug: string } }) => {
               <div className='flex items-center gap-4 mt-2'>
                   <div className='flex items-center gap-2'>
                     <div>
-                      <Image src={"http://localhost:1337/uploads/akansha_1_1_2ff63e4569.jpg"} 
+                      <Image src={`${getStrapiURL()}/uploads/akansha_1_1_2ff63e4569.jpg`} 
                             width={22} height={22}
                             className="profileDp" 
                             alt="Bordered avatar" />
@@ -134,7 +150,7 @@ const BlogDetails = async ({ params }: { params: { slug: string } }) => {
             
           <div className='flex w-full lg:w-3/4'>
               <div key={blog.id}>
-                <Image className='blog-banner' src={`http://127.0.0.1:1337${blog?.attributes?.innerImage?.data?.attributes?.url}`} alt={blog?.attributes?.Title} width={250} height={250} />
+              <Image className='blog-banner' src={`${blog?.attributes?.innerImage?.data?.attributes?.url}`} alt={blog?.attributes?.Title} width={250} height={250} />
                 <div dangerouslySetInnerHTML={{ __html: blog?.attributes?.Description }}></div>
                 
                 <div className="my-8">
