@@ -52,7 +52,7 @@ export default async function page() {
 					<div className="flex">
 						<div className="flex flex-col lg:flex-1">
 							<h1 className='block antialiased tracking-normal font-sans text-2xl lg:text-4xl font-semibold leading-[1.3] text-blue-gray-900 mt-5 mb-10 text-center'>
-                        Our Blogs
+                        		Our Blogs
 							</h1>
 						</div>  
 					</div>

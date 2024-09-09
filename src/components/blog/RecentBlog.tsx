@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import { getStrapiURL } from '@/utils/url';
 
 interface Blog {
   id: number;
@@ -32,7 +31,7 @@ interface BlogItemProps {
 
 const RecentBlog: React.FC<BlogItemProps> = ({ blogs }) => {
 
-    const recentPost = blogs?.reverse().slice(0, 3);
+    const recentPost = blogs?.slice(0, 3);
 
   return (
     <div className='flex flex-col items-center recentBlog'>
